@@ -1,0 +1,283 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0f1117;
+  --surface:   #1a1d27;
+  --surface2:  #22263a;
+  --border:    #2e3248;
+  --text:      #e2e4f0;
+  --text-muted:#7b7f9e;
+  --today-bg:  #2a2d45;
+
+  --f1:        #e8002d;
+  --f1-muted:  rgba(232,0,45,0.18);
+  --tennis:    #00c853;
+  --tennis-muted: rgba(0,200,83,0.15);
+  --football:  #2979ff;
+  --football-muted: rgba(41,121,255,0.15);
+  --lol:       #c89b3c;
+  --lol-muted: rgba(200,155,60,0.15);
+
+  --radius:    8px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  padding: 24px 16px 48px;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.legend-item .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.last-updated {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  width: 100%;
+  text-align: right;
+  margin-top: 4px;
+}
+.legend-item.tennis    .dot { background: var(--tennis); }
+.legend-item.football  .dot { background: var(--football); }
+.legend-item.lol       .dot { background: var(--lol); }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.calendar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.calendar-nav button {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.calendar-nav button:hover { background: var(--surface2); }
+
+#month-label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  min-width: 220px;
+  text-align: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.day-header {
+  background: var(--surface2);
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.day-header:nth-child(7) { border-right: none; }
+
+.day-cell {
+  background: var(--surface);
+  min-height: 120px;
+  padding: 8px 6px 6px;
+  position: relative;
+  overflow: visible;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  min-width: 0;
+}
+
+.day-cell:nth-child(7n) { border-right: none; }
+
+.day-cell.other-month {
+  background: var(--bg);
+  opacity: 0.4;
+}
+
+.day-cell.today {
+  background: var(--today-bg);
+}
+
+.day-number {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  line-height: 1;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.day-cell.today .day-number {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.events-in-day {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.event-chip {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: filter 0.1s;
+  line-height: 1.5;
+  min-width: 0;
+}
+
+.event-chip:hover { filter: brightness(1.2); }
+
+.event-chip.f1       { background: var(--f1-muted);       color: var(--f1);       border-left: 2px solid var(--f1); }
+.event-chip.tennis   { background: var(--tennis-muted);   color: var(--tennis);   border-left: 2px solid var(--tennis); }
+.event-chip.football { background: var(--football-muted); color: var(--football); border-left: 2px solid var(--football); }
+.event-chip.lol      { background: var(--lol-muted);      color: var(--lol);      border-left: 2px solid var(--lol); }
+
+.event-chip.span-extend-right {
+  margin-right: -7px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.event-chip.span-extend-left {
+  margin-left: -7px;
+  border-left: none !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.event-chip.span-no-text { color: transparent; }
+
+/* Row wrap: event continues from previous row — restore left accent */
+.event-chip.row-wrap-start {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.event-chip.f1.row-wrap-start       { border-left: 2px solid var(--f1) !important; }
+.event-chip.tennis.row-wrap-start   { border-left: 2px solid var(--tennis) !important; }
+.event-chip.football.row-wrap-start { border-left: 2px solid var(--football) !important; }
+.event-chip.lol.row-wrap-start      { border-left: 2px solid var(--lol) !important; }
+
+.event-chip.type-final     { font-style: italic; }
+.event-chip.type-semifinal { font-style: italic; }
+
+.more-events {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  padding: 1px 4px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 1000;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  max-width: 260px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.tooltip.visible { opacity: 1; }
+
+.tooltip-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tooltip-detail {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.tooltip-date {
+  font-size: 0.72rem;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .day-cell { min-height: 70px; padding: 4px 3px; }
+  .event-chip { font-size: 0.6rem; padding: 1px 3px; }
+  #month-label { font-size: 1rem; min-width: 160px; }
+}

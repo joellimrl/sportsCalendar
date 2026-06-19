@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports Calendar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sports Calendar</h1>
+    <div class="legend">
+      <span class="legend-item f1"><span class="dot"></span>F1</span>
+      <span class="legend-item tennis"><span class="dot"></span>Tennis</span>
+      <span class="legend-item football"><span class="dot"></span>Football</span>
+      <span class="legend-item lol"><span class="dot"></span>League of Legends</span>
+    </div>
+    <div id="last-updated" class="last-updated"></div>
+  </header>
+
+  <main>
+    <div class="calendar-nav">
+      <button id="prev-btn" aria-label="Previous month">&#8592;</button>
+      <h2 id="month-label"></h2>
+      <button id="next-btn" aria-label="Next month">&#8594;</button>
+    </div>
+
+    <div class="calendar-grid" id="calendar-grid">
+      <div class="day-header">Sun</div>
+      <div class="day-header">Mon</div>
+      <div class="day-header">Tue</div>
+      <div class="day-header">Wed</div>
+      <div class="day-header">Thu</div>
+      <div class="day-header">Fri</div>
+      <div class="day-header">Sat</div>
+    </div>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

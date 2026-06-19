@@ -1,0 +1,855 @@
+{
+  "lastUpdated": "2026-06-19T13:30:57.339Z",
+  "events": [
+    {
+      "id": "tennis-2025-ao",
+      "title": "Australian Open",
+      "startDate": "2025-01-12",
+      "endDate": "2025-01-26",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Melbourne Park"
+    },
+    {
+      "id": "tennis-2025-ao-sf",
+      "title": "Australian Open – Semis",
+      "date": "2025-01-24",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · Melbourne Park"
+    },
+    {
+      "id": "tennis-2025-ao-f",
+      "title": "Australian Open – Final",
+      "date": "2025-01-26",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · Melbourne Park",
+      "time": "18:30"
+    },
+    {
+      "id": "lol-2025-lck-spring-f",
+      "title": "LCK Spring Finals",
+      "date": "2025-04-06",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LCK 2025 Spring Split Finals"
+    },
+    {
+      "id": "lol-2025-lpl-spring-f",
+      "title": "LPL Spring Finals",
+      "date": "2025-04-20",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LPL 2025 Spring Split Finals"
+    },
+    {
+      "id": "football-ucl-2024-25-sf",
+      "title": "UCL Semi-Finals",
+      "date": "2025-04-29",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/25 UEFA Champions League Semi-Finals (legs 2025-04-29 & 2025-05-06)"
+    },
+    {
+      "id": "lol-2025-msi",
+      "title": "Mid-Season Invitational",
+      "startDate": "2025-05-01",
+      "endDate": "2025-05-25",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "MSI 2025 – International event"
+    },
+    {
+      "id": "tennis-2025-fo",
+      "title": "French Open (Roland Garros)",
+      "startDate": "2025-05-25",
+      "endDate": "2025-06-08",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Roland Garros, Paris"
+    },
+    {
+      "id": "lol-2025-msi-f",
+      "title": "MSI 2025 – Final",
+      "date": "2025-05-25",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Mid-Season Invitational 2025 Grand Final"
+    },
+    {
+      "id": "football-ucl-2024-25-final",
+      "title": "Champions League Final",
+      "date": "2025-05-31",
+      "sport": "football",
+      "type": "final",
+      "detail": "2024/25 UEFA Champions League Final · Allianz Arena, Munich",
+      "time": "03:00 (Sun)"
+    },
+    {
+      "id": "tennis-2025-fo-sf",
+      "title": "French Open (Roland Garros) – Semis",
+      "date": "2025-06-05",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · Roland Garros, Paris"
+    },
+    {
+      "id": "tennis-2025-fo-f",
+      "title": "French Open (Roland Garros) – Final",
+      "date": "2025-06-08",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · Roland Garros, Paris",
+      "time": "21:00"
+    },
+    {
+      "id": "tennis-2025-wim",
+      "title": "Wimbledon",
+      "startDate": "2025-06-30",
+      "endDate": "2025-07-13",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · All England Club, London"
+    },
+    {
+      "id": "tennis-2025-wim-sf",
+      "title": "Wimbledon – Semis",
+      "date": "2025-07-11",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · All England Club, London"
+    },
+    {
+      "id": "tennis-2025-wim-f",
+      "title": "Wimbledon – Final",
+      "date": "2025-07-13",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · All England Club, London",
+      "time": "21:00"
+    },
+    {
+      "id": "lol-2025-lck-summer-f",
+      "title": "LCK Summer Finals",
+      "date": "2025-08-24",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LCK 2025 Summer Split Finals"
+    },
+    {
+      "id": "tennis-2025-uso",
+      "title": "US Open",
+      "startDate": "2025-08-25",
+      "endDate": "2025-09-07",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
+    },
+    {
+      "id": "lol-2025-lpl-summer-f",
+      "title": "LPL Summer Finals",
+      "date": "2025-08-31",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LPL 2025 Summer Split Finals"
+    },
+    {
+      "id": "tennis-2025-uso-sf",
+      "title": "US Open – Semis",
+      "date": "2025-09-05",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · USTA Billie Jean King NTC, NY"
+    },
+    {
+      "id": "tennis-2025-uso-f",
+      "title": "US Open – Final",
+      "date": "2025-09-07",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
+      "time": "03:00 (Mon)"
+    },
+    {
+      "id": "lol-2025-worlds",
+      "title": "Worlds 2025",
+      "startDate": "2025-10-01",
+      "endDate": "2025-11-02",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "LoL World Championship 2025"
+    },
+    {
+      "id": "lol-2025-worlds-f",
+      "title": "Worlds 2025 – Final",
+      "date": "2025-11-02",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LoL World Championship 2025 Grand Final"
+    },
+    {
+      "id": "tennis-2026-ao",
+      "title": "Australian Open",
+      "startDate": "2026-01-19",
+      "endDate": "2026-02-01",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Melbourne Park"
+    },
+    {
+      "id": "tennis-2026-ao-sf",
+      "title": "Australian Open – Semis",
+      "date": "2026-01-29",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · Melbourne Park"
+    },
+    {
+      "id": "tennis-2026-ao-f",
+      "title": "Australian Open – Final",
+      "date": "2026-02-01",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · Melbourne Park",
+      "time": "18:30"
+    },
+    {
+      "id": "f1-2026-r1-q",
+      "title": "Australian GP – Qualifying",
+      "date": "2026-03-07",
+      "sport": "f1",
+      "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
+      "type": "qualifying",
+      "time": "13:00"
+    },
+    {
+      "id": "f1-2026-r1-r",
+      "title": "Australian GP – Race",
+      "date": "2026-03-08",
+      "sport": "f1",
+      "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
+      "type": "race",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r2-q",
+      "title": "Chinese GP – Qualifying",
+      "date": "2026-03-14",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "type": "qualifying",
+      "time": "15:00"
+    },
+    {
+      "id": "f1-2026-r2-s",
+      "title": "Chinese GP – Sprint",
+      "date": "2026-03-14",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "type": "sprint",
+      "time": "11:00"
+    },
+    {
+      "id": "f1-2026-r2-r",
+      "title": "Chinese GP – Race",
+      "date": "2026-03-15",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "type": "race",
+      "time": "15:00"
+    },
+    {
+      "id": "f1-2026-r3-q",
+      "title": "Japanese GP – Qualifying",
+      "date": "2026-03-28",
+      "sport": "f1",
+      "detail": "Round 3 · Suzuka Circuit, Suzuka",
+      "type": "qualifying",
+      "time": "14:00"
+    },
+    {
+      "id": "f1-2026-r3-r",
+      "title": "Japanese GP – Race",
+      "date": "2026-03-29",
+      "sport": "f1",
+      "detail": "Round 3 · Suzuka Circuit, Suzuka",
+      "type": "race",
+      "time": "13:00"
+    },
+    {
+      "id": "lol-2026-lck-spring-f",
+      "title": "LCK Spring Finals",
+      "date": "2026-04-05",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LCK 2026 Spring Split Finals"
+    },
+    {
+      "id": "lol-2026-lpl-spring-f",
+      "title": "LPL Spring Finals",
+      "date": "2026-04-19",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LPL 2026 Spring Split Finals"
+    },
+    {
+      "id": "football-ucl-2025-26-sf",
+      "title": "UCL Semi-Finals",
+      "date": "2026-04-28",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/26 UEFA Champions League Semi-Finals (legs 2026-04-28 & 2026-05-05)"
+    },
+    {
+      "id": "f1-2026-r4-q",
+      "title": "Miami GP – Qualifying",
+      "date": "2026-05-02",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "type": "qualifying",
+      "time": "04:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r4-s",
+      "title": "Miami GP – Sprint",
+      "date": "2026-05-02",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "type": "sprint",
+      "time": "00:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r4-r",
+      "title": "Miami GP – Race",
+      "date": "2026-05-03",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "type": "race",
+      "time": "04:00 (Mon)"
+    },
+    {
+      "id": "lol-2026-msi",
+      "title": "Mid-Season Invitational",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-31",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "MSI 2026 – International event"
+    },
+    {
+      "id": "f1-2026-r5-q",
+      "title": "Canadian GP – Qualifying",
+      "date": "2026-05-23",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "type": "qualifying",
+      "time": "04:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r5-s",
+      "title": "Canadian GP – Sprint",
+      "date": "2026-05-23",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "type": "sprint",
+      "time": "00:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r5-r",
+      "title": "Canadian GP – Race",
+      "date": "2026-05-24",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "type": "race",
+      "time": "04:00 (Mon)"
+    },
+    {
+      "id": "tennis-2026-fo",
+      "title": "French Open (Roland Garros)",
+      "startDate": "2026-05-24",
+      "endDate": "2026-06-07",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Roland Garros, Paris"
+    },
+    {
+      "id": "football-ucl-2025-26-final",
+      "title": "Champions League Final",
+      "date": "2026-05-28",
+      "sport": "football",
+      "type": "final",
+      "detail": "2025/26 UEFA Champions League Final · PayPal Park, San José",
+      "time": "03:00 (Fri)"
+    },
+    {
+      "id": "lol-2026-msi-f",
+      "title": "MSI 2026 – Final",
+      "date": "2026-05-31",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Mid-Season Invitational 2026 Grand Final"
+    },
+    {
+      "id": "tennis-2026-fo-sf",
+      "title": "French Open (Roland Garros) – Semis",
+      "date": "2026-06-04",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · Roland Garros, Paris"
+    },
+    {
+      "id": "f1-2026-r6-q",
+      "title": "Monaco GP – Qualifying",
+      "date": "2026-06-06",
+      "sport": "f1",
+      "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r6-r",
+      "title": "Monaco GP – Race",
+      "date": "2026-06-07",
+      "sport": "f1",
+      "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "tennis-2026-fo-f",
+      "title": "French Open (Roland Garros) – Final",
+      "date": "2026-06-07",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · Roland Garros, Paris",
+      "time": "21:00"
+    },
+    {
+      "id": "football-wc2026",
+      "title": "FIFA World Cup 2026",
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "FIFA World Cup 2026 · USA, Canada & Mexico"
+    },
+    {
+      "id": "f1-2026-r7-q",
+      "title": "Barcelona GP – Qualifying",
+      "date": "2026-06-13",
+      "sport": "f1",
+      "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r7-r",
+      "title": "Barcelona GP – Race",
+      "date": "2026-06-14",
+      "sport": "f1",
+      "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r8-q",
+      "title": "Austrian GP – Qualifying",
+      "date": "2026-06-27",
+      "sport": "f1",
+      "detail": "Round 8 · Red Bull Ring, Spielberg",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r8-r",
+      "title": "Austrian GP – Race",
+      "date": "2026-06-28",
+      "sport": "f1",
+      "detail": "Round 8 · Red Bull Ring, Spielberg",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "tennis-2026-wim",
+      "title": "Wimbledon",
+      "startDate": "2026-06-29",
+      "endDate": "2026-07-12",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · All England Club, London"
+    },
+    {
+      "id": "f1-2026-r9-q",
+      "title": "British GP – Qualifying",
+      "date": "2026-07-04",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "type": "qualifying",
+      "time": "23:00"
+    },
+    {
+      "id": "f1-2026-r9-s",
+      "title": "British GP – Sprint",
+      "date": "2026-07-04",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "type": "sprint",
+      "time": "19:00"
+    },
+    {
+      "id": "f1-2026-r9-r",
+      "title": "British GP – Race",
+      "date": "2026-07-05",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "type": "race",
+      "time": "22:00"
+    },
+    {
+      "id": "tennis-2026-wim-sf",
+      "title": "Wimbledon – Semis",
+      "date": "2026-07-10",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · All England Club, London"
+    },
+    {
+      "id": "tennis-2026-wim-f",
+      "title": "Wimbledon – Final",
+      "date": "2026-07-12",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · All England Club, London",
+      "time": "21:00"
+    },
+    {
+      "id": "football-wc2026-sf",
+      "title": "World Cup 2026 – Semis",
+      "date": "2026-07-14",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "FIFA World Cup Semi-Finals"
+    },
+    {
+      "id": "f1-2026-r10-q",
+      "title": "Belgian GP – Qualifying",
+      "date": "2026-07-18",
+      "sport": "f1",
+      "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r10-r",
+      "title": "Belgian GP – Race",
+      "date": "2026-07-19",
+      "sport": "f1",
+      "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "football-wc2026-final",
+      "title": "World Cup 2026 – Final",
+      "date": "2026-07-19",
+      "sport": "football",
+      "type": "final",
+      "detail": "FIFA World Cup Final · MetLife Stadium, New Jersey",
+      "time": "04:00 (Mon)"
+    },
+    {
+      "id": "f1-2026-r11-q",
+      "title": "Hungarian GP – Qualifying",
+      "date": "2026-07-25",
+      "sport": "f1",
+      "detail": "Round 11 · Hungaroring, Budapest",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r11-r",
+      "title": "Hungarian GP – Race",
+      "date": "2026-07-26",
+      "sport": "f1",
+      "detail": "Round 11 · Hungaroring, Budapest",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r12-q",
+      "title": "Dutch GP – Qualifying",
+      "date": "2026-08-22",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r12-s",
+      "title": "Dutch GP – Sprint",
+      "date": "2026-08-22",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "type": "sprint",
+      "time": "18:00"
+    },
+    {
+      "id": "f1-2026-r12-r",
+      "title": "Dutch GP – Race",
+      "date": "2026-08-23",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "lol-2026-lck-summer-f",
+      "title": "LCK Summer Finals",
+      "date": "2026-08-23",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LCK 2026 Summer Split Finals"
+    },
+    {
+      "id": "lol-2026-lpl-summer-f",
+      "title": "LPL Summer Finals",
+      "date": "2026-08-30",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LPL 2026 Summer Split Finals"
+    },
+    {
+      "id": "tennis-2026-uso",
+      "title": "US Open",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-13",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
+    },
+    {
+      "id": "f1-2026-r13-q",
+      "title": "Italian GP – Qualifying",
+      "date": "2026-09-05",
+      "sport": "f1",
+      "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r13-r",
+      "title": "Italian GP – Race",
+      "date": "2026-09-06",
+      "sport": "f1",
+      "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "tennis-2026-uso-sf",
+      "title": "US Open – Semis",
+      "date": "2026-09-11",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Grand Slam Semifinals · USTA Billie Jean King NTC, NY"
+    },
+    {
+      "id": "f1-2026-r14-q",
+      "title": "Spanish GP – Qualifying",
+      "date": "2026-09-12",
+      "sport": "f1",
+      "detail": "Round 14 · Madring, Madrid",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r14-r",
+      "title": "Spanish GP – Race",
+      "date": "2026-09-13",
+      "sport": "f1",
+      "detail": "Round 14 · Madring, Madrid",
+      "type": "race",
+      "time": "21:00"
+    },
+    {
+      "id": "tennis-2026-uso-f",
+      "title": "US Open – Final",
+      "date": "2026-09-13",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
+      "time": "03:00 (Mon)"
+    },
+    {
+      "id": "f1-2026-r15-q",
+      "title": "Azerbaijan GP – Qualifying",
+      "date": "2026-09-25",
+      "sport": "f1",
+      "detail": "Round 15 · Baku City Circuit, Baku",
+      "type": "qualifying",
+      "time": "20:00"
+    },
+    {
+      "id": "f1-2026-r15-r",
+      "title": "Azerbaijan GP – Race",
+      "date": "2026-09-26",
+      "sport": "f1",
+      "detail": "Round 15 · Baku City Circuit, Baku",
+      "type": "race",
+      "time": "19:00"
+    },
+    {
+      "id": "lol-2026-worlds",
+      "title": "Worlds 2026",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-01",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "LoL World Championship 2026"
+    },
+    {
+      "id": "f1-2026-r16-q",
+      "title": "Singapore GP – Qualifying",
+      "date": "2026-10-10",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "type": "qualifying",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r16-s",
+      "title": "Singapore GP – Sprint",
+      "date": "2026-10-10",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "type": "sprint",
+      "time": "17:00"
+    },
+    {
+      "id": "f1-2026-r16-r",
+      "title": "Singapore GP – Race",
+      "date": "2026-10-11",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "type": "race",
+      "time": "20:00"
+    },
+    {
+      "id": "f1-2026-r17-q",
+      "title": "United States GP – Qualifying",
+      "date": "2026-10-24",
+      "sport": "f1",
+      "detail": "Round 17 · Circuit of the Americas, Austin",
+      "type": "qualifying",
+      "time": "05:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r17-r",
+      "title": "United States GP – Race",
+      "date": "2026-10-25",
+      "sport": "f1",
+      "detail": "Round 17 · Circuit of the Americas, Austin",
+      "type": "race",
+      "time": "04:00 (Mon)"
+    },
+    {
+      "id": "f1-2026-r18-q",
+      "title": "Mexico City GP – Qualifying",
+      "date": "2026-10-31",
+      "sport": "f1",
+      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "type": "qualifying",
+      "time": "05:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r18-r",
+      "title": "Mexico City GP – Race",
+      "date": "2026-11-01",
+      "sport": "f1",
+      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "type": "race",
+      "time": "04:00 (Mon)"
+    },
+    {
+      "id": "lol-2026-worlds-f",
+      "title": "Worlds 2026 – Final",
+      "date": "2026-11-01",
+      "sport": "lol",
+      "type": "final",
+      "detail": "LoL World Championship 2026 Grand Final"
+    },
+    {
+      "id": "f1-2026-r19-q",
+      "title": "Brazilian GP – Qualifying",
+      "date": "2026-11-07",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "type": "qualifying",
+      "time": "02:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r19-r",
+      "title": "Brazilian GP – Race",
+      "date": "2026-11-08",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "type": "race",
+      "time": "01:00 (Mon)"
+    },
+    {
+      "id": "f1-2026-r20-q",
+      "title": "Las Vegas GP – Qualifying",
+      "date": "2026-11-21",
+      "sport": "f1",
+      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "type": "qualifying",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r20-r",
+      "title": "Las Vegas GP – Race",
+      "date": "2026-11-22",
+      "sport": "f1",
+      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "type": "race",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r21-q",
+      "title": "Qatar GP – Qualifying",
+      "date": "2026-11-28",
+      "sport": "f1",
+      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "type": "qualifying",
+      "time": "02:00 (Sun)"
+    },
+    {
+      "id": "f1-2026-r21-r",
+      "title": "Qatar GP – Race",
+      "date": "2026-11-29",
+      "sport": "f1",
+      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "type": "race",
+      "time": "00:00 (Mon)"
+    },
+    {
+      "id": "f1-2026-r22-q",
+      "title": "Abu Dhabi GP – Qualifying",
+      "date": "2026-12-05",
+      "sport": "f1",
+      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r22-r",
+      "title": "Abu Dhabi GP – Race",
+      "date": "2026-12-06",
+      "sport": "f1",
+      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "type": "race",
+      "time": "21:00"
+    }
+  ]
+}
