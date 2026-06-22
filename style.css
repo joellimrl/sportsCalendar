@@ -13,8 +13,8 @@
   --f1-muted:  rgba(232,0,45,0.18);
   --tennis:    #00c853;
   --tennis-muted: rgba(0,200,83,0.15);
-  --football:  #2979ff;
-  --football-muted: rgba(41,121,255,0.15);
+  --football:  #60a5fa;
+  --football-muted: rgba(96,165,250,0.15);
   --lol:       #c89b3c;
   --lol-muted: rgba(200,155,60,0.15);
 
@@ -59,6 +59,13 @@ h1 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.2s;
+}
+
+.legend-item.inactive {
+  opacity: 0.3;
 }
 
 .legend-item .dot {
@@ -74,6 +81,24 @@ h1 {
   text-align: right;
   margin-top: 4px;
 }
+
+.stale-warning {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  background: rgba(255, 180, 0, 0.1);
+  border: 1px solid rgba(255, 180, 0, 0.35);
+  color: #ffd060;
+  font-size: 0.72rem;
+  text-align: right;
+}
+
+.stale-warning a {
+  color: #ffd060;
+  text-underline-offset: 2px;
+}
+.legend-item.f1        .dot { background: var(--f1); }
 .legend-item.tennis    .dot { background: var(--tennis); }
 .legend-item.football  .dot { background: var(--football); }
 .legend-item.lol       .dot { background: var(--lol); }
@@ -104,6 +129,15 @@ main {
 }
 
 .calendar-nav button:hover { background: var(--surface2); }
+
+#today-btn {
+  width: auto;
+  padding: 0 14px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 
 #month-label {
   font-size: 1.25rem;
@@ -234,12 +268,119 @@ main {
 .event-chip.type-final     { font-style: italic; }
 .event-chip.type-semifinal { font-style: italic; }
 
+/* Tournament spans render as a thin coloured bar — individual events stack below */
+.event-chip.type-tournament {
+  height: 6px;
+  min-height: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 2px;
+  opacity: 0.55;
+  border-left-width: 0;
+}
+
 .more-events {
   font-size: 0.65rem;
   color: var(--text-muted);
   padding: 1px 4px;
   cursor: pointer;
+  border-radius: 3px;
+  transition: color 0.15s;
 }
+
+.more-events:hover { color: var(--text); }
+
+.day-number.has-events { cursor: pointer; }
+.day-number.has-events:hover { background: var(--surface2); color: var(--text); }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay[hidden] { display: none; }
+
+.modal {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  width: min(360px, 92vw);
+  max-height: 75vh;
+  overflow-y: auto;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.65);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.modal-date {
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.modal-close:hover { color: var(--text); }
+
+.modal-event {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.modal-event:last-child { border-bottom: none; }
+
+.modal-event-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.modal-event-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.modal-event-dot.f1       { background: var(--f1); }
+.modal-event-dot.tennis   { background: var(--tennis); }
+.modal-event-dot.football { background: var(--football); }
+.modal-event-dot.lol      { background: var(--lol); }
+
+.modal-event-detail,
+.modal-event-time {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  padding-left: 14px;
+}
+
+.modal-event-time { font-style: italic; }
 
 .tooltip {
   position: fixed;

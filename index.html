@@ -10,12 +10,15 @@
   <header>
     <h1>Sports Calendar</h1>
     <div class="legend">
-      <span class="legend-item f1"><span class="dot"></span>F1</span>
-      <span class="legend-item tennis"><span class="dot"></span>Tennis</span>
-      <span class="legend-item football"><span class="dot"></span>Football</span>
-      <span class="legend-item lol"><span class="dot"></span>League of Legends</span>
+      <span class="legend-item f1"       data-sport="f1"><span class="dot"></span>F1</span>
+      <span class="legend-item tennis"   data-sport="tennis"><span class="dot"></span>Tennis</span>
+      <span class="legend-item football" data-sport="football"><span class="dot"></span>Football</span>
+      <span class="legend-item lol"      data-sport="lol"><span class="dot"></span>League of Legends</span>
     </div>
     <div id="last-updated" class="last-updated"></div>
+    <div id="stale-warning" class="stale-warning" hidden>
+      ⚠ Schedule data may be outdated — last fetched <span id="stale-days"></span>. <a href="https://github.com" target="_blank" rel="noopener">Check Actions</a>.
+    </div>
   </header>
 
   <main>
@@ -23,6 +26,7 @@
       <button id="prev-btn" aria-label="Previous month">&#8592;</button>
       <h2 id="month-label"></h2>
       <button id="next-btn" aria-label="Next month">&#8594;</button>
+      <button id="today-btn">Today</button>
     </div>
 
     <div class="calendar-grid" id="calendar-grid">
@@ -37,6 +41,16 @@
   </main>
 
   <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <div id="modal-overlay" class="modal-overlay" hidden role="dialog" aria-modal="true">
+    <div class="modal">
+      <div class="modal-header">
+        <div id="modal-date" class="modal-date"></div>
+        <button id="modal-close" class="modal-close" aria-label="Close">&#x2715;</button>
+      </div>
+      <div id="modal-events"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

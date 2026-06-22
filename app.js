@@ -9,6 +9,8 @@ let allEvents = [];
 let currentYear;
 let currentMonth;
 
+const activeSports = new Set(['f1', 'tennis', 'football', 'lol']);
+
 const tooltip    = document.getElementById('tooltip');
 const monthLabel = document.getElementById('month-label');
 
@@ -18,9 +20,17 @@ async function loadEvents() {
   allEvents  = data.events;
 
   if (data.lastUpdated) {
-    const d   = new Date(data.lastUpdated);
-    const fmt = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    const updated  = new Date(data.lastUpdated);
+    const fmt      = updated.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
     document.getElementById('last-updated').textContent = `Data as of ${fmt}`;
+
+    const daysSince = Math.floor((Date.now() - updated) / 86_400_000);
+    if (daysSince > 8) {
+      const warn = document.getElementById('stale-warning');
+      document.getElementById('stale-days').textContent =
+        daysSince === 1 ? '1 day ago' : `${daysSince} days ago`;
+      warn.hidden = false;
+    }
   }
 }
 
@@ -38,6 +48,7 @@ function getEventsForDate(year, month, day) {
   const results = [];
 
   for (const ev of allEvents) {
+    if (!activeSports.has(ev.sport)) continue;
     if (ev.date) {
       const d = parseDate(ev.date);
       if (d.getFullYear() === year && d.getMonth() === month && d.getDate() === day) {
@@ -60,7 +71,7 @@ function getEventsForDate(year, month, day) {
 }
 
 function typeIcon(type) {
-  const icons = { race: '🏁', qualifying: '⏱', sprint: '⚡', final: '🏆', semifinal: '🎯', tournament: '📅', season: '📅' };
+  const icons = { race: '🏁', qualifying: '⏱', sprint: '⚡', final: '🏆', semifinal: '🎯', tournament: '📅', season: '📅', match: '⚔️' };
   return icons[type] || '';
 }
 
@@ -151,13 +162,17 @@ function buildCalendar(year, month) {
     numEl.className = 'day-number';
     numEl.textContent = cellDay;
     cell.appendChild(numEl);
+    // wire up after dayEvents is known — see below
 
     const eventsContainer = document.createElement('div');
     eventsContainer.className = 'events-in-day';
 
     const dayEvents = getEventsForDate(cellYear, cellMonth, cellDay);
-    // Span events first so their bars align across adjacent cells
-    dayEvents.sort((a, b) => (a.spanType === 'single' ? 1 : 0) - (b.spanType === 'single' ? 1 : 0));
+    // Sort: tournament spans first (thin bars), then other spans, then single events
+    dayEvents.sort((a, b) => {
+      const score = e => e.spanType === 'single' ? 2 : e.type === 'tournament' ? 0 : 1;
+      return score(a) - score(b);
+    });
     const MAX_VISIBLE = 4;
 
     dayEvents.slice(0, MAX_VISIBLE).forEach(ev => {
@@ -182,7 +197,8 @@ function buildCalendar(year, month) {
         if (isRowStart && !trueStart) chip.classList.add('row-wrap-start');
       }
 
-      chip.textContent = chipLabel(ev);
+      // Tournament spans are thin bars — always suppress text; tooltip still works
+      if (ev.type !== 'tournament') chip.textContent = chipLabel(ev);
       chip.addEventListener('mouseenter', e => showTooltip(ev, e.clientX, e.clientY));
       chip.addEventListener('mousemove',  e => positionTooltip(e.clientX, e.clientY));
       chip.addEventListener('mouseleave', hideTooltip);
@@ -193,13 +209,63 @@ function buildCalendar(year, month) {
       const more = document.createElement('div');
       more.className = 'more-events';
       more.textContent = `+${dayEvents.length - MAX_VISIBLE} more`;
+      more.addEventListener('click', () => showDayModal(cellYear, cellMonth, cellDay));
       eventsContainer.appendChild(more);
+    }
+
+    // Make day number clickable when the day has events
+    if (dayEvents.length > 0) {
+      numEl.classList.add('has-events');
+      numEl.addEventListener('click', () => showDayModal(cellYear, cellMonth, cellDay));
     }
 
     cell.appendChild(eventsContainer);
     grid.appendChild(cell);
   }
 }
+
+const modalOverlay  = document.getElementById('modal-overlay');
+const modalDateEl   = document.getElementById('modal-date');
+const modalEventsEl = document.getElementById('modal-events');
+
+function showDayModal(year, month, day) {
+  const events = getEventsForDate(year, month, day);
+  if (events.length === 0) return;
+
+  const date = new Date(year, month, day);
+  modalDateEl.textContent = date.toLocaleDateString('en-GB', {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+  });
+
+  modalEventsEl.innerHTML = '';
+  for (const ev of events) {
+    const item = document.createElement('div');
+    item.className = 'modal-event';
+
+    const timeRow = ev.time
+      ? `<div class="modal-event-time">&#x1F550; ${ev.time} SGT</div>`
+      : '';
+
+    item.innerHTML = `
+      <div class="modal-event-title">
+        <span class="modal-event-dot ${ev.sport}"></span>
+        ${typeIcon(ev.type)} ${ev.title}
+      </div>
+      <div class="modal-event-detail">${ev.detail}</div>
+      ${timeRow}
+    `;
+    modalEventsEl.appendChild(item);
+  }
+
+  modalOverlay.hidden = false;
+  hideTooltip();
+}
+
+function closeModal() { modalOverlay.hidden = true; }
+
+document.getElementById('modal-close').addEventListener('click', closeModal);
+modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 document.getElementById('prev-btn').addEventListener('click', () => {
   if (currentMonth === 0) { currentMonth = 11; currentYear--; }
@@ -211,6 +277,27 @@ document.getElementById('next-btn').addEventListener('click', () => {
   if (currentMonth === 11) { currentMonth = 0; currentYear++; }
   else currentMonth++;
   buildCalendar(currentYear, currentMonth);
+});
+
+document.getElementById('today-btn').addEventListener('click', () => {
+  const now = new Date();
+  currentYear  = now.getFullYear();
+  currentMonth = now.getMonth();
+  buildCalendar(currentYear, currentMonth);
+});
+
+document.querySelectorAll('.legend-item[data-sport]').forEach(item => {
+  const sport = item.dataset.sport;
+  item.addEventListener('click', () => {
+    if (activeSports.has(sport)) {
+      activeSports.delete(sport);
+      item.classList.add('inactive');
+    } else {
+      activeSports.add(sport);
+      item.classList.remove('inactive');
+    }
+    buildCalendar(currentYear, currentMonth);
+  });
 });
 
 (async () => {
