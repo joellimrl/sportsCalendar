@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T08:50:05.450Z",
+  "lastUpdated": "2026-06-22T12:08:24.356Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -28,37 +28,20 @@
       "time": "18:30"
     },
     {
-      "id": "lol-2025-lck-spring-f",
-      "title": "LCK Spring Finals",
-      "date": "2025-04-06",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LCK 2025 Spring Split Finals"
-    },
-    {
-      "id": "lol-2025-lpl-spring-f",
-      "title": "LPL Spring Finals",
-      "date": "2025-04-20",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LPL 2025 Spring Split Finals"
-    },
-    {
-      "id": "football-ucl-2024-25-sf",
-      "title": "UCL Semi-Finals",
+      "id": "football-ucl-2024-25-sf1",
+      "title": "UCL Semi-Final",
       "date": "2025-04-29",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2024/25 UEFA Champions League Semi-Finals (legs 2025-04-29 & 2025-05-06)"
+      "detail": "2024/25 UEFA Champions League Semi-Final (leg 1)"
     },
     {
-      "id": "lol-2025-msi",
-      "title": "Mid-Season Invitational",
-      "startDate": "2025-05-01",
-      "endDate": "2025-05-25",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "MSI 2025 – International event"
+      "id": "football-ucl-2024-25-sf2",
+      "title": "UCL Semi-Final",
+      "date": "2025-05-06",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/25 UEFA Champions League Semi-Final (leg 2)"
     },
     {
       "id": "tennis-2025-fo",
@@ -68,14 +51,6 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · Roland Garros, Paris"
-    },
-    {
-      "id": "lol-2025-msi-f",
-      "title": "MSI 2025 – Final",
-      "date": "2025-05-25",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Mid-Season Invitational 2025 Grand Final"
     },
     {
       "id": "football-ucl-2024-25-final",
@@ -130,14 +105,6 @@
       "time": "21:00"
     },
     {
-      "id": "lol-2025-lck-summer-f",
-      "title": "LCK Summer Finals",
-      "date": "2025-08-24",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LCK 2025 Summer Split Finals"
-    },
-    {
       "id": "tennis-2025-uso",
       "title": "US Open",
       "startDate": "2025-08-25",
@@ -145,14 +112,6 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
-    },
-    {
-      "id": "lol-2025-lpl-summer-f",
-      "title": "LPL Summer Finals",
-      "date": "2025-08-31",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LPL 2025 Summer Split Finals"
     },
     {
       "id": "tennis-2025-uso-sf",
@@ -170,23 +129,6 @@
       "type": "final",
       "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
       "time": "03:00 (Mon)"
-    },
-    {
-      "id": "lol-2025-worlds",
-      "title": "Worlds 2025",
-      "startDate": "2025-10-01",
-      "endDate": "2025-11-02",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "LoL World Championship 2025"
-    },
-    {
-      "id": "lol-2025-worlds-f",
-      "title": "Worlds 2025 – Final",
-      "date": "2025-11-02",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LoL World Championship 2025 Grand Final"
     },
     {
       "id": "tennis-2026-ao",
@@ -213,6 +155,132 @@
       "type": "final",
       "detail": "Grand Slam Final · Melbourne Park",
       "time": "18:30"
+    },
+    {
+      "id": "lol-lec-115548539108415313",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-16",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Natus Vincere vs Fnatic",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108415317",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-16",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs Team Vitality",
+      "time": "01:30 (Tue)"
+    },
+    {
+      "id": "lol-lec-115548539108415309",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-17",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Heretics vs G2 Esports",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108415305",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-17",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs GIANTX",
+      "time": "01:30 (Wed)"
+    },
+    {
+      "id": "lol-lec-115548539108415325",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-20",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs Natus Vincere",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108415321",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-20",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "01:30 (Sat)"
+    },
+    {
+      "id": "lol-lec-115548539108415329",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-21",
+      "sport": "lol",
+      "type": "match",
+      "detail": "GIANTX vs Team Heretics",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108480869",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-21",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Vitality vs Fnatic",
+      "time": "01:30 (Sun)"
+    },
+    {
+      "id": "lol-lec-115548539108480879",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-22",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Natus Vincere vs GIANTX",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108480883",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-22",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Vitality vs Karmine Corp",
+      "time": "01:30 (Mon)"
+    },
+    {
+      "id": "lol-lec-115548539108480873",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-23",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs Movistar KOI",
+      "time": "23:45"
+    },
+    {
+      "id": "lol-lec-115548539108480887",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-27",
+      "sport": "lol",
+      "type": "match",
+      "detail": "GIANTX vs Karmine Corp",
+      "time": "00:00 (Sat)"
+    },
+    {
+      "id": "lol-lec-115548539108480893",
+      "title": "LEC – Playoffs",
+      "date": "2026-02-28",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs Karmine Corp",
+      "time": "00:00 (Sun)"
+    },
+    {
+      "id": "lol-lec-115548539108480899",
+      "title": "LEC – Finals",
+      "date": "2026-03-01",
+      "sport": "lol",
+      "type": "final",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "00:00 (Mon)"
     },
     {
       "id": "f1-2026-r1-q",
@@ -278,28 +346,12 @@
       "time": "13:00"
     },
     {
-      "id": "lol-2026-lck-spring-f",
-      "title": "LCK Spring Finals",
-      "date": "2026-04-05",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LCK 2026 Spring Split Finals"
-    },
-    {
-      "id": "lol-2026-lpl-spring-f",
-      "title": "LPL Spring Finals",
-      "date": "2026-04-19",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LPL 2026 Spring Split Finals"
-    },
-    {
-      "id": "football-ucl-2025-26-sf",
-      "title": "UCL Semi-Finals",
+      "id": "football-ucl-2025-26-sf1",
+      "title": "UCL Semi-Final",
       "date": "2026-04-28",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2025/26 UEFA Champions League Semi-Finals (legs 2026-04-28 & 2026-05-05)"
+      "detail": "2025/26 UEFA Champions League Semi-Final (leg 1)"
     },
     {
       "id": "f1-2026-r4-q",
@@ -329,13 +381,12 @@
       "time": "04:00 (Mon)"
     },
     {
-      "id": "lol-2026-msi",
-      "title": "Mid-Season Invitational",
-      "startDate": "2026-05-07",
-      "endDate": "2026-05-31",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "MSI 2026 – International event"
+      "id": "football-ucl-2025-26-sf2",
+      "title": "UCL Semi-Final",
+      "date": "2026-05-05",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/26 UEFA Champions League Semi-Final (leg 2)"
     },
     {
       "id": "f1-2026-r5-q",
@@ -356,6 +407,15 @@
       "time": "00:00 (Sun)"
     },
     {
+      "id": "lol-lec-115548668059589358",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-23",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
       "id": "f1-2026-r5-r",
       "title": "Canadian GP – Race",
       "date": "2026-05-24",
@@ -374,6 +434,24 @@
       "detail": "Grand Slam · Roland Garros, Paris"
     },
     {
+      "id": "lol-lec-115548668059589352",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-24",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs Team Vitality",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lec-115548668059589364",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-25",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs G2 Esports",
+      "time": "23:00"
+    },
+    {
       "id": "football-ucl-2025-26-final",
       "title": "Champions League Final",
       "date": "2026-05-28",
@@ -383,12 +461,103 @@
       "time": "03:00 (Fri)"
     },
     {
-      "id": "lol-2026-msi-f",
-      "title": "MSI 2026 – Final",
+      "id": "lol-lpl-115616219464541907",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Beijing JDG Esports vs THUNDER TALK GAMING",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541913",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TOP ESPORTS vs LGD GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541919",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs EDWARD GAMING",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541925",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589370",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Natus Vincere vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541931",
+      "title": "LPL – Playoffs",
       "date": "2026-05-31",
       "sport": "lol",
-      "type": "final",
-      "detail": "Mid-Season Invitational 2026 Grand Final"
+      "type": "match",
+      "detail": "TOP ESPORTS vs Beijing JDG Esports",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589376",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-31",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Vitality vs GIANTX",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541937",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589382",
+      "title": "LEC – Playoffs",
+      "date": "2026-06-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs GIANTX",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607479",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-02",
+      "sport": "lol",
+      "type": "match",
+      "detail": "THUNDER TALK GAMING vs LGD GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607485",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs EDWARD GAMING",
+      "time": "17:00"
     },
     {
       "id": "tennis-2026-fo-sf",
@@ -399,6 +568,15 @@
       "detail": "Grand Slam Semifinals · Roland Garros, Paris"
     },
     {
+      "id": "lol-lpl-115616219464607497",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "LGD GAMING vs Anyone's Legend",
+      "time": "17:00"
+    },
+    {
       "id": "f1-2026-r6-q",
       "title": "Monaco GP – Qualifying",
       "date": "2026-06-06",
@@ -406,6 +584,33 @@
       "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
       "type": "qualifying",
       "time": "22:00"
+    },
+    {
+      "id": "lol-lck-115548128963037563",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Dplus KIA vs HANJIN BRION",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607503",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Beijing JDG Esports",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589388",
+      "title": "LEC – Playoffs",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs Movistar KOI",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r6-r",
@@ -426,6 +631,42 @@
       "time": "21:00"
     },
     {
+      "id": "lol-lck-115548128963037569",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "match",
+      "detail": "kt Rolster vs Dplus KIA",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607491",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Xi'an Team WE vs TOP ESPORTS",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589394",
+      "title": "LEC – Finals",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "final",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607509",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs BILIBILI GAMING",
+      "time": "17:00"
+    },
+    {
       "id": "football-wc2026",
       "title": "FIFA World Cup 2026",
       "startDate": "2026-06-11",
@@ -433,6 +674,15 @@
       "sport": "football",
       "type": "tournament",
       "detail": "FIFA World Cup 2026 · USA, Canada & Mexico"
+    },
+    {
+      "id": "lol-lck-115548128963037575",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-12",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Hanwha Life Esports vs T1",
+      "time": "16:00"
     },
     {
       "id": "f1-2026-r7-q",
@@ -444,6 +694,24 @@
       "time": "22:00"
     },
     {
+      "id": "lol-lck-115548128963037581",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-13",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Gen.G Esports vs kt Rolster",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607515",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-13",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
       "id": "f1-2026-r7-r",
       "title": "Barcelona GP – Race",
       "date": "2026-06-14",
@@ -451,6 +719,24 @@
       "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
       "type": "race",
       "time": "21:00"
+    },
+    {
+      "id": "lol-lck-115548128963037587",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-14",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Gen.G Esports",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607521",
+      "title": "LPL – Finals",
+      "date": "2026-06-14",
+      "sport": "lol",
+      "type": "final",
+      "detail": "BILIBILI GAMING vs TOP ESPORTS",
+      "time": "17:00"
     },
     {
       "id": "f1-2026-r8-q",
@@ -471,6 +757,33 @@
       "time": "21:00"
     },
     {
+      "id": "lol-msi-span",
+      "title": "MSI",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-12",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "MSI – International event"
+    },
+    {
+      "id": "lol-msi-115570934355614497",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Team Liquid Alienware",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614503",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs Relove Deep Cross Gaming",
+      "time": "16:00"
+    },
+    {
       "id": "tennis-2026-wim",
       "title": "Wimbledon",
       "startDate": "2026-06-29",
@@ -478,6 +791,60 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · All England Club, London"
+    },
+    {
+      "id": "lol-msi-115570934355614509",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115846993721104369",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614521",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570969745329263",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-07-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614527",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614533",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
     },
     {
       "id": "f1-2026-r9-q",
@@ -498,6 +865,24 @@
       "time": "19:00"
     },
     {
+      "id": "lol-msi-115570934355614539",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614545",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
       "id": "f1-2026-r9-r",
       "title": "British GP – Race",
       "date": "2026-07-05",
@@ -507,12 +892,93 @@
       "time": "22:00"
     },
     {
+      "id": "lol-msi-115570934355614563",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614551",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614569",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614557",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614581",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614587",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614575",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-09",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
       "id": "tennis-2026-wim-sf",
       "title": "Wimbledon – Semis",
       "date": "2026-07-10",
       "sport": "tennis",
       "type": "semifinal",
       "detail": "Grand Slam Semifinals · All England Club, London"
+    },
+    {
+      "id": "lol-msi-115570934355614593",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-10",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614599",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-11",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
     },
     {
       "id": "tennis-2026-wim-f",
@@ -524,12 +990,31 @@
       "time": "21:00"
     },
     {
-      "id": "football-wc2026-sf",
-      "title": "World Cup 2026 – Semis",
+      "id": "lol-msi-115570934355614605",
+      "title": "MSI – Finals",
+      "date": "2026-07-12",
+      "sport": "lol",
+      "type": "final",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "football-wc2026-760514",
+      "title": "World Cup 2026 – Semi",
       "date": "2026-07-14",
       "sport": "football",
       "type": "semifinal",
-      "detail": "FIFA World Cup Semi-Finals"
+      "detail": "FIFA World Cup 2026 · Quarterfinal 2 Winner at Quarterfinal 1 Winner",
+      "time": "03:00 (Wed)"
+    },
+    {
+      "id": "football-wc2026-760515",
+      "title": "World Cup 2026 – Semi",
+      "date": "2026-07-15",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "FIFA World Cup 2026 · Quarterfinal 4 Winner at Quarterfinal 3 Winner",
+      "time": "03:00 (Thu)"
     },
     {
       "id": "f1-2026-r10-q",
@@ -550,13 +1035,13 @@
       "time": "21:00"
     },
     {
-      "id": "football-wc2026-final",
+      "id": "football-wc2026-760517",
       "title": "World Cup 2026 – Final",
       "date": "2026-07-19",
       "sport": "football",
       "type": "final",
-      "detail": "FIFA World Cup Final · MetLife Stadium, New Jersey",
-      "time": "04:00 (Mon)"
+      "detail": "FIFA World Cup 2026 · Semifinal 2 Winner at Semifinal 1 Winner",
+      "time": "03:00 (Mon)"
     },
     {
       "id": "f1-2026-r11-q",
@@ -602,22 +1087,6 @@
       "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
       "type": "race",
       "time": "21:00"
-    },
-    {
-      "id": "lol-2026-lck-summer-f",
-      "title": "LCK Summer Finals",
-      "date": "2026-08-23",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LCK 2026 Summer Split Finals"
-    },
-    {
-      "id": "lol-2026-lpl-summer-f",
-      "title": "LPL Summer Finals",
-      "date": "2026-08-30",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LPL 2026 Summer Split Finals"
     },
     {
       "id": "tennis-2026-uso",
@@ -700,15 +1169,6 @@
       "time": "19:00"
     },
     {
-      "id": "lol-2026-worlds",
-      "title": "Worlds 2026",
-      "startDate": "2026-10-01",
-      "endDate": "2026-11-01",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "LoL World Championship 2026"
-    },
-    {
       "id": "f1-2026-r16-q",
       "title": "Singapore GP – Qualifying",
       "date": "2026-10-10",
@@ -770,14 +1230,6 @@
       "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
       "type": "race",
       "time": "04:00 (Mon)"
-    },
-    {
-      "id": "lol-2026-worlds-f",
-      "title": "Worlds 2026 – Final",
-      "date": "2026-11-01",
-      "sport": "lol",
-      "type": "final",
-      "detail": "LoL World Championship 2026 Grand Final"
     },
     {
       "id": "f1-2026-r19-q",
