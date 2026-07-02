@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T07:10:21.296Z",
+  "lastUpdated": "2026-07-02T06:40:04.608Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -699,25 +699,25 @@
       "date": "2026-07-01",
       "sport": "lol",
       "type": "match",
-      "detail": "Team Liquid Alienware vs T1",
+      "detail": "T1 vs Team Liquid Alienware",
       "time": "16:00"
     },
     {
-      "id": "lol-msi-115570934355614527",
+      "id": "lol-msi-115570934355614539",
       "title": "MSI – Knockouts",
       "date": "2026-07-03",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "Hanwha Life Esports vs Team Secret Whales",
       "time": "11:00"
     },
     {
-      "id": "lol-msi-115570934355614533",
+      "id": "lol-msi-115570934355614545",
       "title": "MSI – Knockouts",
       "date": "2026-07-03",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "G2 Esports vs TOP ESPORTS",
       "time": "16:00"
     },
     {
@@ -739,21 +739,21 @@
       "time": "19:00"
     },
     {
-      "id": "lol-msi-115570934355614539",
+      "id": "lol-msi-115570934355614533",
       "title": "MSI – Knockouts",
       "date": "2026-07-04",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "LYON vs FURIA",
       "time": "11:00"
     },
     {
-      "id": "lol-msi-115570934355614545",
+      "id": "lol-msi-115570934355614527",
       "title": "MSI – Knockouts",
       "date": "2026-07-04",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "BILIBILI GAMING vs T1",
       "time": "16:00"
     },
     {
