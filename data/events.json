@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T06:40:04.608Z",
+  "lastUpdated": "2026-07-03T06:30:21.999Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -717,7 +717,7 @@
       "date": "2026-07-03",
       "sport": "lol",
       "type": "match",
-      "detail": "G2 Esports vs TOP ESPORTS",
+      "detail": "TOP ESPORTS vs G2 Esports",
       "time": "16:00"
     },
     {
@@ -789,7 +789,7 @@
       "date": "2026-07-06",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "TBD vs Team Secret Whales",
       "time": "11:00"
     },
     {
@@ -798,7 +798,7 @@
       "date": "2026-07-06",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "TBD vs Hanwha Life Esports",
       "time": "16:00"
     },
     {
