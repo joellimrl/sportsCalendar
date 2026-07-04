@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:30:21.999Z",
+  "lastUpdated": "2026-07-04T06:17:13.480Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -744,7 +744,7 @@
       "date": "2026-07-04",
       "sport": "lol",
       "type": "match",
-      "detail": "LYON vs FURIA",
+      "detail": "FURIA vs LYON",
       "time": "11:00"
     },
     {
@@ -753,7 +753,7 @@
       "date": "2026-07-04",
       "sport": "lol",
       "type": "match",
-      "detail": "BILIBILI GAMING vs T1",
+      "detail": "T1 vs BILIBILI GAMING",
       "time": "16:00"
     },
     {
@@ -766,39 +766,39 @@
       "time": "22:00"
     },
     {
-      "id": "lol-msi-115570934355614563",
-      "title": "MSI – Knockouts",
-      "date": "2026-07-05",
-      "sport": "lol",
-      "type": "match",
-      "detail": "TBD vs TBD",
-      "time": "11:00"
-    },
-    {
-      "id": "lol-msi-115570934355614551",
-      "title": "MSI – Knockouts",
-      "date": "2026-07-05",
-      "sport": "lol",
-      "type": "match",
-      "detail": "TBD vs TBD",
-      "time": "16:00"
-    },
-    {
       "id": "lol-msi-115570934355614569",
       "title": "MSI – Knockouts",
-      "date": "2026-07-06",
+      "date": "2026-07-05",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs Team Secret Whales",
+      "detail": "Team Secret Whales vs TOP ESPORTS",
       "time": "11:00"
     },
     {
       "id": "lol-msi-115570934355614557",
       "title": "MSI – Knockouts",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Hanwha Life Esports vs G2 Esports",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614563",
+      "title": "MSI – Knockouts",
       "date": "2026-07-06",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs Hanwha Life Esports",
+      "detail": "TBD vs FURIA",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614551",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs LYON",
       "time": "16:00"
     },
     {
