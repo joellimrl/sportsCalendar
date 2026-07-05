@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T06:17:13.480Z",
+  "lastUpdated": "2026-07-05T06:39:16.422Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -784,21 +784,21 @@
       "time": "16:00"
     },
     {
-      "id": "lol-msi-115570934355614563",
-      "title": "MSI – Knockouts",
-      "date": "2026-07-06",
-      "sport": "lol",
-      "type": "match",
-      "detail": "TBD vs FURIA",
-      "time": "11:00"
-    },
-    {
       "id": "lol-msi-115570934355614551",
       "title": "MSI – Knockouts",
       "date": "2026-07-06",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs LYON",
+      "detail": "BILIBILI GAMING vs LYON",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614563",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs FURIA",
       "time": "16:00"
     },
     {
@@ -816,7 +816,7 @@
       "date": "2026-07-08",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs TBD",
+      "detail": "TBD vs Team Secret Whales",
       "time": "16:00"
     },
     {
