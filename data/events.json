@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T07:11:13.623Z",
+  "lastUpdated": "2026-07-07T06:44:26.399Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -802,21 +802,21 @@
       "time": "16:00"
     },
     {
-      "id": "lol-msi-115570934355614581",
-      "title": "MSI – Knockouts",
-      "date": "2026-07-08",
-      "sport": "lol",
-      "type": "match",
-      "detail": "TBD vs G2 Esports",
-      "time": "11:00"
-    },
-    {
       "id": "lol-msi-115570934355614587",
       "title": "MSI – Knockouts",
       "date": "2026-07-08",
       "sport": "lol",
       "type": "match",
-      "detail": "Team Secret Whales vs LYON",
+      "detail": "LYON vs Team Secret Whales",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614581",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs T1",
       "time": "16:00"
     },
     {
