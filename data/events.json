@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T05:48:56.619Z",
+  "lastUpdated": "2026-07-09T06:47:08.621Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -842,7 +842,7 @@
       "date": "2026-07-10",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs LYON",
+      "detail": "LYON vs G2 Esports",
       "time": "16:00"
     },
     {
@@ -963,6 +963,24 @@
       "time": "21:00"
     },
     {
+      "id": "lol-lck-115548147900750319",
+      "title": "LCK – Playoffs",
+      "date": "2026-08-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750325",
+      "title": "LCK – Playoffs",
+      "date": "2026-08-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
       "id": "tennis-2026-uso",
       "title": "US Open",
       "startDate": "2026-08-31",
@@ -970,6 +988,42 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
+    },
+    {
+      "id": "lol-lck-115548147900750331",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750337",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-02",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750343",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750355",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
     },
     {
       "id": "f1-2026-r13-q",
@@ -981,6 +1035,15 @@
       "time": "22:00"
     },
     {
+      "id": "lol-lck-115548147900750349",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
       "id": "f1-2026-r13-r",
       "title": "Italian GP – Race",
       "date": "2026-09-06",
@@ -988,6 +1051,15 @@
       "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
       "type": "race",
       "time": "21:00"
+    },
+    {
+      "id": "lol-lck-115548147900750361",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
     },
     {
       "id": "tennis-2026-uso-sf",
@@ -1007,6 +1079,15 @@
       "time": "22:00"
     },
     {
+      "id": "lol-lck-115548147900750367",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-12",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
       "id": "f1-2026-r14-r",
       "title": "Spanish GP – Race",
       "date": "2026-09-13",
@@ -1023,6 +1104,15 @@
       "type": "final",
       "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
       "time": "03:00 (Mon)"
+    },
+    {
+      "id": "lol-lck-115548147900815909",
+      "title": "LCK – Finals",
+      "date": "2026-09-13",
+      "sport": "lol",
+      "type": "final",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
     },
     {
       "id": "f1-2026-r15-q",
