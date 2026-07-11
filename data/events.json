@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T06:43:07.490Z",
+  "lastUpdated": "2026-07-11T05:38:50.889Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -842,7 +842,7 @@
       "date": "2026-07-10",
       "sport": "lol",
       "type": "match",
-      "detail": "LYON vs G2 Esports",
+      "detail": "G2 Esports vs LYON",
       "time": "16:00"
     },
     {
@@ -851,7 +851,7 @@
       "date": "2026-07-11",
       "sport": "lol",
       "type": "match",
-      "detail": "TBD vs Hanwha Life Esports",
+      "detail": "Hanwha Life Esports vs LYON",
       "time": "16:00"
     },
     {
@@ -878,7 +878,7 @@
       "date": "2026-07-14",
       "sport": "football",
       "type": "semifinal",
-      "detail": "FIFA World Cup 2026 · Quarterfinal 2 Winner at France",
+      "detail": "FIFA World Cup 2026 · Spain at France",
       "time": "03:00 (Wed)"
     },
     {
