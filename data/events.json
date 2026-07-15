@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "lastUpdated": "2026-07-15T05:28:56.287Z",
   "events": [
     {
@@ -503,6 +504,63 @@
       "type": "final",
       "detail": "Grand Slam Final · Roland Garros, Paris",
       "time": "21:00"
+=======
+  "lastUpdated": "2026-07-15T16:07:12.267Z",
+  "window": {
+    "startDate": "2026-06-15",
+    "endDate": "2027-07-15"
+  },
+  "sources": {
+    "Jolpica F1": {
+      "status": "cached",
+      "events": 33,
+      "error": "fetch failed"
+    },
+    "ESPN Champions League": {
+      "status": "cached",
+      "events": 0,
+      "error": "fetch failed"
+    },
+    "ESPN World Cup": {
+      "status": "cached",
+      "events": 4,
+      "error": "fetch failed"
+    },
+    "ESPN Tennis": {
+      "status": "cached",
+      "events": 6,
+      "error": "fetch failed"
+    },
+    "LoL Esports": {
+      "status": "cached",
+      "events": 6,
+      "error": "fetch failed"
+    },
+    "Esports World Cup": {
+      "status": "cached",
+      "events": 1,
+      "error": "fetch failed"
+    }
+  },
+  "events": [
+    {
+      "id": "lol-2026-lpl-season",
+      "title": "LPL 2026 Season",
+      "startDate": "2026-02-02",
+      "endDate": "2026-09-20",
+      "sport": "lol",
+      "type": "season",
+      "detail": "LPL 2026 regular season and knockouts"
+    },
+    {
+      "id": "lol-2026-lck-season",
+      "title": "LCK 2026 Season",
+      "startDate": "2026-04-01",
+      "endDate": "2026-09-13",
+      "sport": "lol",
+      "type": "season",
+      "detail": "LCK 2026 regular season and knockouts"
+>>>>>>> Stashed changes
     },
     {
       "id": "lol-lck-115548128963037569",
@@ -550,6 +608,7 @@
       "detail": "FIFA World Cup 2026 · USA, Canada & Mexico"
     },
     {
+<<<<<<< Updated upstream
       "id": "lol-lck-115548128963037575",
       "title": "LCK – Knockouts",
       "date": "2026-06-12",
@@ -613,6 +672,8 @@
       "time": "17:00"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "f1-2026-r8-q",
       "title": "Austrian GP – Qualifying",
       "date": "2026-06-27",
@@ -766,6 +827,7 @@
       "time": "22:00"
     },
     {
+<<<<<<< Updated upstream
       "id": "lol-msi-115570934355614569",
       "title": "MSI – Knockouts",
       "date": "2026-07-05",
@@ -827,6 +889,15 @@
       "type": "match",
       "detail": "BILIBILI GAMING vs Hanwha Life Esports",
       "time": "16:00"
+=======
+      "id": "lol-2026-ewc",
+      "title": "Esports World Cup",
+      "startDate": "2026-07-06",
+      "endDate": "2026-08-23",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Esports World Cup 2026 · Riyadh"
+>>>>>>> Stashed changes
     },
     {
       "id": "tennis-2026-wim-sf",
