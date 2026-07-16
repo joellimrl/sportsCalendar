@@ -225,6 +225,7 @@ async function fetchLol() {
     { id: '98767991302996019', slug: 'lec',    name: 'LEC',    regional: true  },
     { id: '98767991325878492', slug: 'msi',    name: 'MSI',    regional: false },
     { id: '98767975604431411', slug: 'worlds', name: 'Worlds', regional: false },
+    { id: '116838530616006090', slug: 'ewc',   name: 'EWC',    regional: false },
   ];
 
   // For regional leagues, only surface playoffs/knockouts — not every weekly match.
