@@ -2,13 +2,8 @@ name: Update Sports Events Data
 
 on:
   schedule:
-<<<<<<< Updated upstream
-    - cron: '0 3 * * *'   # Daily 03:00 UTC (11:00 SGT)
-  workflow_dispatch:        # Allow manual trigger from GitHub UI
-=======
     - cron: '17 3 * * *'  # Daily at 03:17 UTC (11:17 SGT)
   workflow_dispatch:      # Allow manual trigger from GitHub UI
->>>>>>> Stashed changes
 
 permissions:
   contents: write
@@ -22,11 +17,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-<<<<<<< Updated upstream
           node-version: '24'
-=======
-          node-version: '22'
->>>>>>> Stashed changes
 
       - name: Fetch sports data
         run: node scripts/fetch-events.js
