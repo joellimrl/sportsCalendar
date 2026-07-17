@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T12:16:07.842Z",
+  "lastUpdated": "2026-07-17T05:49:40.027Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -900,21 +900,21 @@
       "detail": "EWC – International event"
     },
     {
-      "id": "lol-ewc-116855104460702316",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Gen.G Esports vs Karmine Corp",
-      "time": "17:00"
-    },
-    {
       "id": "lol-ewc-116855104460702314",
       "title": "EWC – Groups",
       "date": "2026-07-15",
       "sport": "lol",
       "type": "match",
       "detail": "Sentinels vs Team Secret",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-ewc-116855104460702316",
+      "title": "EWC – Groups",
+      "date": "2026-07-15",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Gen.G Esports vs Karmine Corp",
       "time": "17:00"
     },
     {
@@ -1076,7 +1076,7 @@
       "date": "2026-07-16",
       "sport": "lol",
       "type": "match",
-      "detail": "MIBR.LOS vs Beijing JDG Esports",
+      "detail": "Beijing JDG Esports vs MIBR.LOS",
       "time": "21:50"
     },
     {
@@ -1085,16 +1085,7 @@
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "TBD vs TBD",
-      "time": "19:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702360",
-      "title": "EWC – Quarterfinals",
-      "date": "2026-07-17",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "TBD vs TBD",
+      "detail": "Hanwha Life Esports vs T1",
       "time": "19:00"
     },
     {
@@ -1103,7 +1094,16 @@
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "TBD vs TBD",
+      "detail": "Gen.G Esports vs Beijing JDG Esports",
+      "time": "19:00"
+    },
+    {
+      "id": "lol-ewc-116855104460702360",
+      "title": "EWC – Quarterfinals",
+      "date": "2026-07-17",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "AG.AL vs Karmine Corp",
       "time": "21:30"
     },
     {
@@ -1112,7 +1112,7 @@
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "TBD vs TBD",
+      "detail": "BILIBILI GAMING vs Dplus KIA",
       "time": "21:30"
     },
     {
