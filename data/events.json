@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T05:35:19.544Z",
+  "lastUpdated": "2026-07-19T06:06:47.847Z",
   "events": [
     {
       "id": "tennis-2025-ao",
@@ -1139,7 +1139,7 @@
       "date": "2026-07-18",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Dplus KIA vs Gen.G Esports",
+      "detail": "Gen.G Esports vs Dplus KIA",
       "time": "21:30"
     },
     {
@@ -1166,7 +1166,7 @@
       "date": "2026-07-19",
       "sport": "lol",
       "type": "final",
-      "detail": "TBD vs TBD",
+      "detail": "Gen.G Esports vs T1",
       "time": "18:00"
     },
     {
@@ -1175,7 +1175,7 @@
       "date": "2026-07-19",
       "sport": "lol",
       "type": "final",
-      "detail": "TBD vs TBD",
+      "detail": "Dplus KIA vs Karmine Corp",
       "time": "20:30"
     },
     {
