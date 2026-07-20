@@ -1,72 +1,59 @@
 # Sports Calendar
 
-A personal sports calendar showing key events across F1, Tennis, Football, and League of Legends — all times in Singapore Time (SGT / UTC+8).
+A personal sports calendar showing key events across F1, tennis, football, and
+League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
 
-## What it looks like
+## What it shows
 
-- Monthly calendar grid with colour-coded event chips per sport
-- Tournament spans (e.g. Wimbledon, MSI) render as thin coloured bars across the date range
-- Individual events (Finals, Semis, Race days) render as full chips with hover tooltips
-- Click any sport in the legend to show/hide it
-- "Today" button jumps back to the current month
+- A monthly calendar with colour-coded sport chips.
+- Tournament and split periods as thin bars across their date range.
+- Individual finals, semifinals, races, and selected knockout matches.
+- Per-sport visibility controls and a Today shortcut.
 
-## Sports covered
+## Data sources
 
-| Sport | Events | Source |
+| Sport | Events | Keyless source |
 |---|---|---|
-| **F1** | Qualifying, Sprint, Race for every round | [Jolpica API](https://api.jolpi.ca/) (free, no auth) |
-| **LoL** | LCK / LPL / LEC playoffs + MSI + Worlds | Riot unofficial esports API (public key, no auth) |
-| **Football** | World Cup 2026 SF & Final (live team names) | ESPN unofficial scoreboard API (no auth) |
-| **Football** | UCL key rounds | Static dates (update annually) |
-| **Tennis** | Grand Slam dates 2025–2026 | Static dates (announced years in advance) |
+| F1 | Qualifying, Sprint, Race for every round | [Jolpica](https://api.jolpi.ca/) |
+| Football | Premier League, Liverpool fixtures, UCL key rounds, World Cup key rounds | ESPN public scoreboard data |
+| Tennis | Grand Slam periods, semifinals and finals | ESPN public ATP calendar data |
+| LoL | LCK/LPL/LEC split periods and knockouts, MSI and Worlds | Leaguepedia public Cargo API |
 
-## Architecture
+## Automatic refresh architecture
 
-No build step. The browser loads a static `data/events.json` file.
+The browser loads the generated `data/events.json` file. A daily GitHub Action
+runs `node scripts/fetch-events.js`, which discovers a rolling current/next
+season window from public sources without API keys.
 
-```
-Browser → fetch data/events.json → render calendar
+Each source has a committed last-known-good snapshot in
+`data/source-cache.json`. If an upstream source is unavailable or incomplete,
+the calendar preserves its prior source data rather than deleting it. The
+workflow commits only when event content changes.
 
-GitHub Actions (daily 03:00 UTC)
-  → node scripts/fetch-events.js
-  → commits updated data/events.json if changed
-```
+All recurring data must remain rolling and source-driven. Adding a new sport or
+competition is the only reason to change source configuration; annual fixture
+or tournament-date edits are not required.
 
-## Running locally
+## Run locally
 
 ```sh
-# Serve with any static server
 npx serve .
 # or
 python3 -m http.server
 ```
 
-Then open `http://localhost:3000` (or whatever port the server reports).
+Then open the URL printed by the server.
 
-## Refreshing event data manually
+## Refresh data locally
 
 ```sh
 node scripts/fetch-events.js
 ```
 
-Writes an updated `data/events.json`. The script exits non-zero on fatal errors, gracefully warns and skips on per-source failures.
+This updates `data/events.json` and `data/source-cache.json`.
 
-## Updating static data
+## GitHub Actions
 
-Two sources require manual updates each year:
-
-**UCL** — edit the `UCL` array in `scripts/fetch-events.js`:
-```js
-const UCL = [
-  { season: '2025/26', sf: ['2026-04-28','2026-05-05'], finalDate: '2026-05-28', ... },
-  // add next season here
-];
-```
-
-**Tennis** — edit the `slams` array in `getTennisFallback()` in the same file. Grand Slam dates are announced 1–2 years ahead on the ATP/WTA calendars.
-
-## GitHub Actions setup
-
-The workflow at `.github/workflows/update-events.yml` runs daily and commits when data changes. No secrets required — all APIs are either public or use Riot's own public key.
-
-To deploy on GitHub Pages: Settings → Pages → Deploy from branch `main`, root `/`.
+`.github/workflows/update-events.yml` runs daily at 03:17 UTC, validates and
+refreshes the sources, and commits both generated data files when they change.
+No secrets or API keys are required.

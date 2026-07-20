@@ -1,284 +1,597 @@
 {
-  "lastUpdated": "2026-07-20T06:25:04.312Z",
+  "lastUpdated": "2026-07-20T14:50:48.816Z",
   "events": [
     {
-      "id": "tennis-2025-ao",
-      "title": "Australian Open",
-      "startDate": "2025-01-12",
-      "endDate": "2025-01-26",
-      "sport": "tennis",
-      "type": "tournament",
-      "detail": "Grand Slam · Melbourne Park"
-    },
-    {
-      "id": "tennis-2025-ao-sf",
-      "title": "Australian Open – Semis",
-      "date": "2025-01-24",
-      "sport": "tennis",
-      "type": "semifinal",
-      "detail": "Grand Slam Semifinals · Melbourne Park"
-    },
-    {
-      "id": "tennis-2025-ao-f",
-      "title": "Australian Open – Final",
-      "date": "2025-01-26",
-      "sport": "tennis",
-      "type": "final",
-      "detail": "Grand Slam Final · Melbourne Park",
-      "time": "18:30"
-    },
-    {
-      "id": "football-ucl-2024-25-sf1",
+      "id": "football-ucl-733616",
       "title": "UCL Semi-Final",
       "date": "2025-04-29",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2024/25 UEFA Champions League Semi-Final (leg 1)"
+      "detail": "2024/2025 UEFA Champions League · Paris Saint-Germain at Arsenal",
+      "time": "03:00"
     },
     {
-      "id": "football-ucl-2024-25-sf2",
+      "id": "football-ucl-733617",
+      "title": "UCL Semi-Final",
+      "date": "2025-04-30",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Internazionale at Barcelona",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-733619",
       "title": "UCL Semi-Final",
       "date": "2025-05-06",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2024/25 UEFA Champions League Semi-Final (leg 2)"
+      "detail": "2024/2025 UEFA Champions League · Barcelona at Internazionale",
+      "time": "03:00"
     },
     {
-      "id": "tennis-2025-fo",
-      "title": "French Open (Roland Garros)",
-      "startDate": "2025-05-25",
-      "endDate": "2025-06-08",
-      "sport": "tennis",
-      "type": "tournament",
-      "detail": "Grand Slam · Roland Garros, Paris"
+      "id": "football-ucl-733618",
+      "title": "UCL Semi-Final",
+      "date": "2025-05-07",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Arsenal at Paris Saint-Germain",
+      "time": "03:00"
     },
     {
-      "id": "football-ucl-2024-25-final",
+      "id": "football-ucl-733620",
       "title": "Champions League Final",
       "date": "2025-05-31",
       "sport": "football",
       "type": "final",
-      "detail": "2024/25 UEFA Champions League Final · Allianz Arena, Munich",
-      "time": "03:00 (Sun)"
+      "detail": "2024/2025 UEFA Champions League · Internazionale at Paris Saint-Germain",
+      "time": "03:00"
     },
     {
-      "id": "tennis-2025-fo-sf",
-      "title": "French Open (Roland Garros) – Semis",
-      "date": "2025-06-05",
-      "sport": "tennis",
-      "type": "semifinal",
-      "detail": "Grand Slam Semifinals · Roland Garros, Paris"
+      "id": "football-pl-2025-26-english-premier-league",
+      "title": "Premier League",
+      "startDate": "2025-08-15",
+      "endDate": "2026-05-24",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "2025/2026 Premier League season"
     },
     {
-      "id": "tennis-2025-fo-f",
-      "title": "French Open (Roland Garros) – Final",
-      "date": "2025-06-08",
-      "sport": "tennis",
-      "type": "final",
-      "detail": "Grand Slam Final · Roland Garros, Paris",
+      "id": "football-liverpool-pl-740596",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2025-08-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740614",
+      "title": "Newcastle United vs Liverpool",
+      "date": "2025-08-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740625",
+      "title": "Liverpool vs Arsenal",
+      "date": "2025-08-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-740633",
+      "title": "Burnley vs Liverpool",
+      "date": "2025-09-14",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
       "time": "21:00"
     },
     {
-      "id": "tennis-2025-wim",
-      "title": "Wimbledon",
-      "startDate": "2025-06-30",
-      "endDate": "2025-07-13",
-      "sport": "tennis",
+      "id": "football-liverpool-pl-740641",
+      "title": "Liverpool vs Everton",
+      "date": "2025-09-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
+    },
+    {
+      "id": "football-liverpool-pl-740647",
+      "title": "Crystal Palace vs Liverpool",
+      "date": "2025-09-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-740660",
+      "title": "Chelsea vs Liverpool",
+      "date": "2025-10-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740670",
+      "title": "Liverpool vs Manchester United",
+      "date": "2025-10-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-740679",
+      "title": "Brentford vs Liverpool",
+      "date": "2025-10-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740694",
+      "title": "Liverpool vs Aston Villa",
+      "date": "2025-11-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-740702",
+      "title": "Manchester City vs Liverpool",
+      "date": "2025-11-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740710",
+      "title": "Liverpool vs Nottingham Forest",
+      "date": "2025-11-22",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740722",
+      "title": "West Ham United vs Liverpool",
+      "date": "2025-11-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:05"
+    },
+    {
+      "id": "football-liverpool-pl-740731",
+      "title": "Liverpool vs Sunderland",
+      "date": "2025-12-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:15"
+    },
+    {
+      "id": "football-liverpool-pl-740742",
+      "title": "Leeds United vs Liverpool",
+      "date": "2025-12-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740752",
+      "title": "Liverpool vs Brighton & Hove Albion",
+      "date": "2025-12-13",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740762",
+      "title": "Tottenham Hotspur vs Liverpool",
+      "date": "2025-12-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740775",
+      "title": "Liverpool vs Wolverhampton Wanderers",
+      "date": "2025-12-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740781",
+      "title": "Liverpool vs Leeds United",
+      "date": "2026-01-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740790",
+      "title": "Fulham vs Liverpool",
+      "date": "2026-01-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:15"
+    },
+    {
+      "id": "football-liverpool-pl-740796",
+      "title": "Arsenal vs Liverpool",
+      "date": "2026-01-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "lol-lck-period-lck-cup-split-1-",
+      "title": "LCK Cup (Split 1)",
+      "startDate": "2026-01-14",
+      "endDate": "2026-03-01",
+      "sport": "lol",
       "type": "tournament",
-      "detail": "Grand Slam · All England Club, London"
+      "detail": "2026 LCK opening split"
     },
     {
-      "id": "tennis-2025-wim-sf",
-      "title": "Wimbledon – Semis",
-      "date": "2025-07-11",
-      "sport": "tennis",
-      "type": "semifinal",
-      "detail": "Grand Slam Semifinals · All England Club, London"
-    },
-    {
-      "id": "tennis-2025-wim-f",
-      "title": "Wimbledon – Final",
-      "date": "2025-07-13",
-      "sport": "tennis",
-      "type": "final",
-      "detail": "Grand Slam Final · All England Club, London",
-      "time": "21:00"
-    },
-    {
-      "id": "tennis-2025-uso",
-      "title": "US Open",
-      "startDate": "2025-08-25",
-      "endDate": "2025-09-07",
-      "sport": "tennis",
+      "id": "lol-lpl-period-lpl-split-1",
+      "title": "LPL Split 1",
+      "startDate": "2026-01-14",
+      "endDate": "2026-03-08",
+      "sport": "lol",
       "type": "tournament",
-      "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
+      "detail": "2026 LPL Split 1"
     },
     {
-      "id": "tennis-2025-uso-sf",
-      "title": "US Open – Semis",
-      "date": "2025-09-05",
-      "sport": "tennis",
-      "type": "semifinal",
-      "detail": "Grand Slam Semifinals · USTA Billie Jean King NTC, NY"
+      "id": "football-liverpool-pl-740810",
+      "title": "Liverpool vs Burnley",
+      "date": "2026-01-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
     },
     {
-      "id": "tennis-2025-uso-f",
-      "title": "US Open – Final",
-      "date": "2025-09-07",
-      "sport": "tennis",
-      "type": "final",
-      "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
-      "time": "03:00 (Mon)"
-    },
-    {
-      "id": "tennis-2026-ao",
+      "id": "tennis-154-2026",
       "title": "Australian Open",
-      "startDate": "2026-01-19",
+      "startDate": "2026-01-17",
       "endDate": "2026-02-01",
       "sport": "tennis",
       "type": "tournament",
-      "detail": "Grand Slam · Melbourne Park"
+      "detail": "Grand Slam · Melbourne, Australia"
     },
     {
-      "id": "tennis-2026-ao-sf",
+      "id": "football-liverpool-pl-740817",
+      "title": "AFC Bournemouth vs Liverpool",
+      "date": "2026-01-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "tennis-154-2026-semis",
       "title": "Australian Open – Semis",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "sport": "tennis",
       "type": "semifinal",
-      "detail": "Grand Slam Semifinals · Melbourne Park"
+      "detail": "Men's Singles · Melbourne, Australia"
     },
     {
-      "id": "tennis-2026-ao-f",
+      "id": "football-liverpool-pl-740834",
+      "title": "Liverpool vs Newcastle United",
+      "date": "2026-01-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "tennis-154-2026-final",
       "title": "Australian Open – Final",
       "date": "2026-02-01",
       "sport": "tennis",
       "type": "final",
-      "detail": "Grand Slam Final · Melbourne Park",
-      "time": "18:30"
+      "detail": "Men's Singles · Melbourne, Australia"
+    },
+    {
+      "id": "football-liverpool-pl-740845",
+      "title": "Liverpool vs Manchester City",
+      "date": "2026-02-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740853",
+      "title": "Sunderland vs Liverpool",
+      "date": "2026-02-11",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:15"
+    },
+    {
+      "id": "football-liverpool-pl-740863",
+      "title": "Nottingham Forest vs Liverpool",
+      "date": "2026-02-22",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-740872",
+      "title": "Liverpool vs West Ham United",
+      "date": "2026-02-28",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740885",
+      "title": "Wolverhampton Wanderers vs Liverpool",
+      "date": "2026-03-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:15"
     },
     {
       "id": "f1-2026-r1-q",
       "title": "Australian GP – Qualifying",
       "date": "2026-03-07",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
-      "type": "qualifying",
       "time": "13:00"
     },
     {
       "id": "f1-2026-r1-r",
       "title": "Australian GP – Race",
       "date": "2026-03-08",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
-      "type": "race",
       "time": "12:00"
     },
     {
       "id": "f1-2026-r2-q",
       "title": "Chinese GP – Qualifying",
       "date": "2026-03-14",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 2 · Shanghai International Circuit, Shanghai",
-      "type": "qualifying",
       "time": "15:00"
     },
     {
       "id": "f1-2026-r2-s",
       "title": "Chinese GP – Sprint",
       "date": "2026-03-14",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 2 · Shanghai International Circuit, Shanghai",
-      "type": "sprint",
       "time": "11:00"
     },
     {
       "id": "f1-2026-r2-r",
       "title": "Chinese GP – Race",
       "date": "2026-03-15",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 2 · Shanghai International Circuit, Shanghai",
-      "type": "race",
       "time": "15:00"
+    },
+    {
+      "id": "football-liverpool-pl-740891",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-03-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740898",
+      "title": "Brighton & Hove Albion vs Liverpool",
+      "date": "2026-03-21",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "20:45"
     },
     {
       "id": "f1-2026-r3-q",
       "title": "Japanese GP – Qualifying",
       "date": "2026-03-28",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 3 · Suzuka Circuit, Suzuka",
-      "type": "qualifying",
       "time": "14:00"
     },
     {
       "id": "f1-2026-r3-r",
       "title": "Japanese GP – Race",
       "date": "2026-03-29",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 3 · Suzuka Circuit, Suzuka",
-      "type": "race",
       "time": "13:00"
     },
     {
-      "id": "football-ucl-2025-26-sf1",
+      "id": "lol-lck-period-lck-split-2",
+      "title": "LCK Split 2",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Rounds 1–2 and Road to MSI"
+    },
+    {
+      "id": "lol-lpl-period-lpl-split-2",
+      "title": "LPL Split 2",
+      "startDate": "2026-04-04",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2026 LPL Split 2"
+    },
+    {
+      "id": "football-liverpool-pl-740911",
+      "title": "Liverpool vs Fulham",
+      "date": "2026-04-11",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740925",
+      "title": "Everton vs Liverpool",
+      "date": "2026-04-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-740927",
+      "title": "Liverpool vs Crystal Palace",
+      "date": "2026-04-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-ucl-401862893",
       "title": "UCL Semi-Final",
       "date": "2026-04-28",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2025/26 UEFA Champions League Semi-Final (leg 1)"
+      "detail": "2025/2026 UEFA Champions League · Bayern Munich at Paris Saint-Germain",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862894",
+      "title": "UCL Semi-Final",
+      "date": "2026-04-29",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Arsenal at Atlético Madrid",
+      "time": "03:00"
     },
     {
       "id": "f1-2026-r4-q",
       "title": "Miami GP – Qualifying",
       "date": "2026-05-02",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 4 · Miami International Autodrome, Miami",
-      "type": "qualifying",
-      "time": "04:00 (Sun)"
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r4-s",
       "title": "Miami GP – Sprint",
       "date": "2026-05-02",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 4 · Miami International Autodrome, Miami",
-      "type": "sprint",
-      "time": "00:00 (Sun)"
+      "time": "00:00"
     },
     {
       "id": "f1-2026-r4-r",
       "title": "Miami GP – Race",
       "date": "2026-05-03",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 4 · Miami International Autodrome, Miami",
-      "type": "race",
-      "time": "04:00 (Mon)"
+      "time": "04:00"
     },
     {
-      "id": "football-ucl-2025-26-sf2",
+      "id": "football-liverpool-pl-740943",
+      "title": "Manchester United vs Liverpool",
+      "date": "2026-05-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:30"
+    },
+    {
+      "id": "football-ucl-401862896",
       "title": "UCL Semi-Final",
       "date": "2026-05-05",
       "sport": "football",
       "type": "semifinal",
-      "detail": "2025/26 UEFA Champions League Semi-Final (leg 2)"
+      "detail": "2025/2026 UEFA Champions League · Atlético Madrid at Arsenal",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862895",
+      "title": "UCL Semi-Final",
+      "date": "2026-05-06",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Paris Saint-Germain at Bayern Munich",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740950",
+      "title": "Liverpool vs Chelsea",
+      "date": "2026-05-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
+    },
+    {
+      "id": "football-liverpool-pl-740957",
+      "title": "Aston Villa vs Liverpool",
+      "date": "2026-05-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
     },
     {
       "id": "f1-2026-r5-q",
       "title": "Canadian GP – Qualifying",
       "date": "2026-05-23",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
-      "type": "qualifying",
-      "time": "04:00 (Sun)"
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r5-s",
       "title": "Canadian GP – Sprint",
       "date": "2026-05-23",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
-      "type": "sprint",
-      "time": "00:00 (Sun)"
+      "time": "00:00"
     },
     {
       "id": "lol-lec-115548668059589358",
@@ -293,19 +606,28 @@
       "id": "f1-2026-r5-r",
       "title": "Canadian GP – Race",
       "date": "2026-05-24",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
-      "type": "race",
-      "time": "04:00 (Mon)"
+      "time": "04:00"
     },
     {
-      "id": "tennis-2026-fo",
-      "title": "French Open (Roland Garros)",
+      "id": "football-liverpool-pl-740975",
+      "title": "Liverpool vs Brentford",
+      "date": "2026-05-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "tennis-172-2026",
+      "title": "Roland Garros",
       "startDate": "2026-05-24",
       "endDate": "2026-06-07",
       "sport": "tennis",
       "type": "tournament",
-      "detail": "Grand Slam · Roland Garros, Paris"
+      "detail": "Grand Slam · Paris, France"
     },
     {
       "id": "lol-lec-115548668059589352",
@@ -326,15 +648,6 @@
       "time": "23:00"
     },
     {
-      "id": "football-ucl-2025-26-final",
-      "title": "Champions League Final",
-      "date": "2026-05-28",
-      "sport": "football",
-      "type": "final",
-      "detail": "2025/26 UEFA Champions League Final · PayPal Park, San José",
-      "time": "03:00 (Fri)"
-    },
-    {
       "id": "lol-lpl-115616219464541907",
       "title": "LPL – Playoffs",
       "date": "2026-05-29",
@@ -351,6 +664,15 @@
       "type": "match",
       "detail": "TOP ESPORTS vs LGD GAMING",
       "time": "17:00"
+    },
+    {
+      "id": "football-ucl-401862897",
+      "title": "Champions League Final",
+      "date": "2026-05-30",
+      "sport": "football",
+      "type": "final",
+      "detail": "2025/2026 UEFA Champions League · Arsenal at Paris Saint-Germain",
+      "time": "00:00"
     },
     {
       "id": "lol-lpl-115616219464541919",
@@ -434,12 +756,12 @@
       "time": "17:00"
     },
     {
-      "id": "tennis-2026-fo-sf",
-      "title": "French Open (Roland Garros) – Semis",
-      "date": "2026-06-04",
+      "id": "tennis-172-2026-semis",
+      "title": "Roland Garros – Semis",
+      "date": "2026-06-05",
       "sport": "tennis",
       "type": "semifinal",
-      "detail": "Grand Slam Semifinals · Roland Garros, Paris"
+      "detail": "Men's Singles · Paris, France"
     },
     {
       "id": "lol-lpl-115616219464607497",
@@ -454,9 +776,9 @@
       "id": "f1-2026-r6-q",
       "title": "Monaco GP – Qualifying",
       "date": "2026-06-06",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
@@ -490,19 +812,18 @@
       "id": "f1-2026-r6-r",
       "title": "Monaco GP – Race",
       "date": "2026-06-07",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
-      "type": "race",
       "time": "21:00"
     },
     {
-      "id": "tennis-2026-fo-f",
-      "title": "French Open (Roland Garros) – Final",
+      "id": "tennis-172-2026-final",
+      "title": "Roland Garros – Final",
       "date": "2026-06-07",
       "sport": "tennis",
       "type": "final",
-      "detail": "Grand Slam Final · Roland Garros, Paris",
-      "time": "21:00"
+      "detail": "Men's Singles · Paris, France"
     },
     {
       "id": "lol-lck-115548128963037569",
@@ -541,13 +862,13 @@
       "time": "17:00"
     },
     {
-      "id": "football-wc2026",
+      "id": "football-world-cup-2026",
       "title": "FIFA World Cup 2026",
       "startDate": "2026-06-11",
       "endDate": "2026-07-19",
       "sport": "football",
       "type": "tournament",
-      "detail": "FIFA World Cup 2026 · USA, Canada & Mexico"
+      "detail": "FIFA World Cup"
     },
     {
       "id": "lol-lck-115548128963037575",
@@ -562,9 +883,9 @@
       "id": "f1-2026-r7-q",
       "title": "Barcelona GP – Qualifying",
       "date": "2026-06-13",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
@@ -589,9 +910,9 @@
       "id": "f1-2026-r7-r",
       "title": "Barcelona GP – Race",
       "date": "2026-06-14",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
-      "type": "race",
       "time": "21:00"
     },
     {
@@ -616,18 +937,18 @@
       "id": "f1-2026-r8-q",
       "title": "Austrian GP – Qualifying",
       "date": "2026-06-27",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 8 · Red Bull Ring, Spielberg",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
       "id": "f1-2026-r8-r",
       "title": "Austrian GP – Race",
       "date": "2026-06-28",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 8 · Red Bull Ring, Spielberg",
-      "type": "race",
       "time": "21:00"
     },
     {
@@ -658,13 +979,13 @@
       "time": "16:00"
     },
     {
-      "id": "tennis-2026-wim",
+      "id": "tennis-188-2026",
       "title": "Wimbledon",
       "startDate": "2026-06-29",
       "endDate": "2026-07-12",
       "sport": "tennis",
       "type": "tournament",
-      "detail": "Grand Slam · All England Club, London"
+      "detail": "Grand Slam · London, Great Britain"
     },
     {
       "id": "lol-msi-115570934355614509",
@@ -724,18 +1045,18 @@
       "id": "f1-2026-r9-q",
       "title": "British GP – Qualifying",
       "date": "2026-07-04",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 9 · Silverstone Circuit, Silverstone",
-      "type": "qualifying",
       "time": "23:00"
     },
     {
       "id": "f1-2026-r9-s",
       "title": "British GP – Sprint",
       "date": "2026-07-04",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 9 · Silverstone Circuit, Silverstone",
-      "type": "sprint",
       "time": "19:00"
     },
     {
@@ -760,9 +1081,9 @@
       "id": "f1-2026-r9-r",
       "title": "British GP – Race",
       "date": "2026-07-05",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 9 · Silverstone Circuit, Silverstone",
-      "type": "race",
       "time": "22:00"
     },
     {
@@ -829,12 +1150,12 @@
       "time": "16:00"
     },
     {
-      "id": "tennis-2026-wim-sf",
+      "id": "tennis-188-2026-semis",
       "title": "Wimbledon – Semis",
       "date": "2026-07-10",
       "sport": "tennis",
       "type": "semifinal",
-      "detail": "Grand Slam Semifinals · All England Club, London"
+      "detail": "Men's Singles · London, Great Britain"
     },
     {
       "id": "lol-msi-115570934355614593",
@@ -855,13 +1176,12 @@
       "time": "16:00"
     },
     {
-      "id": "tennis-2026-wim-f",
+      "id": "tennis-188-2026-final",
       "title": "Wimbledon – Final",
       "date": "2026-07-12",
       "sport": "tennis",
       "type": "final",
-      "detail": "Grand Slam Final · All England Club, London",
-      "time": "21:00"
+      "detail": "Men's Singles · London, Great Britain"
     },
     {
       "id": "lol-msi-115570934355614605",
@@ -873,355 +1193,139 @@
       "time": "14:00"
     },
     {
-      "id": "football-wc2026-760514",
-      "title": "World Cup 2026 – Semi",
+      "id": "football-world-cup-760514",
+      "title": "World Cup – Semi-Final",
       "date": "2026-07-14",
       "sport": "football",
       "type": "semifinal",
-      "detail": "FIFA World Cup 2026 · Spain at France",
-      "time": "03:00 (Wed)"
+      "detail": "Spain at France",
+      "time": "03:00"
     },
     {
-      "id": "football-wc2026-760515",
-      "title": "World Cup 2026 – Semi",
+      "id": "football-world-cup-760515",
+      "title": "World Cup – Semi-Final",
       "date": "2026-07-15",
       "sport": "football",
       "type": "semifinal",
-      "detail": "FIFA World Cup 2026 · Argentina at England",
-      "time": "03:00 (Thu)"
-    },
-    {
-      "id": "lol-ewc-span",
-      "title": "EWC",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-19",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "EWC – International event"
-    },
-    {
-      "id": "lol-ewc-116855104460702314",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Sentinels vs Team Secret",
-      "time": "17:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702316",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Gen.G Esports vs Karmine Corp",
-      "time": "17:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702330",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "GAM Esports vs T1",
-      "time": "18:10"
-    },
-    {
-      "id": "lol-ewc-116855104460702328",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "BILIBILI GAMING vs Movistar KOI",
-      "time": "18:10"
-    },
-    {
-      "id": "lol-ewc-116855104460702302",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Dplus KIA vs AG.AL",
-      "time": "19:20"
-    },
-    {
-      "id": "lol-ewc-116855104460702300",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "FURIA vs G2 Esports",
-      "time": "19:20"
-    },
-    {
-      "id": "lol-ewc-116855104460702342",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "MIBR.LOS vs Hanwha Life Esports",
-      "time": "20:30"
-    },
-    {
-      "id": "lol-ewc-116855104460702344",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Beijing JDG Esports vs LYON",
-      "time": "20:30"
-    },
-    {
-      "id": "lol-ewc-116855104460702320",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Karmine Corp vs Team Secret",
-      "time": "22:25"
-    },
-    {
-      "id": "lol-ewc-116855104460702334",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "GAM Esports vs Movistar KOI",
-      "time": "22:25"
-    },
-    {
-      "id": "lol-ewc-116855104460702306",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "FURIA vs Dplus KIA",
-      "time": "00:55 (Thu)"
-    },
-    {
-      "id": "lol-ewc-116855104460702348",
-      "title": "EWC – Groups",
-      "date": "2026-07-15",
-      "sport": "lol",
-      "type": "match",
-      "detail": "LYON vs MIBR.LOS",
-      "time": "00:55 (Thu)"
-    },
-    {
-      "id": "lol-ewc-116855104460702318",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Gen.G Esports vs Sentinels",
-      "time": "17:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702332",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "T1 vs BILIBILI GAMING",
-      "time": "17:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702304",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "AG.AL vs G2 Esports",
-      "time": "18:10"
-    },
-    {
-      "id": "lol-ewc-116855104460702346",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Beijing JDG Esports vs Hanwha Life Esports",
-      "time": "18:10"
-    },
-    {
-      "id": "lol-ewc-116855104460702324",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Karmine Corp vs Sentinels",
-      "time": "19:20"
-    },
-    {
-      "id": "lol-ewc-116855104460702338",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "GAM Esports vs T1",
-      "time": "19:20"
-    },
-    {
-      "id": "lol-ewc-116855104460702310",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Dplus KIA vs G2 Esports",
-      "time": "21:50"
-    },
-    {
-      "id": "lol-ewc-116855104460702352",
-      "title": "EWC – Groups",
-      "date": "2026-07-16",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Beijing JDG Esports vs MIBR.LOS",
-      "time": "21:50"
-    },
-    {
-      "id": "lol-ewc-116855104460702356",
-      "title": "EWC – Quarterfinals",
-      "date": "2026-07-17",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "T1 vs Hanwha Life Esports",
-      "time": "19:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702364",
-      "title": "EWC – Quarterfinals",
-      "date": "2026-07-17",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Gen.G Esports vs Beijing JDG Esports",
-      "time": "19:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702360",
-      "title": "EWC – Quarterfinals",
-      "date": "2026-07-17",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Karmine Corp vs AG.AL",
-      "time": "21:30"
-    },
-    {
-      "id": "lol-ewc-116855104460702368",
-      "title": "EWC – Quarterfinals",
-      "date": "2026-07-17",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Dplus KIA vs BILIBILI GAMING",
-      "time": "21:30"
+      "detail": "Argentina at England",
+      "time": "03:00"
     },
     {
       "id": "f1-2026-r10-q",
       "title": "Belgian GP – Qualifying",
       "date": "2026-07-18",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
-      "type": "qualifying",
       "time": "22:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702372",
-      "title": "EWC – Semifinals",
-      "date": "2026-07-18",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Karmine Corp vs T1",
-      "time": "19:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702376",
-      "title": "EWC – Semifinals",
-      "date": "2026-07-18",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Gen.G Esports vs Dplus KIA",
-      "time": "21:30"
     },
     {
       "id": "f1-2026-r10-r",
       "title": "Belgian GP – Race",
       "date": "2026-07-19",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
-      "type": "race",
       "time": "21:00"
     },
     {
-      "id": "football-wc2026-760517",
-      "title": "World Cup 2026 – Final",
+      "id": "football-world-cup-760517",
+      "title": "World Cup – Final",
       "date": "2026-07-19",
       "sport": "football",
       "type": "final",
-      "detail": "FIFA World Cup 2026 · Argentina at Spain",
-      "time": "03:00 (Mon)"
+      "detail": "Argentina at Spain",
+      "time": "03:00"
     },
     {
-      "id": "lol-ewc-116855104460702386",
-      "title": "EWC – Finals",
-      "date": "2026-07-19",
+      "id": "lol-lpl-period-lpl-split-3",
+      "title": "LPL Split 3",
+      "startDate": "2026-07-22",
+      "endDate": "2026-09-30",
       "sport": "lol",
-      "type": "final",
-      "detail": "Gen.G Esports vs T1",
-      "time": "18:00"
-    },
-    {
-      "id": "lol-ewc-116855104460702380",
-      "title": "EWC – Finals",
-      "date": "2026-07-19",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Karmine Corp vs Dplus KIA",
-      "time": "20:30"
+      "type": "tournament",
+      "detail": "Scheduled July–September; final date TBA"
     },
     {
       "id": "f1-2026-r11-q",
       "title": "Hungarian GP – Qualifying",
       "date": "2026-07-25",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 11 · Hungaroring, Budapest",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
       "id": "f1-2026-r11-r",
       "title": "Hungarian GP – Race",
       "date": "2026-07-26",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 11 · Hungaroring, Budapest",
-      "type": "race",
       "time": "21:00"
+    },
+    {
+      "id": "lol-lck-period-lck-split-3",
+      "title": "LCK Split 3",
+      "startDate": "2026-07-29",
+      "endDate": "2026-09-13",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Rounds 3–4, play-ins and playoffs"
+    },
+    {
+      "id": "football-pl-2026-27-english-premier-league",
+      "title": "Premier League",
+      "startDate": "2026-08-21",
+      "endDate": "2027-05-30",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "2026/2027 Premier League season"
     },
     {
       "id": "f1-2026-r12-q",
       "title": "Dutch GP – Qualifying",
       "date": "2026-08-22",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
       "id": "f1-2026-r12-s",
       "title": "Dutch GP – Sprint",
       "date": "2026-08-22",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
-      "type": "sprint",
       "time": "18:00"
     },
     {
       "id": "f1-2026-r12-r",
       "title": "Dutch GP – Race",
       "date": "2026-08-23",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
-      "type": "race",
       "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879319",
+      "title": "Newcastle United vs Liverpool",
+      "date": "2026-08-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-401879314",
+      "title": "Liverpool vs Nottingham Forest",
+      "date": "2026-08-29",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
     },
     {
       "id": "lol-lck-115548147900750319",
@@ -1240,15 +1344,6 @@
       "type": "match",
       "detail": "TBD vs TBD",
       "time": "16:00"
-    },
-    {
-      "id": "tennis-2026-uso",
-      "title": "US Open",
-      "startDate": "2026-08-31",
-      "endDate": "2026-09-13",
-      "sport": "tennis",
-      "type": "tournament",
-      "detail": "Grand Slam · USTA Billie Jean King NTC, NY"
     },
     {
       "id": "lol-lck-115548147900750331",
@@ -1278,6 +1373,15 @@
       "time": "16:00"
     },
     {
+      "id": "football-liverpool-pl-401879288",
+      "title": "Ipswich Town vs Liverpool",
+      "date": "2026-09-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
       "id": "lol-lck-115548147900750355",
       "title": "LCK – Playoffs",
       "date": "2026-09-04",
@@ -1290,9 +1394,9 @@
       "id": "f1-2026-r13-q",
       "title": "Italian GP – Qualifying",
       "date": "2026-09-05",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
-      "type": "qualifying",
       "time": "22:00"
     },
     {
@@ -1308,9 +1412,9 @@
       "id": "f1-2026-r13-r",
       "title": "Italian GP – Race",
       "date": "2026-09-06",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
-      "type": "race",
       "time": "21:00"
     },
     {
@@ -1323,20 +1427,38 @@
       "time": "16:00"
     },
     {
-      "id": "tennis-2026-uso-sf",
+      "id": "tennis-189-2026",
+      "title": "US Open",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · New York, USA"
+    },
+    {
+      "id": "tennis-189-2026-semis",
       "title": "US Open – Semis",
       "date": "2026-09-11",
       "sport": "tennis",
       "type": "semifinal",
-      "detail": "Grand Slam Semifinals · USTA Billie Jean King NTC, NY"
+      "detail": "Men's Singles · New York, USA"
     },
     {
       "id": "f1-2026-r14-q",
       "title": "Spanish GP – Qualifying",
       "date": "2026-09-12",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 14 · Madring, Madrid",
-      "type": "qualifying",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879279",
+      "title": "Liverpool vs Fulham",
+      "date": "2026-09-12",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
       "time": "22:00"
     },
     {
@@ -1352,19 +1474,18 @@
       "id": "f1-2026-r14-r",
       "title": "Spanish GP – Race",
       "date": "2026-09-13",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 14 · Madring, Madrid",
-      "type": "race",
       "time": "21:00"
     },
     {
-      "id": "tennis-2026-uso-f",
+      "id": "tennis-189-2026-final",
       "title": "US Open – Final",
       "date": "2026-09-13",
       "sport": "tennis",
       "type": "final",
-      "detail": "Grand Slam Final · USTA Billie Jean King NTC, NY",
-      "time": "03:00 (Mon)"
+      "detail": "Men's Singles · New York, USA"
     },
     {
       "id": "lol-lck-115548147900815909",
@@ -1376,157 +1497,463 @@
       "time": "16:00"
     },
     {
+      "id": "football-liverpool-pl-401879276",
+      "title": "AFC Bournemouth vs Liverpool",
+      "date": "2026-09-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "21:00"
+    },
+    {
       "id": "f1-2026-r15-q",
       "title": "Azerbaijan GP – Qualifying",
       "date": "2026-09-25",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 15 · Baku City Circuit, Baku",
-      "type": "qualifying",
       "time": "20:00"
     },
     {
       "id": "f1-2026-r15-r",
       "title": "Azerbaijan GP – Race",
       "date": "2026-09-26",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 15 · Baku City Circuit, Baku",
-      "type": "race",
       "time": "19:00"
     },
     {
       "id": "f1-2026-r16-q",
       "title": "Singapore GP – Qualifying",
       "date": "2026-10-10",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
-      "type": "qualifying",
       "time": "21:00"
     },
     {
       "id": "f1-2026-r16-s",
       "title": "Singapore GP – Sprint",
       "date": "2026-10-10",
+      "type": "sprint",
       "sport": "f1",
       "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
-      "type": "sprint",
       "time": "17:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879264",
+      "title": "Liverpool vs Manchester City",
+      "date": "2026-10-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
     },
     {
       "id": "f1-2026-r16-r",
       "title": "Singapore GP – Race",
       "date": "2026-10-11",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
-      "type": "race",
       "time": "20:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879262",
+      "title": "Brentford vs Liverpool",
+      "date": "2026-10-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
     },
     {
       "id": "f1-2026-r17-q",
       "title": "United States GP – Qualifying",
       "date": "2026-10-24",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 17 · Circuit of the Americas, Austin",
-      "type": "qualifying",
-      "time": "05:00 (Sun)"
+      "time": "05:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878765",
+      "title": "Liverpool vs Brighton & Hove Albion",
+      "date": "2026-10-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
     },
     {
       "id": "f1-2026-r17-r",
       "title": "United States GP – Race",
       "date": "2026-10-25",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 17 · Circuit of the Americas, Austin",
-      "type": "race",
-      "time": "04:00 (Mon)"
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r18-q",
       "title": "Mexico City GP – Qualifying",
       "date": "2026-10-31",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
-      "type": "qualifying",
-      "time": "05:00 (Sun)"
+      "time": "05:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879246",
+      "title": "Liverpool vs Arsenal",
+      "date": "2026-10-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r18-r",
       "title": "Mexico City GP – Race",
       "date": "2026-11-01",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
-      "type": "race",
-      "time": "04:00 (Mon)"
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r19-q",
       "title": "Brazilian GP – Qualifying",
       "date": "2026-11-07",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
-      "type": "qualifying",
-      "time": "02:00 (Sun)"
+      "time": "02:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879243",
+      "title": "Crystal Palace vs Liverpool",
+      "date": "2026-11-07",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r19-r",
       "title": "Brazilian GP – Race",
       "date": "2026-11-08",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
-      "type": "race",
-      "time": "01:00 (Mon)"
+      "time": "01:00"
     },
     {
       "id": "f1-2026-r20-q",
       "title": "Las Vegas GP – Qualifying",
       "date": "2026-11-21",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
-      "type": "qualifying",
       "time": "12:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878755",
+      "title": "Liverpool vs Manchester United",
+      "date": "2026-11-21",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r20-r",
       "title": "Las Vegas GP – Race",
       "date": "2026-11-22",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
-      "type": "race",
       "time": "12:00"
     },
     {
       "id": "f1-2026-r21-q",
       "title": "Qatar GP – Qualifying",
       "date": "2026-11-28",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 21 · Losail International Circuit, Lusail",
-      "type": "qualifying",
-      "time": "02:00 (Sun)"
+      "time": "02:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879229",
+      "title": "Everton vs Liverpool",
+      "date": "2026-11-28",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r21-r",
       "title": "Qatar GP – Race",
       "date": "2026-11-29",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 21 · Losail International Circuit, Lusail",
-      "type": "race",
-      "time": "00:00 (Mon)"
+      "time": "00:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879219",
+      "title": "Liverpool vs Sunderland",
+      "date": "2026-12-02",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r22-q",
       "title": "Abu Dhabi GP – Qualifying",
       "date": "2026-12-05",
+      "type": "qualifying",
       "sport": "f1",
       "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
-      "type": "qualifying",
       "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879213",
+      "title": "Chelsea vs Liverpool",
+      "date": "2026-12-05",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
     },
     {
       "id": "f1-2026-r22-r",
       "title": "Abu Dhabi GP – Race",
       "date": "2026-12-06",
+      "type": "race",
       "sport": "f1",
       "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
-      "type": "race",
       "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878743",
+      "title": "Liverpool vs Leeds United",
+      "date": "2026-12-12",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879200",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-12-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878733",
+      "title": "Hull City vs Liverpool",
+      "date": "2026-12-26",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879194",
+      "title": "Aston Villa vs Liverpool",
+      "date": "2026-12-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879181",
+      "title": "Liverpool vs Coventry City",
+      "date": "2027-01-02",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878727",
+      "title": "Sunderland vs Liverpool",
+      "date": "2027-01-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879166",
+      "title": "Liverpool vs Crystal Palace",
+      "date": "2027-01-16",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878718",
+      "title": "Manchester United vs Liverpool",
+      "date": "2027-01-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879155",
+      "title": "Liverpool vs Everton",
+      "date": "2027-01-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878712",
+      "title": "Arsenal vs Liverpool",
+      "date": "2027-02-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879145",
+      "title": "Coventry City vs Liverpool",
+      "date": "2027-02-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878703",
+      "title": "Liverpool vs Hull City",
+      "date": "2027-02-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879129",
+      "title": "Tottenham Hotspur vs Liverpool",
+      "date": "2027-02-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879125",
+      "title": "Liverpool vs Aston Villa",
+      "date": "2027-03-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878690",
+      "title": "Liverpool vs Ipswich Town",
+      "date": "2027-03-13",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879111",
+      "title": "Fulham vs Liverpool",
+      "date": "2027-03-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879101",
+      "title": "Liverpool vs Newcastle United",
+      "date": "2027-04-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878681",
+      "title": "Nottingham Forest vs Liverpool",
+      "date": "2027-04-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879092",
+      "title": "Leeds United vs Liverpool",
+      "date": "2027-04-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878674",
+      "title": "Liverpool vs Chelsea",
+      "date": "2027-05-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878668",
+      "title": "Manchester City vs Liverpool",
+      "date": "2027-05-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878663",
+      "title": "Liverpool vs Brentford",
+      "date": "2027-05-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878662",
+      "title": "Brighton & Hove Albion vs Liverpool",
+      "date": "2027-05-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879059",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2027-05-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
     }
   ]
 }

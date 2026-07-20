@@ -1,0 +1,1964 @@
+{
+  "f1": [
+    {
+      "id": "f1-2026-r1-q",
+      "title": "Australian GP – Qualifying",
+      "date": "2026-03-07",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
+      "time": "13:00"
+    },
+    {
+      "id": "f1-2026-r1-r",
+      "title": "Australian GP – Race",
+      "date": "2026-03-08",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r2-q",
+      "title": "Chinese GP – Qualifying",
+      "date": "2026-03-14",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "time": "15:00"
+    },
+    {
+      "id": "f1-2026-r2-s",
+      "title": "Chinese GP – Sprint",
+      "date": "2026-03-14",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "time": "11:00"
+    },
+    {
+      "id": "f1-2026-r2-r",
+      "title": "Chinese GP – Race",
+      "date": "2026-03-15",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 2 · Shanghai International Circuit, Shanghai",
+      "time": "15:00"
+    },
+    {
+      "id": "f1-2026-r3-q",
+      "title": "Japanese GP – Qualifying",
+      "date": "2026-03-28",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 3 · Suzuka Circuit, Suzuka",
+      "time": "14:00"
+    },
+    {
+      "id": "f1-2026-r3-r",
+      "title": "Japanese GP – Race",
+      "date": "2026-03-29",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 3 · Suzuka Circuit, Suzuka",
+      "time": "13:00"
+    },
+    {
+      "id": "f1-2026-r4-q",
+      "title": "Miami GP – Qualifying",
+      "date": "2026-05-02",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r4-s",
+      "title": "Miami GP – Sprint",
+      "date": "2026-05-02",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "time": "00:00"
+    },
+    {
+      "id": "f1-2026-r4-r",
+      "title": "Miami GP – Race",
+      "date": "2026-05-03",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 4 · Miami International Autodrome, Miami",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r5-q",
+      "title": "Canadian GP – Qualifying",
+      "date": "2026-05-23",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r5-s",
+      "title": "Canadian GP – Sprint",
+      "date": "2026-05-23",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "time": "00:00"
+    },
+    {
+      "id": "f1-2026-r5-r",
+      "title": "Canadian GP – Race",
+      "date": "2026-05-24",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r6-q",
+      "title": "Monaco GP – Qualifying",
+      "date": "2026-06-06",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r6-r",
+      "title": "Monaco GP – Race",
+      "date": "2026-06-07",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 6 · Circuit de Monaco, Monte Carlo",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r7-q",
+      "title": "Barcelona GP – Qualifying",
+      "date": "2026-06-13",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r7-r",
+      "title": "Barcelona GP – Race",
+      "date": "2026-06-14",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r8-q",
+      "title": "Austrian GP – Qualifying",
+      "date": "2026-06-27",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 8 · Red Bull Ring, Spielberg",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r8-r",
+      "title": "Austrian GP – Race",
+      "date": "2026-06-28",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 8 · Red Bull Ring, Spielberg",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r9-q",
+      "title": "British GP – Qualifying",
+      "date": "2026-07-04",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "time": "23:00"
+    },
+    {
+      "id": "f1-2026-r9-s",
+      "title": "British GP – Sprint",
+      "date": "2026-07-04",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "time": "19:00"
+    },
+    {
+      "id": "f1-2026-r9-r",
+      "title": "British GP – Race",
+      "date": "2026-07-05",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 9 · Silverstone Circuit, Silverstone",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r10-q",
+      "title": "Belgian GP – Qualifying",
+      "date": "2026-07-18",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r10-r",
+      "title": "Belgian GP – Race",
+      "date": "2026-07-19",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 10 · Circuit de Spa-Francorchamps, Spa",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r11-q",
+      "title": "Hungarian GP – Qualifying",
+      "date": "2026-07-25",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 11 · Hungaroring, Budapest",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r11-r",
+      "title": "Hungarian GP – Race",
+      "date": "2026-07-26",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 11 · Hungaroring, Budapest",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r12-q",
+      "title": "Dutch GP – Qualifying",
+      "date": "2026-08-22",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r12-s",
+      "title": "Dutch GP – Sprint",
+      "date": "2026-08-22",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "time": "18:00"
+    },
+    {
+      "id": "f1-2026-r12-r",
+      "title": "Dutch GP – Race",
+      "date": "2026-08-23",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 12 · Circuit Park Zandvoort, Zandvoort",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r13-q",
+      "title": "Italian GP – Qualifying",
+      "date": "2026-09-05",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r13-r",
+      "title": "Italian GP – Race",
+      "date": "2026-09-06",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 13 · Autodromo Nazionale di Monza, Monza",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r14-q",
+      "title": "Spanish GP – Qualifying",
+      "date": "2026-09-12",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 14 · Madring, Madrid",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r14-r",
+      "title": "Spanish GP – Race",
+      "date": "2026-09-13",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 14 · Madring, Madrid",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r15-q",
+      "title": "Azerbaijan GP – Qualifying",
+      "date": "2026-09-25",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 15 · Baku City Circuit, Baku",
+      "time": "20:00"
+    },
+    {
+      "id": "f1-2026-r15-r",
+      "title": "Azerbaijan GP – Race",
+      "date": "2026-09-26",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 15 · Baku City Circuit, Baku",
+      "time": "19:00"
+    },
+    {
+      "id": "f1-2026-r16-q",
+      "title": "Singapore GP – Qualifying",
+      "date": "2026-10-10",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r16-s",
+      "title": "Singapore GP – Sprint",
+      "date": "2026-10-10",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "time": "17:00"
+    },
+    {
+      "id": "f1-2026-r16-r",
+      "title": "Singapore GP – Race",
+      "date": "2026-10-11",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "time": "20:00"
+    },
+    {
+      "id": "f1-2026-r17-q",
+      "title": "United States GP – Qualifying",
+      "date": "2026-10-24",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 17 · Circuit of the Americas, Austin",
+      "time": "05:00"
+    },
+    {
+      "id": "f1-2026-r17-r",
+      "title": "United States GP – Race",
+      "date": "2026-10-25",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 17 · Circuit of the Americas, Austin",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r18-q",
+      "title": "Mexico City GP – Qualifying",
+      "date": "2026-10-31",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "time": "05:00"
+    },
+    {
+      "id": "f1-2026-r18-r",
+      "title": "Mexico City GP – Race",
+      "date": "2026-11-01",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r19-q",
+      "title": "Brazilian GP – Qualifying",
+      "date": "2026-11-07",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "time": "02:00"
+    },
+    {
+      "id": "f1-2026-r19-r",
+      "title": "Brazilian GP – Race",
+      "date": "2026-11-08",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "time": "01:00"
+    },
+    {
+      "id": "f1-2026-r20-q",
+      "title": "Las Vegas GP – Qualifying",
+      "date": "2026-11-21",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r20-r",
+      "title": "Las Vegas GP – Race",
+      "date": "2026-11-22",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "time": "12:00"
+    },
+    {
+      "id": "f1-2026-r21-q",
+      "title": "Qatar GP – Qualifying",
+      "date": "2026-11-28",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "time": "02:00"
+    },
+    {
+      "id": "f1-2026-r21-r",
+      "title": "Qatar GP – Race",
+      "date": "2026-11-29",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "time": "00:00"
+    },
+    {
+      "id": "f1-2026-r22-q",
+      "title": "Abu Dhabi GP – Qualifying",
+      "date": "2026-12-05",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "time": "22:00"
+    },
+    {
+      "id": "f1-2026-r22-r",
+      "title": "Abu Dhabi GP – Race",
+      "date": "2026-12-06",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "time": "21:00"
+    }
+  ],
+  "football": [
+    {
+      "id": "football-pl-2025-26-english-premier-league",
+      "title": "Premier League",
+      "startDate": "2025-08-15",
+      "endDate": "2026-05-24",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "2025/2026 Premier League season"
+    },
+    {
+      "id": "football-liverpool-pl-740596",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2025-08-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740614",
+      "title": "Newcastle United vs Liverpool",
+      "date": "2025-08-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740625",
+      "title": "Liverpool vs Arsenal",
+      "date": "2025-08-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-740633",
+      "title": "Burnley vs Liverpool",
+      "date": "2025-09-14",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-740641",
+      "title": "Liverpool vs Everton",
+      "date": "2025-09-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
+    },
+    {
+      "id": "football-liverpool-pl-740647",
+      "title": "Crystal Palace vs Liverpool",
+      "date": "2025-09-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-740660",
+      "title": "Chelsea vs Liverpool",
+      "date": "2025-10-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740670",
+      "title": "Liverpool vs Manchester United",
+      "date": "2025-10-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-740679",
+      "title": "Brentford vs Liverpool",
+      "date": "2025-10-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740694",
+      "title": "Liverpool vs Aston Villa",
+      "date": "2025-11-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-740702",
+      "title": "Manchester City vs Liverpool",
+      "date": "2025-11-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740710",
+      "title": "Liverpool vs Nottingham Forest",
+      "date": "2025-11-22",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740722",
+      "title": "West Ham United vs Liverpool",
+      "date": "2025-11-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:05"
+    },
+    {
+      "id": "football-liverpool-pl-740731",
+      "title": "Liverpool vs Sunderland",
+      "date": "2025-12-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:15"
+    },
+    {
+      "id": "football-liverpool-pl-740742",
+      "title": "Leeds United vs Liverpool",
+      "date": "2025-12-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740752",
+      "title": "Liverpool vs Brighton & Hove Albion",
+      "date": "2025-12-13",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740762",
+      "title": "Tottenham Hotspur vs Liverpool",
+      "date": "2025-12-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740775",
+      "title": "Liverpool vs Wolverhampton Wanderers",
+      "date": "2025-12-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740781",
+      "title": "Liverpool vs Leeds United",
+      "date": "2026-01-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740790",
+      "title": "Fulham vs Liverpool",
+      "date": "2026-01-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:15"
+    },
+    {
+      "id": "football-liverpool-pl-740796",
+      "title": "Arsenal vs Liverpool",
+      "date": "2026-01-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-740810",
+      "title": "Liverpool vs Burnley",
+      "date": "2026-01-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740817",
+      "title": "AFC Bournemouth vs Liverpool",
+      "date": "2026-01-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "01:30"
+    },
+    {
+      "id": "football-liverpool-pl-740834",
+      "title": "Liverpool vs Newcastle United",
+      "date": "2026-01-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-740845",
+      "title": "Liverpool vs Manchester City",
+      "date": "2026-02-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740853",
+      "title": "Sunderland vs Liverpool",
+      "date": "2026-02-11",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:15"
+    },
+    {
+      "id": "football-liverpool-pl-740863",
+      "title": "Nottingham Forest vs Liverpool",
+      "date": "2026-02-22",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-740872",
+      "title": "Liverpool vs West Ham United",
+      "date": "2026-02-28",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-740885",
+      "title": "Wolverhampton Wanderers vs Liverpool",
+      "date": "2026-03-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:15"
+    },
+    {
+      "id": "football-liverpool-pl-740891",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-03-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740898",
+      "title": "Brighton & Hove Albion vs Liverpool",
+      "date": "2026-03-21",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "20:45"
+    },
+    {
+      "id": "football-liverpool-pl-740911",
+      "title": "Liverpool vs Fulham",
+      "date": "2026-04-11",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "00:30"
+    },
+    {
+      "id": "football-liverpool-pl-740925",
+      "title": "Everton vs Liverpool",
+      "date": "2026-04-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-740927",
+      "title": "Liverpool vs Crystal Palace",
+      "date": "2026-04-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-740943",
+      "title": "Manchester United vs Liverpool",
+      "date": "2026-05-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:30"
+    },
+    {
+      "id": "football-liverpool-pl-740950",
+      "title": "Liverpool vs Chelsea",
+      "date": "2026-05-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
+    },
+    {
+      "id": "football-liverpool-pl-740957",
+      "title": "Aston Villa vs Liverpool",
+      "date": "2026-05-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-740975",
+      "title": "Liverpool vs Brentford",
+      "date": "2026-05-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-pl-2026-27-english-premier-league",
+      "title": "Premier League",
+      "startDate": "2026-08-21",
+      "endDate": "2027-05-30",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "2026/2027 Premier League season"
+    },
+    {
+      "id": "football-liverpool-pl-401879319",
+      "title": "Newcastle United vs Liverpool",
+      "date": "2026-08-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:30"
+    },
+    {
+      "id": "football-liverpool-pl-401879314",
+      "title": "Liverpool vs Nottingham Forest",
+      "date": "2026-08-29",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "19:30"
+    },
+    {
+      "id": "football-liverpool-pl-401879288",
+      "title": "Ipswich Town vs Liverpool",
+      "date": "2026-09-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "03:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879279",
+      "title": "Liverpool vs Fulham",
+      "date": "2026-09-12",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879276",
+      "title": "AFC Bournemouth vs Liverpool",
+      "date": "2026-09-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "21:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879264",
+      "title": "Liverpool vs Manchester City",
+      "date": "2026-10-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879262",
+      "title": "Brentford vs Liverpool",
+      "date": "2026-10-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878765",
+      "title": "Liverpool vs Brighton & Hove Albion",
+      "date": "2026-10-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879246",
+      "title": "Liverpool vs Arsenal",
+      "date": "2026-10-31",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879243",
+      "title": "Crystal Palace vs Liverpool",
+      "date": "2026-11-07",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878755",
+      "title": "Liverpool vs Manchester United",
+      "date": "2026-11-21",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879229",
+      "title": "Everton vs Liverpool",
+      "date": "2026-11-28",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879219",
+      "title": "Liverpool vs Sunderland",
+      "date": "2026-12-02",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879213",
+      "title": "Chelsea vs Liverpool",
+      "date": "2026-12-05",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878743",
+      "title": "Liverpool vs Leeds United",
+      "date": "2026-12-12",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879200",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-12-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878733",
+      "title": "Hull City vs Liverpool",
+      "date": "2026-12-26",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879194",
+      "title": "Aston Villa vs Liverpool",
+      "date": "2026-12-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879181",
+      "title": "Liverpool vs Coventry City",
+      "date": "2027-01-02",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878727",
+      "title": "Sunderland vs Liverpool",
+      "date": "2027-01-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879166",
+      "title": "Liverpool vs Crystal Palace",
+      "date": "2027-01-16",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878718",
+      "title": "Manchester United vs Liverpool",
+      "date": "2027-01-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879155",
+      "title": "Liverpool vs Everton",
+      "date": "2027-01-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878712",
+      "title": "Arsenal vs Liverpool",
+      "date": "2027-02-06",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879145",
+      "title": "Coventry City vs Liverpool",
+      "date": "2027-02-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878703",
+      "title": "Liverpool vs Hull City",
+      "date": "2027-02-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879129",
+      "title": "Tottenham Hotspur vs Liverpool",
+      "date": "2027-02-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879125",
+      "title": "Liverpool vs Aston Villa",
+      "date": "2027-03-03",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878690",
+      "title": "Liverpool vs Ipswich Town",
+      "date": "2027-03-13",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879111",
+      "title": "Fulham vs Liverpool",
+      "date": "2027-03-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879101",
+      "title": "Liverpool vs Newcastle United",
+      "date": "2027-04-10",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878681",
+      "title": "Nottingham Forest vs Liverpool",
+      "date": "2027-04-17",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879092",
+      "title": "Leeds United vs Liverpool",
+      "date": "2027-04-24",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878674",
+      "title": "Liverpool vs Chelsea",
+      "date": "2027-05-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878668",
+      "title": "Manchester City vs Liverpool",
+      "date": "2027-05-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878663",
+      "title": "Liverpool vs Brentford",
+      "date": "2027-05-15",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401878662",
+      "title": "Brighton & Hove Albion vs Liverpool",
+      "date": "2027-05-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Away",
+      "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-pl-401879059",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2027-05-30",
+      "sport": "football",
+      "type": "match",
+      "detail": "Premier League · Home (Anfield)",
+      "time": "23:00"
+    },
+    {
+      "id": "football-ucl-733616",
+      "title": "UCL Semi-Final",
+      "date": "2025-04-29",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Paris Saint-Germain at Arsenal",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-733617",
+      "title": "UCL Semi-Final",
+      "date": "2025-04-30",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Internazionale at Barcelona",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-733619",
+      "title": "UCL Semi-Final",
+      "date": "2025-05-06",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Barcelona at Internazionale",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-733618",
+      "title": "UCL Semi-Final",
+      "date": "2025-05-07",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2024/2025 UEFA Champions League · Arsenal at Paris Saint-Germain",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-733620",
+      "title": "Champions League Final",
+      "date": "2025-05-31",
+      "sport": "football",
+      "type": "final",
+      "detail": "2024/2025 UEFA Champions League · Internazionale at Paris Saint-Germain",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862893",
+      "title": "UCL Semi-Final",
+      "date": "2026-04-28",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Bayern Munich at Paris Saint-Germain",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862894",
+      "title": "UCL Semi-Final",
+      "date": "2026-04-29",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Arsenal at Atlético Madrid",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862896",
+      "title": "UCL Semi-Final",
+      "date": "2026-05-05",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Atlético Madrid at Arsenal",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862895",
+      "title": "UCL Semi-Final",
+      "date": "2026-05-06",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "2025/2026 UEFA Champions League · Paris Saint-Germain at Bayern Munich",
+      "time": "03:00"
+    },
+    {
+      "id": "football-ucl-401862897",
+      "title": "Champions League Final",
+      "date": "2026-05-30",
+      "sport": "football",
+      "type": "final",
+      "detail": "2025/2026 UEFA Champions League · Arsenal at Paris Saint-Germain",
+      "time": "00:00"
+    },
+    {
+      "id": "football-world-cup-2026",
+      "title": "FIFA World Cup 2026",
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "sport": "football",
+      "type": "tournament",
+      "detail": "FIFA World Cup"
+    },
+    {
+      "id": "football-world-cup-760514",
+      "title": "World Cup – Semi-Final",
+      "date": "2026-07-14",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "Spain at France",
+      "time": "03:00"
+    },
+    {
+      "id": "football-world-cup-760515",
+      "title": "World Cup – Semi-Final",
+      "date": "2026-07-15",
+      "sport": "football",
+      "type": "semifinal",
+      "detail": "Argentina at England",
+      "time": "03:00"
+    },
+    {
+      "id": "football-world-cup-760517",
+      "title": "World Cup – Final",
+      "date": "2026-07-19",
+      "sport": "football",
+      "type": "final",
+      "detail": "Argentina at Spain",
+      "time": "03:00"
+    }
+  ],
+  "tennis": [
+    {
+      "id": "tennis-154-2026",
+      "title": "Australian Open",
+      "startDate": "2026-01-17",
+      "endDate": "2026-02-01",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Melbourne, Australia"
+    },
+    {
+      "id": "tennis-154-2026-semis",
+      "title": "Australian Open – Semis",
+      "date": "2026-01-30",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Men's Singles · Melbourne, Australia"
+    },
+    {
+      "id": "tennis-154-2026-final",
+      "title": "Australian Open – Final",
+      "date": "2026-02-01",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Men's Singles · Melbourne, Australia"
+    },
+    {
+      "id": "tennis-172-2026",
+      "title": "Roland Garros",
+      "startDate": "2026-05-24",
+      "endDate": "2026-06-07",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Paris, France"
+    },
+    {
+      "id": "tennis-172-2026-semis",
+      "title": "Roland Garros – Semis",
+      "date": "2026-06-05",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Men's Singles · Paris, France"
+    },
+    {
+      "id": "tennis-172-2026-final",
+      "title": "Roland Garros – Final",
+      "date": "2026-06-07",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Men's Singles · Paris, France"
+    },
+    {
+      "id": "tennis-188-2026",
+      "title": "Wimbledon",
+      "startDate": "2026-06-29",
+      "endDate": "2026-07-12",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · London, Great Britain"
+    },
+    {
+      "id": "tennis-188-2026-semis",
+      "title": "Wimbledon – Semis",
+      "date": "2026-07-10",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Men's Singles · London, Great Britain"
+    },
+    {
+      "id": "tennis-188-2026-final",
+      "title": "Wimbledon – Final",
+      "date": "2026-07-12",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Men's Singles · London, Great Britain"
+    },
+    {
+      "id": "tennis-189-2026",
+      "title": "US Open",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · New York, USA"
+    },
+    {
+      "id": "tennis-189-2026-semis",
+      "title": "US Open – Semis",
+      "date": "2026-09-11",
+      "sport": "tennis",
+      "type": "semifinal",
+      "detail": "Men's Singles · New York, USA"
+    },
+    {
+      "id": "tennis-189-2026-final",
+      "title": "US Open – Final",
+      "date": "2026-09-13",
+      "sport": "tennis",
+      "type": "final",
+      "detail": "Men's Singles · New York, USA"
+    }
+  ],
+  "lol": [
+    {
+      "id": "lol-lck-period-lck-cup-split-1-",
+      "title": "LCK Cup (Split 1)",
+      "startDate": "2026-01-14",
+      "endDate": "2026-03-01",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2026 LCK opening split"
+    },
+    {
+      "id": "lol-lpl-period-lpl-split-1",
+      "title": "LPL Split 1",
+      "startDate": "2026-01-14",
+      "endDate": "2026-03-08",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2026 LPL Split 1"
+    },
+    {
+      "id": "lol-lck-period-lck-split-2",
+      "title": "LCK Split 2",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Rounds 1–2 and Road to MSI"
+    },
+    {
+      "id": "lol-lpl-period-lpl-split-2",
+      "title": "LPL Split 2",
+      "startDate": "2026-04-04",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2026 LPL Split 2"
+    },
+    {
+      "id": "lol-lec-115548668059589358",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-23",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lec-115548668059589352",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-24",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs Team Vitality",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lec-115548668059589364",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-25",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Movistar KOI vs G2 Esports",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541907",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Beijing JDG Esports vs THUNDER TALK GAMING",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541913",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TOP ESPORTS vs LGD GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541919",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs EDWARD GAMING",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541925",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589370",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Natus Vincere vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541931",
+      "title": "LPL – Playoffs",
+      "date": "2026-05-31",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TOP ESPORTS vs Beijing JDG Esports",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589376",
+      "title": "LEC – Playoffs",
+      "date": "2026-05-31",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Vitality vs GIANTX",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464541937",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589382",
+      "title": "LEC – Playoffs",
+      "date": "2026-06-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs GIANTX",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607479",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-02",
+      "sport": "lol",
+      "type": "match",
+      "detail": "THUNDER TALK GAMING vs LGD GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607485",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs EDWARD GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607497",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "LGD GAMING vs Anyone's Legend",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lck-115548128963037563",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Dplus KIA vs HANJIN BRION",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607503",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Beijing JDG Esports",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589388",
+      "title": "LEC – Playoffs",
+      "date": "2026-06-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Karmine Corp vs Movistar KOI",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lck-115548128963037569",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "match",
+      "detail": "kt Rolster vs Dplus KIA",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607491",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Xi'an Team WE vs TOP ESPORTS",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lec-115548668059589394",
+      "title": "LEC – Finals",
+      "date": "2026-06-07",
+      "sport": "lol",
+      "type": "final",
+      "detail": "G2 Esports vs Karmine Corp",
+      "time": "23:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607509",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Anyone's Legend vs BILIBILI GAMING",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lck-115548128963037575",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-12",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Hanwha Life Esports vs T1",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548128963037581",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-13",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Gen.G Esports vs kt Rolster",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607515",
+      "title": "LPL – Playoffs",
+      "date": "2026-06-13",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Xi'an Team WE",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-lck-115548128963037587",
+      "title": "LCK – Knockouts",
+      "date": "2026-06-14",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Gen.G Esports",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-115616219464607521",
+      "title": "LPL – Finals",
+      "date": "2026-06-14",
+      "sport": "lol",
+      "type": "final",
+      "detail": "BILIBILI GAMING vs TOP ESPORTS",
+      "time": "17:00"
+    },
+    {
+      "id": "lol-msi-span",
+      "title": "MSI",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-12",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "MSI – International event"
+    },
+    {
+      "id": "lol-msi-115570934355614497",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Team Liquid Alienware",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614503",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Relove Deep Cross Gaming vs Karmine Corp",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614509",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Karmine Corp",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115846993721104369",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Liquid Alienware vs Relove Deep Cross Gaming",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614521",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-06-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Liquid Alienware vs Karmine Corp",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570969745329263",
+      "title": "MSI – Play In Knockouts",
+      "date": "2026-07-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs Team Liquid Alienware",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614539",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Hanwha Life Esports vs Team Secret Whales",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614545",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TOP ESPORTS vs G2 Esports",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614533",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "FURIA vs LYON",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614527",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs BILIBILI GAMING",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614569",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Team Secret Whales vs TOP ESPORTS",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614557",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Hanwha Life Esports vs G2 Esports",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614551",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs LYON",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614563",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "T1 vs FURIA",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614587",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "LYON vs Team Secret Whales",
+      "time": "11:00"
+    },
+    {
+      "id": "lol-msi-115570934355614581",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs T1",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614575",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-09",
+      "sport": "lol",
+      "type": "match",
+      "detail": "BILIBILI GAMING vs Hanwha Life Esports",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614593",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-10",
+      "sport": "lol",
+      "type": "match",
+      "detail": "G2 Esports vs LYON",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614599",
+      "title": "MSI – Knockouts",
+      "date": "2026-07-11",
+      "sport": "lol",
+      "type": "match",
+      "detail": "LYON vs Hanwha Life Esports",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-msi-115570934355614605",
+      "title": "MSI – Finals",
+      "date": "2026-07-12",
+      "sport": "lol",
+      "type": "final",
+      "detail": "BILIBILI GAMING vs Hanwha Life Esports",
+      "time": "14:00"
+    },
+    {
+      "id": "lol-lpl-period-lpl-split-3",
+      "title": "LPL Split 3",
+      "startDate": "2026-07-22",
+      "endDate": "2026-09-30",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Scheduled July–September; final date TBA"
+    },
+    {
+      "id": "lol-lck-period-lck-split-3",
+      "title": "LCK Split 3",
+      "startDate": "2026-07-29",
+      "endDate": "2026-09-13",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Rounds 3–4, play-ins and playoffs"
+    },
+    {
+      "id": "lol-lck-115548147900750319",
+      "title": "LCK – Playoffs",
+      "date": "2026-08-29",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750325",
+      "title": "LCK – Playoffs",
+      "date": "2026-08-30",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750331",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-01",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750337",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-02",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750343",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-03",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750355",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-04",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750349",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750361",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900750367",
+      "title": "LCK – Playoffs",
+      "date": "2026-09-12",
+      "sport": "lol",
+      "type": "match",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    },
+    {
+      "id": "lol-lck-115548147900815909",
+      "title": "LCK – Finals",
+      "date": "2026-09-13",
+      "sport": "lol",
+      "type": "final",
+      "detail": "TBD vs TBD",
+      "time": "16:00"
+    }
+  ]
+}
