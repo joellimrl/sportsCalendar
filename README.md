@@ -15,9 +15,9 @@ League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
 | Sport | Events | Keyless source |
 |---|---|---|
 | F1 | Qualifying, Sprint, Race for every round | [Jolpica](https://api.jolpi.ca/) |
-| Football | Premier League, Liverpool fixtures, UCL key rounds, World Cup key rounds | ESPN public scoreboard data |
+| Football | Every published Liverpool men's first-team fixture; World Cup, Euro and Copa América periods plus knockout matches | ESPN public scoreboard data |
 | Tennis | Grand Slam periods, semifinals and finals | ESPN public ATP calendar data |
-| LoL | LCK/LPL/LEC split periods and knockouts, MSI and Worlds | Leaguepedia public Cargo API |
+| LoL | LCK/LPL split periods and knockouts; First Stand, MSI, Worlds and EWC periods plus play-in/knockout matches | Leaguepedia public Cargo API, with public iCalendar fallback |
 
 ## Automatic refresh architecture
 
@@ -28,7 +28,9 @@ season window from public sources without API keys.
 Each source has a committed last-known-good snapshot in
 `data/source-cache.json`. If an upstream source is unavailable or incomplete,
 the calendar preserves its prior source data rather than deleting it. The
-workflow commits only when event content changes.
+Leaguepedia is additionally backed by a public fixture-calendar fallback for
+temporary Cargo API rate limits. The workflow commits only when event content
+changes.
 
 All recurring data must remain rolling and source-driven. Adding a new sport or
 competition is the only reason to change source configuration; annual fixture

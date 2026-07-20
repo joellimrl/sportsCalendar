@@ -12,3 +12,4 @@ seasons without a code or data edit.
   the upstream service is unavailable or incomplete.
 - Adding a new sport or competition is the only reason a manual data-source
   configuration change should be needed.
+- Before making any changes, get the latest from remote to avoid conflicts.

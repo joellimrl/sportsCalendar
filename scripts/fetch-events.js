@@ -52,6 +52,14 @@ async function fetchJson(url) {
   return response.json();
 }
 
+async function fetchText(url) {
+  const response = await fetch(url, {
+    headers: { 'user-agent': 'sportsCalendar/1.0 (keyless personal calendar)' },
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+  return response.text();
+}
+
 function uniqueById(events) {
   return [...new Map(events.filter(e => e?.id).map(e => [e.id, e])).values()];
 }
@@ -96,7 +104,9 @@ async function espnEvents(sport, league, years) {
   const pages = await Promise.all(years.map(year => fetchJson(
     `${ESPN}/${sport}/${league}/scoreboard?dates=${year}&limit=1000`
   )));
-  return uniqueById(pages.flatMap(page => page.events ?? []));
+  return uniqueById(pages.flatMap(page => (page.events ?? []).map(event => ({
+    ...event, calendarLeague: page.leagues?.[0]?.name || league,
+  }))));
 }
 
 function footballEvent(event, id, title, type, detail) {
@@ -111,75 +121,71 @@ function footballEvent(event, id, title, type, detail) {
 async function fetchFootball(now) {
   const events = [];
   const years = rollingYears(now, 1, 1);
-  const premierLeague = await espnEvents('soccer', 'eng.1', years);
-  const bySeason = new Map();
+  // These are stable competition identifiers, not season data. Querying every
+  // competition keeps Liverpool fixtures complete as draws are published.
+  const liverpoolCompetitions = ['eng.1', 'eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf', 'uefa.super_cup', 'eng.community_shield', 'fifa.cwc'];
+  const competitionResults = await Promise.allSettled(liverpoolCompetitions.map(league => espnEvents('soccer', league, years)));
+  const liverpoolMatches = uniqueById(competitionResults.flatMap(result => result.status === 'fulfilled' ? result.value : []));
 
-  for (const match of premierLeague) {
-    const season = match.season?.year;
-    const date = dateOf(match.date);
-    if (!season || !date) continue;
-    const matches = bySeason.get(season) ?? [];
-    matches.push(match);
-    bySeason.set(season, matches);
-  }
-
-  for (const [season, matches] of bySeason) {
-    // A calendar-year query contains the tail of an older season. Keep the
-    // current and next Premier League seasons, not a partial historical one.
-    if (season < now.getUTCFullYear() - 1) continue;
-    const dates = matches.map(m => dateOf(m.date)).sort();
-    const label = matches[0].season?.slug || `${season}-${season + 1}`;
-    events.push({
-      id: `football-pl-${label}`,
-      title: 'Premier League', startDate: dates[0], endDate: dates.at(-1),
-      sport: 'football', type: 'tournament', detail: matches[0].season?.type?.name || `${season}/${season + 1} Premier League season`,
-    });
-
-    for (const match of matches) {
-      const competitors = match.competitions?.[0]?.competitors ?? [];
-      const liverpool = competitors.find(c => c.team?.slug === 'liverpool' || c.team?.displayName === 'Liverpool');
-      if (!liverpool) continue;
-      const home = liverpool.homeAway === 'home';
-      const opponent = competitors.find(c => c !== liverpool)?.team?.displayName || 'TBD';
-      events.push(footballEvent(
-        match, `football-liverpool-pl-${match.id}`,
-        home ? `Liverpool vs ${opponent}` : `${opponent} vs Liverpool`, 'match',
-        `${matches[0].season?.type?.name || 'Premier League'} · ${home ? 'Home (Anfield)' : 'Away'}`,
-      ));
-    }
-  }
-
-  const championsLeague = await espnEvents('soccer', 'uefa.champions', years);
-  for (const match of championsLeague) {
-    const stage = match.season?.slug || '';
-    if (!['semifinals', 'final'].includes(stage)) continue;
-    const type = stage === 'final' ? 'final' : 'semifinal';
+  for (const match of liverpoolMatches) {
+    // The rolling scoreboard range overlaps the tail of the prior season. Keep
+    // the current and upcoming seasons, but avoid carrying a partial old one.
+    if ((match.season?.year ?? now.getUTCFullYear()) < now.getUTCFullYear() - 1) continue;
+    const competitors = match.competitions?.[0]?.competitors ?? [];
+    const liverpool = competitors.find(c => c.team?.slug === 'liverpool' || c.team?.displayName === 'Liverpool');
+    if (!liverpool) continue;
+    const home = liverpool.homeAway === 'home';
+    const opponent = competitors.find(c => c !== liverpool)?.team?.displayName || 'TBD';
     events.push(footballEvent(
-      match, `football-ucl-${match.id}`, type === 'final' ? 'Champions League Final' : 'UCL Semi-Final', type,
-      `${match.season?.year ?? ''}/${(match.season?.year ?? 0) + 1} UEFA Champions League · ${match.name || 'TBD'}`,
+      match, `football-liverpool-${match.id}`,
+      home ? `Liverpool vs ${opponent}` : `${opponent} vs Liverpool`, 'match',
+      `${match.calendarLeague} · ${home ? 'Home (Anfield)' : 'Away'}`,
     ));
   }
 
-  // World Cup data is only present in ESPN's keyless feed during a World Cup year.
-  const worldCup = await espnEvents('soccer', 'fifa.world', years);
-  if (worldCup.length) {
-    const dates = worldCup.map(m => dateOf(m.date)).filter(Boolean).sort();
-    const season = worldCup[0].season?.year || now.getUTCFullYear();
-    events.push({ id: `football-world-cup-${season}`, title: `FIFA World Cup ${season}`, startDate: dates[0], endDate: dates.at(-1), sport: 'football', type: 'tournament', detail: 'FIFA World Cup' });
-    for (const match of worldCup) {
-      const stage = match.season?.slug || '';
-      if (!['semifinals', 'final'].includes(stage)) continue;
-      const type = stage === 'final' ? 'final' : 'semifinal';
-      events.push(footballEvent(match, `football-world-cup-${match.id}`, `World Cup – ${type === 'final' ? 'Final' : 'Semi-Final'}`, type, match.name || 'FIFA World Cup'));
+  const internationalCompetitions = [
+    ['fifa.world', 'FIFA World Cup'],
+    ['uefa.euro', 'UEFA European Championship'],
+    ['conmebol.america', 'Copa América'],
+  ];
+  for (const [league, title] of internationalCompetitions) {
+    let matches;
+    try { matches = await espnEvents('soccer', league, years); }
+    catch (error) {
+      console.warn(`  football: ${title} unavailable (${error.message})`);
+      continue;
+    }
+    const byTournament = new Map();
+    for (const match of matches) {
+      const key = `${match.season?.year || now.getUTCFullYear()}`;
+      const group = byTournament.get(key) ?? [];
+      group.push(match);
+      byTournament.set(key, group);
+    }
+    for (const [key, tournamentMatches] of byTournament) {
+      const dates = tournamentMatches.map(match => dateOf(match.date)).filter(Boolean).sort();
+      if (!dates.length) continue;
+      events.push({ id: `football-international-${slug(league)}-${slug(key)}`, title, startDate: dates[0], endDate: dates.at(-1), sport: 'football', type: 'tournament', detail: title });
+      for (const match of tournamentMatches) {
+        const stage = match.season?.slug || '';
+        if (!/round-of|quarter|semi|final|3rd-place/.test(stage)) continue;
+        const type = stage === 'final' ? 'final' : /semi|quarter/.test(stage) ? 'semifinal' : 'match';
+        events.push(footballEvent(match, `football-international-${match.id}`, `${title} – ${stage.replaceAll('-', ' ')}`, type, match.name || title));
+      }
     }
   }
 
   const clean = uniqueById(events.filter(Boolean));
-  if (!clean.some(event => event.id.startsWith('football-pl-'))) throw new Error('ESPN returned no Premier League season');
+  if (!clean.some(event => event.id.startsWith('football-liverpool-'))) throw new Error('Football source did not include Liverpool fixtures');
   return clean;
 }
 
 function tournamentMainDates(event) {
+  const singles = event.groupings?.filter(group => /singles/.test(group.grouping?.slug || '')) ?? [];
+  const singlesDates = singles.flatMap(group => group.competitions ?? [])
+    .filter(match => !/qualifying/i.test(match.round?.displayName || ''))
+    .map(match => dateOf(match.date)).filter(Boolean).sort();
+  if (singlesDates.length) return [singlesDates[0], singlesDates.at(-1)];
   const dates = (event.calendar?.calendar ?? []).map(dateOf).filter(Boolean);
   if (!dates.length) return [dateOf(event.date), dateOf(event.endDate)];
   const chunks = [[dates[0]]];
@@ -228,18 +234,28 @@ async function fetchLol(now) {
     if (json.error) throw new Error(`Leaguepedia: ${json.error.info || json.error.code}`);
     return (json.cargoquery ?? []).map(item => item.title).filter(Boolean);
   };
-  const leagues = "('LCK','LPL','LEC','MSI','Worlds')";
   const tournaments = await query({
     tables: 'Tournaments=T', order_by: 'T.DateStart ASC',
     fields: 'T.OverviewPage=OverviewPage,T.Name=Name,T.StandardName=StandardName,T.League=League,T.DateStart=DateStart,T.Date=DateEnd,T.Split=Split,T.SplitNumber=SplitNumber,T.IsPlayoffs=IsPlayoffs,T.IsOfficial=IsOfficial',
-    where: `T.League IN ${leagues} AND T.DateStart >= '${start}' AND T.DateStart < '${end}'`,
+    where: `T.DateStart >= "${start}" AND T.DateStart < "${end}" AND (T.League IN ("LCK","LPL","MSI","Worlds") OR T.Name LIKE "LCK %" OR T.Name LIKE "LPL %" OR T.StandardName LIKE "LCK %" OR T.StandardName LIKE "LPL %" OR T.Name LIKE "%First Stand%" OR T.StandardName LIKE "%First Stand%" OR T.Name LIKE "%Esports World Cup%" OR T.StandardName LIKE "%Esports World Cup%")`,
   });
   if (!tournaments.length) throw new Error('Leaguepedia returned no LoL tournaments');
 
-  const regional = new Set(['LCK', 'LPL', 'LEC']);
+  const regional = new Set(['LCK', 'LPL']);
   const eventName = row => `${row.Name} ${row.StandardName}`.toLowerCase();
+  const internationalName = row => {
+    const name = eventName(row);
+    if (name.includes('first stand')) return 'First Stand';
+    if (name.includes('esports world cup')) return 'EWC';
+    if (row.League === 'MSI') return 'MSI';
+    if (row.League === 'Worlds') return 'Worlds';
+    return null;
+  };
   const knockoutTournament = row => row.IsPlayoffs === '1' || /playoff|knockout|play-in|bracket|regional qualifier|finals?/.test(eventName(row));
-  const selected = tournaments.filter(row => !regional.has(row.League) || knockoutTournament(row));
+  const selected = tournaments.filter(row => {
+    const international = internationalName(row);
+    return regional.has(row.League) ? knockoutTournament(row) : Boolean(international) && !/qualifier/.test(eventName(row));
+  });
   const byPage = new Map(tournaments.map(row => [row.OverviewPage, row]));
   const events = [];
 
@@ -252,8 +268,9 @@ async function fetchLol(now) {
       sport: 'lol', type: 'tournament', detail: row.StandardName || row.Name,
     });
   }
-  for (const row of tournaments.filter(row => ['MSI', 'Worlds'].includes(row.League) && row.DateStart && row.DateEnd)) {
-    events.push({ id: `lol-${slug(row.League)}-${slug(row.OverviewPage)}-span`, title: row.League, startDate: row.DateStart, endDate: row.DateEnd, sport: 'lol', type: 'tournament', detail: row.StandardName || row.Name });
+  for (const row of tournaments.filter(row => internationalName(row) && !/qualifier/.test(eventName(row)) && row.DateStart && row.DateEnd)) {
+    const name = internationalName(row);
+    events.push({ id: `lol-${slug(name)}-${slug(row.OverviewPage)}-span`, title: name, startDate: row.DateStart, endDate: row.DateEnd, sport: 'lol', type: 'tournament', detail: row.StandardName || row.Name });
   }
 
   // Leaguepedia permits 500 keyless results per request and rate-limits calls.
@@ -271,6 +288,7 @@ async function fetchLol(now) {
     const date = dateOf(row.DateTime);
     if (!tournament || !date || !row.MatchId) continue;
     const knockoutText = `${row.Round} ${row.Phase} ${row.Tab}`.toLowerCase();
+    if (!/playoff|knockout|play-in|bracket|quarter|semi|final|elimination/.test(knockoutText)) continue;
     const type = /(?:^|\s)final(?:$|\s)/.test(knockoutText) && !/semi|quarter/.test(knockoutText) ? 'final'
       : /semi|quarter/.test(knockoutText) ? 'semifinal' : 'match';
     events.push({
@@ -282,6 +300,72 @@ async function fetchLol(now) {
   return uniqueById(events);
 }
 
+// A public iCalendar mirror is a deliberately independent fallback for the
+// rare occasions where Leaguepedia's keyless Cargo endpoint rate-limits us.
+// It contains the published fixtures themselves, so its date ranges advance
+// without source-code changes as the calendar is refreshed.
+function icalEvents(text) {
+  return text.replace(/\r?\n[ \t]/g, '').split('BEGIN:VEVENT').slice(1).map(block => {
+    const value = name => block.match(new RegExp(`^${name}(?:;[^:]*)?:(.+)$`, 'm'))?.[1]?.trim();
+    const rawDate = value('DTSTART');
+    return {
+      id: value('UID'),
+      date: rawDate?.match(/\d{8}/)?.[0]?.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3'),
+      summary: value('SUMMARY')?.replace(/\\,/g, ',').replace(/\\n/g, ' ') || 'TBD',
+    };
+  }).filter(event => event.id && event.date);
+}
+
+async function fetchLolCalendarFallback(now) {
+  const calendars = [
+    ['LCK', 'league-of-legends-lck-champions-korea'],
+    ['LPL', 'league-of-legends-lpl-china'],
+    ['First Stand', 'league-of-legends-first-stand'],
+    ['MSI', 'league-of-legends-mid-invitational'],
+    ['Worlds', 'league-of-legends-world-championship'],
+    ['EWC', 'league-of-legends-esports-world-cup'],
+  ];
+  const firstYear = now.getUTCFullYear();
+  const events = [];
+  for (const [name, calendar] of calendars) {
+    const text = await fetchText(`https://zlypher.github.io/lol-events/cal/${calendar}.ical`);
+    const fixtures = icalEvents(text).filter(fixture => Number(fixture.date.slice(0, 4)) >= firstYear && Number(fixture.date.slice(0, 4)) <= firstYear + 1)
+      .sort((a, b) => a.date.localeCompare(b.date));
+    if (!fixtures.length) continue;
+    const periods = name === 'LCK' || name === 'LPL'
+      ? fixtures.reduce((groups, fixture) => {
+        const group = groups.at(-1);
+        const previous = group?.at(-1);
+        const gap = previous ? (Date.parse(`${fixture.date}T00:00:00Z`) - Date.parse(`${previous.date}T00:00:00Z`)) / 86400000 : 0;
+        if (!group || gap > 14) groups.push([fixture]); else group.push(fixture);
+        return groups;
+      }, [])
+      : [fixtures];
+    periods.forEach((period, index) => events.push({
+      id: `lol-${slug(name)}-period-${firstYear}-${index + 1}`,
+      title: name === 'LCK' || name === 'LPL' ? `${name} – Split ${index + 1}` : name,
+      startDate: period[0].date, endDate: period.at(-1).date,
+      sport: 'lol', type: 'tournament', detail: 'Published fixture period',
+    }));
+    for (const fixture of fixtures) {
+      if (!/playoff|knockout|play-in|bracket|quarter|semi|final|elimination/i.test(fixture.summary)) continue;
+      const type = /(?:^|\s)final(?:$|\s|:)/i.test(fixture.summary) && !/semi|quarter/i.test(fixture.summary) ? 'final'
+        : /semi|quarter/i.test(fixture.summary) ? 'semifinal' : 'match';
+      events.push({ id: `lol-${slug(name)}-${slug(fixture.id)}`, title: `${name} – ${fixture.summary}`, date: fixture.date, sport: 'lol', type, detail: fixture.summary });
+    }
+  }
+  if (!events.length) throw new Error('LoL fallback calendars returned no fixtures');
+  return uniqueById(events);
+}
+
+async function fetchLolWithFallback(now) {
+  try { return await fetchLol(now); }
+  catch (error) {
+    console.warn(`  lol: Leaguepedia unavailable (${error.message}); using public calendar fallback`);
+    return fetchLolCalendarFallback(now);
+  }
+}
+
 function validate(source, events) {
   if (!Array.isArray(events) || !events.length) throw new Error(`${source} returned no events`);
   const ids = new Set();
@@ -290,7 +374,7 @@ function validate(source, events) {
     if (!event.date && !(event.startDate && event.endDate)) throw new Error(`${source} produced an event without a date`);
     ids.add(event.id);
   }
-  if (source === 'football' && !events.some(event => event.id.startsWith('football-liverpool-pl-'))) throw new Error('Football source did not include Liverpool fixtures');
+  if (source === 'football' && !events.some(event => event.id.startsWith('football-liverpool-'))) throw new Error('Football source did not include Liverpool fixtures');
   if (source === 'tennis' && !events.some(event => event.type === 'tournament')) throw new Error('Tennis source did not include Grand Slam periods');
 }
 
@@ -306,7 +390,7 @@ async function main() {
   const now = new Date();
   const previous = readJson(EVENTS_PATH, { events: [], lastUpdated: null });
   const cache = readJson(CACHE_PATH, bootstrapCache(previous.events ?? []));
-  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: fetchLol };
+  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: fetchLolWithFallback };
 
   for (const [name, fetchSource] of Object.entries(sources)) {
     try {
