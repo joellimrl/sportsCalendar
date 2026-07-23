@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T15:33:43.162Z",
+  "lastUpdated": "2026-07-23T06:08:54.486Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -661,15 +661,6 @@
       "time": "03:00"
     },
     {
-      "id": "lol-lpl-period-2026-1",
-      "title": "LPL – Split 1",
-      "startDate": "2026-05-17",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
       "startDate": "2026-05-22",
@@ -695,6 +686,15 @@
       "sport": "f1",
       "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
       "time": "00:00"
+    },
+    {
+      "id": "lol-lpl-period-2026-1",
+      "title": "LPL – Split 1",
+      "startDate": "2026-05-23",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "f1-2026-r5-r",
