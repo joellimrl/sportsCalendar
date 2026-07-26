@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T05:50:14.332Z",
+  "lastUpdated": "2026-07-26T06:13:46.538Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -717,35 +717,11 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-05-29",
+      "startDate": "2026-05-31",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-1422511-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 2: TES vs LGD",
-      "date": "2026-05-29",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: TES vs LGD"
-    },
-    {
-      "id": "lol-lpl-1422513-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 4: BLG vs WE",
-      "date": "2026-05-30",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 4: BLG vs WE"
-    },
-    {
-      "id": "lol-lpl-1422512-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 3: AL vs EDG",
-      "date": "2026-05-30",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 3: AL vs EDG"
     },
     {
       "id": "lol-lpl-1422516-zlypher-github-io",
