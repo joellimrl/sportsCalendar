@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T06:39:44.831Z",
+  "lastUpdated": "2026-07-30T05:51:47.229Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -661,15 +661,6 @@
       "time": "03:00"
     },
     {
-      "id": "lol-lck-period-2026-1",
-      "title": "LCK – Split 1",
-      "startDate": "2026-05-22",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
       "id": "f1-2026-r5-q",
       "title": "Canadian GP – Qualifying",
       "date": "2026-05-23",
@@ -686,6 +677,15 @@
       "sport": "f1",
       "detail": "Round 5 · Circuit Gilles Villeneuve, Montreal",
       "time": "00:00"
+    },
+    {
+      "id": "lol-lck-period-2026-1",
+      "title": "LCK – Split 1",
+      "startDate": "2026-05-23",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "f1-2026-r5-r",
@@ -715,37 +715,12 @@
       "detail": "Grand Slam · Paris, France"
     },
     {
-      "id": "lol-lpl-period-2026-1",
-      "title": "LPL – Split 1",
-      "startDate": "2026-06-03",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-1422515-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 2: EDG vs BLG",
-      "date": "2026-06-03",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Lower bracket round 1 match 2: EDG vs BLG"
-    },
-    {
       "id": "tennis-172-2026-semis",
       "title": "Roland Garros – Semis",
       "date": "2026-06-05",
       "sport": "tennis",
       "type": "semifinal",
       "detail": "Men's Singles · Paris, France"
-    },
-    {
-      "id": "lol-lpl-1422518-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 1: AL vs LGD",
-      "date": "2026-06-05",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 1: AL vs LGD"
     },
     {
       "id": "f1-2026-r6-q",
@@ -763,6 +738,15 @@
       "sport": "lol",
       "type": "match",
       "detail": "Lower bracket round 1: DK vs BRO"
+    },
+    {
+      "id": "lol-lpl-period-2026-1",
+      "title": "LPL – Split 1",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "lol-lpl-1422519-zlypher-github-io",
