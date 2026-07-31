@@ -1702,7 +1702,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1760,7 +1760,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-06-06",
+      "startDate": "2026-06-13",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1774,30 +1774,6 @@
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-1422519-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 2: JDG vs BLG",
-      "date": "2026-06-06",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 2: JDG vs BLG"
-    },
-    {
-      "id": "lol-lpl-1422521-zlypher-github-io",
-      "title": "LPL – Upper bracket final: TES vs WE",
-      "date": "2026-06-07",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Upper bracket final: TES vs WE"
-    },
-    {
-      "id": "lol-lpl-1422520-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: AL vs BLG",
-      "date": "2026-06-08",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket semifinal: AL vs BLG"
     },
     {
       "id": "lol-lpl-1422522-zlypher-github-io",

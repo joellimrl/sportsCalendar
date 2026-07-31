@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T05:51:47.229Z",
+  "lastUpdated": "2026-07-31T06:22:06.301Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -679,15 +679,6 @@
       "time": "00:00"
     },
     {
-      "id": "lol-lck-period-2026-1",
-      "title": "LCK – Split 1",
-      "startDate": "2026-05-23",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
       "id": "f1-2026-r5-r",
       "title": "Canadian GP – Race",
       "date": "2026-05-24",
@@ -715,6 +706,15 @@
       "detail": "Grand Slam · Paris, France"
     },
     {
+      "id": "lol-lck-period-2026-1",
+      "title": "LCK – Split 1",
+      "startDate": "2026-05-24",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
+    },
+    {
       "id": "tennis-172-2026-semis",
       "title": "Roland Garros – Semis",
       "date": "2026-06-05",
@@ -740,23 +740,6 @@
       "detail": "Lower bracket round 1: DK vs BRO"
     },
     {
-      "id": "lol-lpl-period-2026-1",
-      "title": "LPL – Split 1",
-      "startDate": "2026-06-06",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-1422519-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 2: JDG vs BLG",
-      "date": "2026-06-06",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 2: JDG vs BLG"
-    },
-    {
       "id": "f1-2026-r6-r",
       "title": "Monaco GP – Race",
       "date": "2026-06-07",
@@ -780,22 +763,6 @@
       "sport": "lol",
       "type": "semifinal",
       "detail": "Lower bracket quarterfinal: KT vs DK"
-    },
-    {
-      "id": "lol-lpl-1422521-zlypher-github-io",
-      "title": "LPL – Upper bracket final: TES vs WE",
-      "date": "2026-06-07",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Upper bracket final: TES vs WE"
-    },
-    {
-      "id": "lol-lpl-1422520-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: AL vs BLG",
-      "date": "2026-06-08",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket semifinal: AL vs BLG"
     },
     {
       "id": "football-international-fifa-world-2026",
@@ -830,6 +797,15 @@
       "sport": "lol",
       "type": "semifinal",
       "detail": "Lower bracket semifinal: GEN vs KT"
+    },
+    {
+      "id": "lol-lpl-period-2026-1",
+      "title": "LPL – Split 1",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "lol-lpl-1422522-zlypher-github-io",
