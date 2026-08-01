@@ -317,137 +317,155 @@
     },
     {
       "id": "f1-2026-r16-q",
-      "title": "Singapore GP – Qualifying",
-      "date": "2026-10-10",
+      "title": "Bahrain GP in Malaysia – Qualifying",
+      "date": "2026-10-03",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
-      "time": "21:00"
-    },
-    {
-      "id": "f1-2026-r16-s",
-      "title": "Singapore GP – Sprint",
-      "date": "2026-10-10",
-      "type": "sprint",
-      "sport": "f1",
-      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "detail": "Round 16 · Sepang International Circuit, Kuala Lumpur",
       "time": "17:00"
     },
     {
       "id": "f1-2026-r16-r",
+      "title": "Bahrain GP in Malaysia – Race",
+      "date": "2026-10-04",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 16 · Sepang International Circuit, Kuala Lumpur",
+      "time": "15:00"
+    },
+    {
+      "id": "f1-2026-r17-q",
+      "title": "Singapore GP – Qualifying",
+      "date": "2026-10-10",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 17 · Marina Bay Street Circuit, Marina Bay",
+      "time": "21:00"
+    },
+    {
+      "id": "f1-2026-r17-s",
+      "title": "Singapore GP – Sprint",
+      "date": "2026-10-10",
+      "type": "sprint",
+      "sport": "f1",
+      "detail": "Round 17 · Marina Bay Street Circuit, Marina Bay",
+      "time": "17:00"
+    },
+    {
+      "id": "f1-2026-r17-r",
       "title": "Singapore GP – Race",
       "date": "2026-10-11",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 16 · Marina Bay Street Circuit, Marina Bay",
+      "detail": "Round 17 · Marina Bay Street Circuit, Marina Bay",
       "time": "20:00"
     },
     {
-      "id": "f1-2026-r17-q",
+      "id": "f1-2026-r18-q",
       "title": "United States GP – Qualifying",
       "date": "2026-10-24",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 17 · Circuit of the Americas, Austin",
-      "time": "05:00"
-    },
-    {
-      "id": "f1-2026-r17-r",
-      "title": "United States GP – Race",
-      "date": "2026-10-25",
-      "type": "race",
-      "sport": "f1",
-      "detail": "Round 17 · Circuit of the Americas, Austin",
-      "time": "04:00"
-    },
-    {
-      "id": "f1-2026-r18-q",
-      "title": "Mexico City GP – Qualifying",
-      "date": "2026-10-31",
-      "type": "qualifying",
-      "sport": "f1",
-      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "detail": "Round 18 · Circuit of the Americas, Austin",
       "time": "05:00"
     },
     {
       "id": "f1-2026-r18-r",
-      "title": "Mexico City GP – Race",
-      "date": "2026-11-01",
+      "title": "United States GP – Race",
+      "date": "2026-10-25",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 18 · Autódromo Hermanos Rodríguez, Mexico City",
+      "detail": "Round 18 · Circuit of the Americas, Austin",
       "time": "04:00"
     },
     {
       "id": "f1-2026-r19-q",
+      "title": "Mexico City GP – Qualifying",
+      "date": "2026-10-31",
+      "type": "qualifying",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo Hermanos Rodríguez, Mexico City",
+      "time": "05:00"
+    },
+    {
+      "id": "f1-2026-r19-r",
+      "title": "Mexico City GP – Race",
+      "date": "2026-11-01",
+      "type": "race",
+      "sport": "f1",
+      "detail": "Round 19 · Autódromo Hermanos Rodríguez, Mexico City",
+      "time": "04:00"
+    },
+    {
+      "id": "f1-2026-r20-q",
       "title": "Brazilian GP – Qualifying",
       "date": "2026-11-07",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "detail": "Round 20 · Autódromo José Carlos Pace, São Paulo",
       "time": "02:00"
     },
     {
-      "id": "f1-2026-r19-r",
+      "id": "f1-2026-r20-r",
       "title": "Brazilian GP – Race",
       "date": "2026-11-08",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 19 · Autódromo José Carlos Pace, São Paulo",
+      "detail": "Round 20 · Autódromo José Carlos Pace, São Paulo",
       "time": "01:00"
     },
     {
-      "id": "f1-2026-r20-q",
+      "id": "f1-2026-r21-q",
       "title": "Las Vegas GP – Qualifying",
       "date": "2026-11-21",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "detail": "Round 21 · Las Vegas Strip Street Circuit, Las Vegas",
       "time": "12:00"
     },
     {
-      "id": "f1-2026-r20-r",
+      "id": "f1-2026-r21-r",
       "title": "Las Vegas GP – Race",
       "date": "2026-11-22",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 20 · Las Vegas Strip Street Circuit, Las Vegas",
+      "detail": "Round 21 · Las Vegas Strip Street Circuit, Las Vegas",
       "time": "12:00"
     },
     {
-      "id": "f1-2026-r21-q",
+      "id": "f1-2026-r22-q",
       "title": "Qatar GP – Qualifying",
       "date": "2026-11-28",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "detail": "Round 22 · Losail International Circuit, Lusail",
       "time": "02:00"
     },
     {
-      "id": "f1-2026-r21-r",
+      "id": "f1-2026-r22-r",
       "title": "Qatar GP – Race",
       "date": "2026-11-29",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 21 · Losail International Circuit, Lusail",
+      "detail": "Round 22 · Losail International Circuit, Lusail",
       "time": "00:00"
     },
     {
-      "id": "f1-2026-r22-q",
+      "id": "f1-2026-r23-q",
       "title": "Abu Dhabi GP – Qualifying",
       "date": "2026-12-05",
       "type": "qualifying",
       "sport": "f1",
-      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "detail": "Round 23 · Yas Marina Circuit, Abu Dhabi",
       "time": "22:00"
     },
     {
-      "id": "f1-2026-r22-r",
+      "id": "f1-2026-r23-r",
       "title": "Abu Dhabi GP – Race",
       "date": "2026-12-06",
       "type": "race",
       "sport": "f1",
-      "detail": "Round 22 · Yas Marina Circuit, Abu Dhabi",
+      "detail": "Round 23 · Yas Marina Circuit, Abu Dhabi",
       "time": "21:00"
     }
   ],
@@ -1702,7 +1720,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-05-24",
+      "startDate": "2026-05-27",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1760,36 +1778,11 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-period-2026-2",
-      "title": "LPL – Split 2",
       "startDate": "2026-07-22",
       "endDate": "2026-08-23",
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lpl-1422522-zlypher-github-io",
-      "title": "LPL – Lower bracket final: WE vs BLG",
-      "date": "2026-06-13",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Lower bracket final: WE vs BLG"
-    },
-    {
-      "id": "lol-lpl-1422523-zlypher-github-io",
-      "title": "LPL – Grand final: TES vs BLG",
-      "date": "2026-06-14",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Grand final: TES vs BLG"
     },
     {
       "id": "lol-first-stand-period-2026-1",
