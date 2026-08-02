@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T06:07:17.442Z",
+  "lastUpdated": "2026-08-02T06:17:03.021Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -708,7 +708,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-05-27",
+      "startDate": "2026-05-28",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1524,7 +1524,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-07-22",
+      "startDate": "2026-07-23",
       "endDate": "2026-08-23",
       "sport": "lol",
       "type": "tournament",
