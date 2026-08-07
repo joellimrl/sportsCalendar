@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T06:03:26.441Z",
+  "lastUpdated": "2026-08-07T05:01:08.930Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -708,7 +708,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-05-30",
+      "startDate": "2026-05-31",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1531,15 +1531,6 @@
       "time": "22:00"
     },
     {
-      "id": "lol-lpl-period-2026-1",
-      "title": "LPL – Split 1",
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-23",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
       "id": "f1-2026-r11-r",
       "title": "Hungarian GP – Race",
       "date": "2026-07-26",
@@ -1547,6 +1538,15 @@
       "sport": "f1",
       "detail": "Round 11 · Hungaroring, Budapest",
       "time": "21:00"
+    },
+    {
+      "id": "lol-lpl-period-2026-1",
+      "title": "LPL – Split 1",
+      "startDate": "2026-07-26",
+      "endDate": "2026-08-23",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "lol-lck-period-2026-2",
