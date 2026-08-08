@@ -1720,7 +1720,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-05-31",
+      "startDate": "2026-06-07",
       "endDate": "2026-06-14",
       "sport": "lol",
       "type": "tournament",
@@ -1734,14 +1734,6 @@
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lck-1505696-zlypher-github-io",
-      "title": "LCK – Lower bracket round 1: DK vs BRO",
-      "date": "2026-06-06",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Lower bracket round 1: DK vs BRO"
     },
     {
       "id": "lol-lck-1505697-zlypher-github-io",
@@ -1778,7 +1770,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-07-26",
+      "startDate": "2026-07-29",
       "endDate": "2026-08-23",
       "sport": "lol",
       "type": "tournament",
