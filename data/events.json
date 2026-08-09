@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T04:19:41.339Z",
+  "lastUpdated": "2026-08-09T04:34:41.821Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -740,23 +740,6 @@
       "detail": "Men's Singles · Paris, France"
     },
     {
-      "id": "lol-lck-period-2026-1",
-      "title": "LCK – Split 1",
-      "startDate": "2026-06-07",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lck-1505697-zlypher-github-io",
-      "title": "LCK – Lower bracket quarterfinal: KT vs DK",
-      "date": "2026-06-07",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket quarterfinal: KT vs DK"
-    },
-    {
       "id": "football-international-fifa-world-2026",
       "title": "FIFA World Cup",
       "startDate": "2026-06-11",
@@ -766,14 +749,6 @@
       "detail": "FIFA World Cup"
     },
     {
-      "id": "lol-lck-1505698-zlypher-github-io",
-      "title": "LCK – Upper bracket final: HLE vs T1",
-      "date": "2026-06-12",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Upper bracket final: HLE vs T1"
-    },
-    {
       "id": "f1-2026-r7-q",
       "title": "Barcelona GP – Qualifying",
       "date": "2026-06-13",
@@ -781,6 +756,15 @@
       "sport": "f1",
       "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
       "time": "22:00"
+    },
+    {
+      "id": "lol-lck-period-2026-1",
+      "title": "LCK – Split 1",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "lol-lck-1505699-zlypher-github-io",
@@ -1543,7 +1527,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-07-29",
+      "startDate": "2026-07-30",
       "endDate": "2026-08-23",
       "sport": "lol",
       "type": "tournament",
