@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T04:34:41.821Z",
+  "lastUpdated": "2026-08-10T04:51:39.040Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -758,23 +758,6 @@
       "time": "22:00"
     },
     {
-      "id": "lol-lck-period-2026-1",
-      "title": "LCK – Split 1",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-14",
-      "sport": "lol",
-      "type": "tournament",
-      "detail": "Published fixture period"
-    },
-    {
-      "id": "lol-lck-1505699-zlypher-github-io",
-      "title": "LCK – Lower bracket semifinal: GEN vs KT",
-      "date": "2026-06-13",
-      "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket semifinal: GEN vs KT"
-    },
-    {
       "id": "f1-2026-r7-r",
       "title": "Barcelona GP – Race",
       "date": "2026-06-14",
@@ -782,14 +765,6 @@
       "sport": "f1",
       "detail": "Round 7 · Circuit de Barcelona-Catalunya, Barcelona",
       "time": "21:00"
-    },
-    {
-      "id": "lol-lck-1505700-zlypher-github-io",
-      "title": "LCK – Lower bracket final: T1 vs GEN",
-      "date": "2026-06-14",
-      "sport": "lol",
-      "type": "final",
-      "detail": "Lower bracket final: T1 vs GEN"
     },
     {
       "id": "f1-2026-r8-q",
@@ -1516,8 +1491,8 @@
       "time": "21:00"
     },
     {
-      "id": "lol-lck-period-2026-2",
-      "title": "LCK – Split 2",
+      "id": "lol-lck-period-2026-1",
+      "title": "LCK – Split 1",
       "startDate": "2026-07-29",
       "endDate": "2026-08-23",
       "sport": "lol",
@@ -1527,7 +1502,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-07-30",
+      "startDate": "2026-08-01",
       "endDate": "2026-08-23",
       "sport": "lol",
       "type": "tournament",
