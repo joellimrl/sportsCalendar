@@ -1721,10 +1721,34 @@
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
       "startDate": "2026-07-29",
-      "endDate": "2026-08-23",
+      "endDate": "2026-08-28",
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
+    },
+    {
+      "id": "lol-lck-1629295-zlypher-github-io",
+      "title": "LCK – Semifinal 1: TBD vs TBD",
+      "date": "2026-08-26",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 1: TBD vs TBD"
+    },
+    {
+      "id": "lol-lck-1629296-zlypher-github-io",
+      "title": "LCK – Semifinal 2: TBD vs TBD",
+      "date": "2026-08-27",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 2: TBD vs TBD"
+    },
+    {
+      "id": "lol-lck-1629297-zlypher-github-io",
+      "title": "LCK – Grand final: TBD vs TBD",
+      "date": "2026-08-28",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand final: TBD vs TBD"
     },
     {
       "id": "lol-lpl-period-2026-1",
