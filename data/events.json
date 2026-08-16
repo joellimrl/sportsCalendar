@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T03:51:43.688Z",
+  "lastUpdated": "2026-08-16T03:57:22.061Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -468,13 +468,13 @@
       "time": "00:30"
     },
     {
-      "id": "lol-first-stand-2026-first-stand-span",
+      "id": "lol-first-stand-period-2026-1",
       "title": "First Stand",
       "startDate": "2026-03-16",
       "endDate": "2026-03-22",
       "sport": "lol",
       "type": "tournament",
-      "detail": "First Stand 2026"
+      "detail": "Published fixture period"
     },
     {
       "id": "football-liverpool-401862668",
@@ -486,6 +486,22 @@
       "time": "04:00"
     },
     {
+      "id": "lol-first-stand-1384024-zlypher-github-io",
+      "title": "First Stand – Elimination match: BFX vs TSW",
+      "date": "2026-03-18",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Elimination match: BFX vs TSW"
+    },
+    {
+      "id": "lol-first-stand-1384023-zlypher-github-io",
+      "title": "First Stand – Elimination match: JDG vs LLL",
+      "date": "2026-03-19",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Elimination match: JDG vs LLL"
+    },
+    {
       "id": "football-liverpool-740898",
       "title": "Brighton & Hove Albion vs Liverpool",
       "date": "2026-03-21",
@@ -495,31 +511,28 @@
       "time": "20:45"
     },
     {
-      "id": "lol-first-stand-2026-first-stand-semifinals-1",
-      "title": "First Stand – First Stand 2026",
+      "id": "lol-first-stand-1384015-zlypher-github-io",
+      "title": "First Stand – Semifinal 2: BLG vs JDG",
       "date": "2026-03-21",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Gen.G vs G2 Esports",
-      "time": null
+      "detail": "Semifinal 2: BLG vs JDG"
     },
     {
-      "id": "lol-first-stand-2026-first-stand-semifinals-2",
-      "title": "First Stand – First Stand 2026",
+      "id": "lol-first-stand-1384014-zlypher-github-io",
+      "title": "First Stand – Semifinal 1: GEN vs G2",
       "date": "2026-03-21",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Bilibili Gaming vs JD Gaming",
-      "time": null
+      "detail": "Semifinal 1: GEN vs G2"
     },
     {
-      "id": "lol-first-stand-2026-first-stand-finals-1",
-      "title": "First Stand – First Stand 2026",
+      "id": "lol-first-stand-1384016-zlypher-github-io",
+      "title": "First Stand – Grand final: G2 vs BLG",
       "date": "2026-03-22",
       "sport": "lol",
-      "type": "match",
-      "detail": "G2 Esports vs Bilibili Gaming",
-      "time": null
+      "type": "final",
+      "detail": "Grand final: G2 vs BLG"
     },
     {
       "id": "f1-2026-r3-q",
@@ -781,6 +794,31 @@
       "time": "03:00"
     },
     {
+      "id": "lol-msi-period-2026-1",
+      "title": "MSI",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-12",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
+    },
+    {
+      "id": "lol-msi-1524754-zlypher-github-io",
+      "title": "MSI – Upper bracket semifinal 1: KC vs DCG",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket semifinal 1: KC vs DCG"
+    },
+    {
+      "id": "lol-msi-1524755-zlypher-github-io",
+      "title": "MSI – Upper bracket semifinal 2: T1 vs TL",
+      "date": "2026-06-28",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket semifinal 2: T1 vs TL"
+    },
+    {
       "id": "football-international-760487",
       "title": "FIFA World Cup – round of 32",
       "date": "2026-06-29",
@@ -806,6 +844,22 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · London, Great Britain"
+    },
+    {
+      "id": "lol-msi-1524758-zlypher-github-io",
+      "title": "MSI – Lower bracket semifinal: DCG vs TL",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: DCG vs TL"
+    },
+    {
+      "id": "lol-msi-1524756-zlypher-github-io",
+      "title": "MSI – Upper bracket final: T1 vs KC",
+      "date": "2026-06-29",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final: T1 vs KC"
     },
     {
       "id": "football-international-760488",
@@ -835,6 +889,14 @@
       "time": "05:00"
     },
     {
+      "id": "lol-msi-1524759-zlypher-github-io",
+      "title": "MSI – Lower bracket final: KC vs TL",
+      "date": "2026-06-30",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: KC vs TL"
+    },
+    {
       "id": "football-international-760491",
       "title": "FIFA World Cup – round of 32",
       "date": "2026-07-01",
@@ -860,6 +922,14 @@
       "type": "match",
       "detail": "Senegal at Belgium",
       "time": "04:00"
+    },
+    {
+      "id": "lol-msi-1524757-zlypher-github-io",
+      "title": "MSI – Grand final: T1 vs TL",
+      "date": "2026-07-01",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand final: T1 vs TL"
     },
     {
       "id": "football-international-760494",
@@ -916,6 +986,22 @@
       "time": "06:00"
     },
     {
+      "id": "lol-msi-1524763-zlypher-github-io",
+      "title": "MSI – Upper bracket quarterfinal 4: G2 vs TES",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket quarterfinal 4: G2 vs TES"
+    },
+    {
+      "id": "lol-msi-1524760-zlypher-github-io",
+      "title": "MSI – Upper bracket quarterfinal 3: HLE vs TSW",
+      "date": "2026-07-03",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket quarterfinal 3: HLE vs TSW"
+    },
+    {
       "id": "f1-2026-r9-q",
       "title": "British GP – Qualifying",
       "date": "2026-07-04",
@@ -961,6 +1047,22 @@
       "time": "05:00"
     },
     {
+      "id": "lol-msi-1524761-zlypher-github-io",
+      "title": "MSI – Upper bracket quarterfinal 1: BLG vs T1",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket quarterfinal 1: BLG vs T1"
+    },
+    {
+      "id": "lol-msi-1524762-zlypher-github-io",
+      "title": "MSI – Upper bracket quarterfinal 2: LY vs FUR",
+      "date": "2026-07-04",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket quarterfinal 2: LY vs FUR"
+    },
+    {
       "id": "f1-2026-r9-r",
       "title": "British GP – Race",
       "date": "2026-07-05",
@@ -979,6 +1081,22 @@
       "time": "04:00"
     },
     {
+      "id": "lol-msi-1541770-zlypher-github-io",
+      "title": "MSI – Upper bracket semifinal 2: HLE vs G2",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket semifinal 2: HLE vs G2"
+    },
+    {
+      "id": "lol-msi-1541774-zlypher-github-io",
+      "title": "MSI – Lower bracket round 1 match 2: TSW vs TES",
+      "date": "2026-07-05",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Lower bracket round 1 match 2: TSW vs TES"
+    },
+    {
       "id": "football-international-760505",
       "title": "FIFA World Cup – round of 16",
       "date": "2026-07-06",
@@ -995,6 +1113,22 @@
       "type": "match",
       "detail": "Spain at Portugal",
       "time": "03:00"
+    },
+    {
+      "id": "lol-msi-1541775-zlypher-github-io",
+      "title": "MSI – Lower bracket round 1 match 1: T1 vs FUR",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "match",
+      "detail": "Lower bracket round 1 match 1: T1 vs FUR"
+    },
+    {
+      "id": "lol-msi-1541771-zlypher-github-io",
+      "title": "MSI – Upper bracket semifinal 1: BLG vs LY",
+      "date": "2026-07-06",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper bracket semifinal 1: BLG vs LY"
     },
     {
       "id": "football-international-760507",
@@ -1024,6 +1158,22 @@
       "time": "04:00"
     },
     {
+      "id": "lol-msi-1541777-zlypher-github-io",
+      "title": "MSI – Lower bracket quarterfinal 2: G2 vs T1",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket quarterfinal 2: G2 vs T1"
+    },
+    {
+      "id": "lol-msi-1541776-zlypher-github-io",
+      "title": "MSI – Lower bracket quarterfinal 1: LY vs TSW",
+      "date": "2026-07-08",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket quarterfinal 1: LY vs TSW"
+    },
+    {
       "id": "football-international-760510",
       "title": "FIFA World Cup – quarterfinals",
       "date": "2026-07-09",
@@ -1031,6 +1181,14 @@
       "type": "semifinal",
       "detail": "Morocco at France",
       "time": "04:00"
+    },
+    {
+      "id": "lol-msi-1541772-zlypher-github-io",
+      "title": "MSI – Upper bracket final: BLG vs HLE",
+      "date": "2026-07-09",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final: BLG vs HLE"
     },
     {
       "id": "football-international-760511",
@@ -1050,6 +1208,14 @@
       "detail": "Men's Singles · London, Great Britain"
     },
     {
+      "id": "lol-msi-1541778-zlypher-github-io",
+      "title": "MSI – Lower bracket semifinal: G2 vs LY",
+      "date": "2026-07-10",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: G2 vs LY"
+    },
+    {
       "id": "football-international-760512",
       "title": "FIFA World Cup – quarterfinals",
       "date": "2026-07-11",
@@ -1057,6 +1223,14 @@
       "type": "semifinal",
       "detail": "England at Norway",
       "time": "05:00"
+    },
+    {
+      "id": "lol-msi-1541779-zlypher-github-io",
+      "title": "MSI – Lower bracket final: HLE vs LY",
+      "date": "2026-07-11",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: HLE vs LY"
     },
     {
       "id": "football-international-760513",
@@ -1074,6 +1248,14 @@
       "sport": "tennis",
       "type": "final",
       "detail": "Men's Singles · London, Great Britain"
+    },
+    {
+      "id": "lol-msi-1541773-zlypher-github-io",
+      "title": "MSI – Grand final: BLG vs HLE",
+      "date": "2026-07-12",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand final: BLG vs HLE"
     },
     {
       "id": "football-international-760514",
@@ -1094,49 +1276,141 @@
       "time": "03:00"
     },
     {
-      "id": "lol-ewc-esports-world-cup-2026-span",
+      "id": "lol-ewc-period-2026-1",
       "title": "EWC",
       "startDate": "2026-07-15",
       "endDate": "2026-07-19",
       "sport": "lol",
       "type": "tournament",
-      "detail": "Esports World Cup 2026"
+      "detail": "Published fixture period"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-quarterfinals-1",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572105-zlypher-github-io",
+      "title": "EWC – Lower bracket semifinal: FUR vs DK",
+      "date": "2026-07-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: FUR vs DK"
+    },
+    {
+      "id": "lol-ewc-1572120-zlypher-github-io",
+      "title": "EWC – Lower bracket semifinal: MILO vs LY",
+      "date": "2026-07-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: MILO vs LY"
+    },
+    {
+      "id": "lol-ewc-1572115-zlypher-github-io",
+      "title": "EWC – Lower bracket semifinal: MKOI vs GAM",
+      "date": "2026-07-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: MKOI vs GAM"
+    },
+    {
+      "id": "lol-ewc-1572110-zlypher-github-io",
+      "title": "EWC – Lower bracket semifinal: TS vs KC",
+      "date": "2026-07-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: TS vs KC"
+    },
+    {
+      "id": "lol-ewc-1572106-zlypher-github-io",
+      "title": "EWC – Lower bracket final: G2 vs DK",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: G2 vs DK"
+    },
+    {
+      "id": "lol-ewc-1572121-zlypher-github-io",
+      "title": "EWC – Lower bracket final: JDG vs MILO",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: JDG vs MILO"
+    },
+    {
+      "id": "lol-ewc-1572116-zlypher-github-io",
+      "title": "EWC – Lower bracket final: GAM vs T1",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: GAM vs T1"
+    },
+    {
+      "id": "lol-ewc-1572111-zlypher-github-io",
+      "title": "EWC – Lower bracket final: KC vs SEN",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: KC vs SEN"
+    },
+    {
+      "id": "lol-ewc-1572104-zlypher-github-io",
+      "title": "EWC – Upper bracket final : G2 vs AG.AL",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final : G2 vs AG.AL"
+    },
+    {
+      "id": "lol-ewc-1572119-zlypher-github-io",
+      "title": "EWC – Upper bracket final : HLE vs JDG",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final : HLE vs JDG"
+    },
+    {
+      "id": "lol-ewc-1572114-zlypher-github-io",
+      "title": "EWC – Upper bracket final : BLG vs T1",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final : BLG vs T1"
+    },
+    {
+      "id": "lol-ewc-1572109-zlypher-github-io",
+      "title": "EWC – Upper bracket final : SEN vs GEN",
+      "date": "2026-07-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final : SEN vs GEN"
+    },
+    {
+      "id": "lol-ewc-1572123-zlypher-github-io",
+      "title": "EWC – Quarterfinal 2: AG.AL vs KC",
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Hanwha Life Esports vs T1",
-      "time": null
+      "detail": "Quarterfinal 2: AG.AL vs KC"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-quarterfinals-2",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572125-zlypher-github-io",
+      "title": "EWC – Quarterfinal 4: BLG vs DK",
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Gen.G vs JD Gaming",
-      "time": null
+      "detail": "Quarterfinal 4: BLG vs DK"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-quarterfinals-3",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572122-zlypher-github-io",
+      "title": "EWC – Quarterfinal 1: HLE vs T1",
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "AG.AL vs Karmine Corp",
-      "time": null
+      "detail": "Quarterfinal 1: HLE vs T1"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-quarterfinals-4",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572124-zlypher-github-io",
+      "title": "EWC – Quarterfinal 3: GEN vs JDG",
       "date": "2026-07-17",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Bilibili Gaming vs Dplus Kia",
-      "time": null
+      "detail": "Quarterfinal 3: GEN vs JDG"
     },
     {
       "id": "f1-2026-r10-q",
@@ -1157,22 +1431,20 @@
       "time": "05:00"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-semifinals-1",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572127-zlypher-github-io",
+      "title": "EWC – Semifinal 2: GEN vs DK",
       "date": "2026-07-18",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "T1 vs Karmine Corp",
-      "time": null
+      "detail": "Semifinal 2: GEN vs DK"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-semifinals-2",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572126-zlypher-github-io",
+      "title": "EWC – Semifinal 1: T1 vs KC",
       "date": "2026-07-18",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Gen.G vs Dplus Kia",
-      "time": null
+      "detail": "Semifinal 1: T1 vs KC"
     },
     {
       "id": "f1-2026-r10-r",
@@ -1193,13 +1465,12 @@
       "time": "03:00"
     },
     {
-      "id": "lol-esports-world-cup-esports-world-cup-2026-finals-1",
-      "title": "Esports World Cup – Esports World Cup 2026",
+      "id": "lol-ewc-1572129-zlypher-github-io",
+      "title": "EWC – Grand final: KC vs DK",
       "date": "2026-07-19",
       "sport": "lol",
-      "type": "match",
-      "detail": "Karmine Corp vs Dplus Kia",
-      "time": null
+      "type": "final",
+      "detail": "Grand final: KC vs DK"
     },
     {
       "id": "f1-2026-r11-q",
@@ -1218,6 +1489,24 @@
       "sport": "f1",
       "detail": "Round 11 · Hungaroring, Budapest",
       "time": "21:00"
+    },
+    {
+      "id": "lol-lck-period-2026-1",
+      "title": "LCK – Split 1",
+      "startDate": "2026-08-02",
+      "endDate": "2026-08-28",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
+    },
+    {
+      "id": "lol-lpl-period-2026-1",
+      "title": "LPL – Split 1",
+      "startDate": "2026-08-07",
+      "endDate": "2026-08-23",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
     },
     {
       "id": "f1-2026-r12-q",
@@ -1254,6 +1543,30 @@
       "type": "match",
       "detail": "English Premier League · Away",
       "time": "23:30"
+    },
+    {
+      "id": "lol-lck-1629295-zlypher-github-io",
+      "title": "LCK – Semifinal 1: TBD vs TBD",
+      "date": "2026-08-26",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 1: TBD vs TBD"
+    },
+    {
+      "id": "lol-lck-1629296-zlypher-github-io",
+      "title": "LCK – Semifinal 2: TBD vs TBD",
+      "date": "2026-08-27",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 2: TBD vs TBD"
+    },
+    {
+      "id": "lol-lck-1629297-zlypher-github-io",
+      "title": "LCK – Grand final: TBD vs TBD",
+      "date": "2026-08-28",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand final: TBD vs TBD"
     },
     {
       "id": "football-liverpool-401879314",
