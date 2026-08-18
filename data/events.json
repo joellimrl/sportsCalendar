@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T03:59:53.965Z",
+  "lastUpdated": "2026-08-18T03:56:02.506Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1720,15 +1720,6 @@
       "time": "17:00"
     },
     {
-      "id": "football-liverpool-401879264",
-      "title": "Liverpool vs Manchester City",
-      "date": "2026-10-10",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Home (Anfield)",
-      "time": "22:00"
-    },
-    {
       "id": "f1-2026-r17-r",
       "title": "Singapore GP – Race",
       "date": "2026-10-11",
@@ -1736,6 +1727,15 @@
       "sport": "f1",
       "detail": "Round 17 · Marina Bay Street Circuit, Marina Bay",
       "time": "20:00"
+    },
+    {
+      "id": "football-liverpool-401879264",
+      "title": "Liverpool vs Manchester City",
+      "date": "2026-10-11",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Home (Anfield)",
+      "time": "23:30"
     },
     {
       "id": "football-liverpool-401879262",
@@ -1783,15 +1783,6 @@
       "time": "05:00"
     },
     {
-      "id": "football-liverpool-401879246",
-      "title": "Liverpool vs Arsenal",
-      "date": "2026-10-31",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Home (Anfield)",
-      "time": "23:00"
-    },
-    {
       "id": "f1-2026-r19-r",
       "title": "Mexico City GP – Race",
       "date": "2026-11-01",
@@ -1799,6 +1790,15 @@
       "sport": "f1",
       "detail": "Round 19 · Autódromo Hermanos Rodríguez, Mexico City",
       "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-401879246",
+      "title": "Liverpool vs Arsenal",
+      "date": "2026-11-01",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Home (Anfield)",
+      "time": "00:30"
     },
     {
       "id": "f1-2026-r20-q",
