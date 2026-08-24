@@ -1720,7 +1720,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-08-09",
+      "startDate": "2026-08-12",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1728,19 +1728,19 @@
     },
     {
       "id": "lol-lck-1629295-zlypher-github-io",
-      "title": "LCK – Upper bracket final: TBD vs TBD",
+      "title": "LCK – Upper bracket final: KT vs BRO",
       "date": "2026-08-26",
       "sport": "lol",
       "type": "final",
-      "detail": "Upper bracket final: TBD vs TBD"
+      "detail": "Upper bracket final: KT vs BRO"
     },
     {
       "id": "lol-lck-1629296-zlypher-github-io",
-      "title": "LCK – Lower bracket semifinal: TBD vs TBD",
+      "title": "LCK – Lower bracket semifinal: NS vs BFX",
       "date": "2026-08-27",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: TBD vs TBD"
+      "detail": "Lower bracket semifinal: NS vs BFX"
     },
     {
       "id": "lol-lck-1629297-zlypher-github-io",
@@ -1833,7 +1833,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-08-14",
+      "startDate": "2026-08-15",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1841,35 +1841,35 @@
     },
     {
       "id": "lol-lpl-1643088-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 1: TBD vs TBD",
+      "title": "LPL – Upper bracket quarterfinal 1: TES vs LGD",
       "date": "2026-08-29",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: TBD vs TBD"
+      "detail": "Upper bracket quarterfinal 1: TES vs LGD"
     },
     {
       "id": "lol-lpl-1643089-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 2: TBD vs TBD",
+      "title": "LPL – Upper bracket quarterfinal 2: JDG vs WE",
       "date": "2026-08-30",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: TBD vs TBD"
+      "detail": "Upper bracket quarterfinal 2: JDG vs WE"
     },
     {
       "id": "lol-lpl-1643090-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 1: TBD vs TBD",
+      "title": "LPL – Upper bracket semifinal 1: TBD vs AL",
       "date": "2026-09-03",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: TBD vs TBD"
+      "detail": "Upper bracket semifinal 1: TBD vs AL"
     },
     {
       "id": "lol-lpl-1643091-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 2: TBD vs TBD",
+      "title": "LPL – Upper bracket semifinal 2: TBD vs BLG",
       "date": "2026-09-04",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: TBD vs TBD"
+      "detail": "Upper bracket semifinal 2: TBD vs BLG"
     },
     {
       "id": "lol-lpl-1643094-zlypher-github-io",
