@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:02:55.040Z",
+  "lastUpdated": "2026-08-26T04:00:52.715Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1579,11 +1579,11 @@
     },
     {
       "id": "lol-lck-1642153-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 1: TBD vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 1: T1 vs TBD",
       "date": "2026-08-29",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: TBD vs TBD"
+      "detail": "Upper bracket quarterfinal 1: T1 vs TBD"
     },
     {
       "id": "lol-lpl-1643088-zlypher-github-io",
@@ -1604,11 +1604,11 @@
     },
     {
       "id": "lol-lck-1642154-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 2: TBD vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 2: DK vs TBD",
       "date": "2026-08-30",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: TBD vs TBD"
+      "detail": "Upper bracket quarterfinal 2: DK vs TBD"
     },
     {
       "id": "lol-lpl-1643089-zlypher-github-io",
@@ -1620,19 +1620,19 @@
     },
     {
       "id": "lol-lck-1642155-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 1: TBD vs TBD",
+      "title": "LCK – Upper bracket semifinal 1: GEN vs TBD",
       "date": "2026-09-01",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: TBD vs TBD"
+      "detail": "Upper bracket semifinal 1: GEN vs TBD"
     },
     {
       "id": "lol-lck-1642156-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 2: TBD vs TBD",
+      "title": "LCK – Upper bracket semifinal 2: HLE vs TBD",
       "date": "2026-09-02",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: TBD vs TBD"
+      "detail": "Upper bracket semifinal 2: HLE vs TBD"
     },
     {
       "id": "lol-lck-1642162-zlypher-github-io",
