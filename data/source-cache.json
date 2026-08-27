@@ -1209,6 +1209,15 @@
       "time": "03:45"
     },
     {
+      "id": "football-liverpool-401914257",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-09-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Carabao Cup · Home (Anfield)",
+      "time": "02:00"
+    },
+    {
       "id": "football-liverpool-757662",
       "title": "Liverpool vs Atlético Madrid",
       "date": "2025-09-17",
@@ -1744,11 +1753,11 @@
     },
     {
       "id": "lol-lck-1629297-zlypher-github-io",
-      "title": "LCK – Lower bracket final: TBD vs TBD",
+      "title": "LCK – Lower bracket final: BRO vs TBD",
       "date": "2026-08-28",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: TBD vs TBD"
+      "detail": "Lower bracket final: BRO vs TBD"
     },
     {
       "id": "lol-lck-1642153-zlypher-github-io",
@@ -1834,7 +1843,7 @@
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
       "startDate": "2026-08-15",
-      "endDate": "2026-09-13",
+      "endDate": "2026-09-19",
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
@@ -1934,6 +1943,30 @@
       "sport": "lol",
       "type": "final",
       "detail": "Grand final: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652746-zlypher-github-io",
+      "title": "LPL – Upper bracket final: TBD vs TBD",
+      "date": "2026-09-17",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652747-zlypher-github-io",
+      "title": "LPL – Lower bracket semifinal: TBD vs TBD",
+      "date": "2026-09-18",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652748-zlypher-github-io",
+      "title": "LPL – Lower bracket final: TBD vs TBD",
+      "date": "2026-09-19",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: TBD vs TBD"
     },
     {
       "id": "lol-first-stand-period-2026-1",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T04:00:52.715Z",
+  "lastUpdated": "2026-08-27T14:08:14.270Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1503,7 +1503,7 @@
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
       "startDate": "2026-08-15",
-      "endDate": "2026-09-13",
+      "endDate": "2026-09-19",
       "sport": "lol",
       "type": "tournament",
       "detail": "Published fixture period"
@@ -1562,11 +1562,11 @@
     },
     {
       "id": "lol-lck-1629297-zlypher-github-io",
-      "title": "LCK – Lower bracket final: TBD vs TBD",
+      "title": "LCK – Lower bracket final: BRO vs TBD",
       "date": "2026-08-28",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: TBD vs TBD"
+      "detail": "Lower bracket final: BRO vs TBD"
     },
     {
       "id": "football-liverpool-401879314",
@@ -1750,6 +1750,15 @@
       "detail": "Upper bracket final: TBD vs TBD"
     },
     {
+      "id": "football-liverpool-401914257",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-09-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Carabao Cup · Home (Anfield)",
+      "time": "02:00"
+    },
+    {
       "id": "lol-lpl-1643098-zlypher-github-io",
       "title": "LPL – Lower bracket semifinal: TBD vs TBD",
       "date": "2026-09-08",
@@ -1831,6 +1840,30 @@
       "sport": "lol",
       "type": "final",
       "detail": "Grand final: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652746-zlypher-github-io",
+      "title": "LPL – Upper bracket final: TBD vs TBD",
+      "date": "2026-09-17",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper bracket final: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652747-zlypher-github-io",
+      "title": "LPL – Lower bracket semifinal: TBD vs TBD",
+      "date": "2026-09-18",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket semifinal: TBD vs TBD"
+    },
+    {
+      "id": "lol-lpl-1652748-zlypher-github-io",
+      "title": "LPL – Lower bracket final: TBD vs TBD",
+      "date": "2026-09-19",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower bracket final: TBD vs TBD"
     },
     {
       "id": "football-liverpool-401879276",
