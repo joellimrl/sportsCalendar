@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T14:08:14.270Z",
+  "lastUpdated": "2026-08-28T15:18:12.771Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1493,7 +1493,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-08-12",
+      "startDate": "2026-08-13",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1562,11 +1562,11 @@
     },
     {
       "id": "lol-lck-1629297-zlypher-github-io",
-      "title": "LCK – Lower bracket final: BRO vs TBD",
+      "title": "LCK – Lower bracket final: BRO vs BFX",
       "date": "2026-08-28",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: BRO vs TBD"
+      "detail": "Lower bracket final: BRO vs BFX"
     },
     {
       "id": "football-liverpool-401879314",

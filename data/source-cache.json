@@ -1729,7 +1729,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-08-12",
+      "startDate": "2026-08-13",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1753,11 +1753,11 @@
     },
     {
       "id": "lol-lck-1629297-zlypher-github-io",
-      "title": "LCK – Lower bracket final: BRO vs TBD",
+      "title": "LCK – Lower bracket final: BRO vs BFX",
       "date": "2026-08-28",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: BRO vs TBD"
+      "detail": "Lower bracket final: BRO vs BFX"
     },
     {
       "id": "lol-lck-1642153-zlypher-github-io",
