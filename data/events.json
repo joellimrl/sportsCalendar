@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T15:18:12.771Z",
+  "lastUpdated": "2026-08-29T10:00:16.463Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1579,11 +1579,11 @@
     },
     {
       "id": "lol-lck-1642153-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 1: T1 vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 1: T1 vs BFX",
       "date": "2026-08-29",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: T1 vs TBD"
+      "detail": "Upper bracket quarterfinal 1: T1 vs BFX"
     },
     {
       "id": "lol-lpl-1643088-zlypher-github-io",
@@ -1604,11 +1604,11 @@
     },
     {
       "id": "lol-lck-1642154-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 2: DK vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 2: DK vs KT",
       "date": "2026-08-30",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: DK vs TBD"
+      "detail": "Upper bracket quarterfinal 2: DK vs KT"
     },
     {
       "id": "lol-lpl-1643089-zlypher-github-io",
@@ -1750,15 +1750,6 @@
       "detail": "Upper bracket final: TBD vs TBD"
     },
     {
-      "id": "football-liverpool-401914257",
-      "title": "Liverpool vs Tottenham Hotspur",
-      "date": "2026-09-08",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Carabao Cup · Home (Anfield)",
-      "time": "02:00"
-    },
-    {
       "id": "lol-lpl-1643098-zlypher-github-io",
       "title": "LPL – Lower bracket semifinal: TBD vs TBD",
       "date": "2026-09-08",
@@ -1840,6 +1831,15 @@
       "sport": "lol",
       "type": "final",
       "detail": "Grand final: TBD vs TBD"
+    },
+    {
+      "id": "football-liverpool-401914257",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "date": "2026-09-16",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Carabao Cup · Home (Anfield)",
+      "time": "03:00"
     },
     {
       "id": "lol-lpl-1652746-zlypher-github-io",

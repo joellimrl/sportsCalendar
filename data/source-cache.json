@@ -1211,11 +1211,11 @@
     {
       "id": "football-liverpool-401914257",
       "title": "Liverpool vs Tottenham Hotspur",
-      "date": "2026-09-08",
+      "date": "2026-09-16",
       "sport": "football",
       "type": "match",
       "detail": "English Carabao Cup · Home (Anfield)",
-      "time": "02:00"
+      "time": "03:00"
     },
     {
       "id": "football-liverpool-757662",
@@ -1761,19 +1761,19 @@
     },
     {
       "id": "lol-lck-1642153-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 1: T1 vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 1: T1 vs BFX",
       "date": "2026-08-29",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: T1 vs TBD"
+      "detail": "Upper bracket quarterfinal 1: T1 vs BFX"
     },
     {
       "id": "lol-lck-1642154-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 2: DK vs TBD",
+      "title": "LCK – Upper bracket quarterfinal 2: DK vs KT",
       "date": "2026-08-30",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: DK vs TBD"
+      "detail": "Upper bracket quarterfinal 2: DK vs KT"
     },
     {
       "id": "lol-lck-1642155-zlypher-github-io",
