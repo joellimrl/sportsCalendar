@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T10:00:16.463Z",
+  "lastUpdated": "2026-08-30T09:11:03.406Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1493,7 +1493,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-08-13",
+      "startDate": "2026-08-14",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1502,7 +1502,7 @@
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-08-15",
+      "startDate": "2026-08-16",
       "endDate": "2026-09-19",
       "sport": "lol",
       "type": "tournament",
@@ -1643,12 +1643,12 @@
       "detail": "Lower bracket round 1: TBD vs TBD"
     },
     {
-      "id": "lol-lpl-1643090-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 1: TBD vs AL",
+      "id": "lol-lpl-1643091-zlypher-github-io",
+      "title": "LPL – Upper bracket semifinal 2: TBD vs BLG",
       "date": "2026-09-03",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: TBD vs AL"
+      "detail": "Upper bracket semifinal 2: TBD vs BLG"
     },
     {
       "id": "football-liverpool-401879288",
@@ -1668,12 +1668,12 @@
       "detail": "Lower bracket round 2: TBD vs TBD"
     },
     {
-      "id": "lol-lpl-1643091-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 2: TBD vs BLG",
+      "id": "lol-lpl-1643090-zlypher-github-io",
+      "title": "LPL – Upper bracket semifinal 1: AL vs LGD",
       "date": "2026-09-04",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: TBD vs BLG"
+      "detail": "Upper bracket semifinal 1: AL vs LGD"
     },
     {
       "id": "f1-2026-r13-q",
@@ -1694,19 +1694,19 @@
     },
     {
       "id": "lol-lpl-1643094-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 1: TBD vs TBD",
+      "title": "LPL – Lower bracket round 1 match 1: IG vs TES",
       "date": "2026-09-05",
       "sport": "lol",
       "type": "match",
-      "detail": "Lower bracket round 1 match 1: TBD vs TBD"
+      "detail": "Lower bracket round 1 match 1: IG vs TES"
     },
     {
       "id": "lol-lpl-1643095-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 2: TBD vs TBD",
+      "title": "LPL – Lower bracket round 1 match 2: TBD vs NIP",
       "date": "2026-09-05",
       "sport": "lol",
       "type": "match",
-      "detail": "Lower bracket round 1 match 2: TBD vs TBD"
+      "detail": "Lower bracket round 1 match 2: TBD vs NIP"
     },
     {
       "id": "f1-2026-r13-r",
@@ -1756,6 +1756,15 @@
       "sport": "lol",
       "type": "semifinal",
       "detail": "Lower bracket semifinal: TBD vs TBD"
+    },
+    {
+      "id": "football-liverpool-401915446",
+      "title": "Liverpool vs Atlético Madrid",
+      "date": "2026-09-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Home (Anfield)",
+      "time": "03:00"
     },
     {
       "id": "tennis-189-2026-semis",
@@ -1947,6 +1956,15 @@
       "time": "23:30"
     },
     {
+      "id": "football-liverpool-401915415",
+      "title": "LASK Linz vs Liverpool",
+      "date": "2026-10-14",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Away",
+      "time": "00:45"
+    },
+    {
       "id": "football-liverpool-401879262",
       "title": "Brentford vs Liverpool",
       "date": "2026-10-17",
@@ -1954,6 +1972,15 @@
       "type": "match",
       "detail": "English Premier League · Away",
       "time": "22:00"
+    },
+    {
+      "id": "football-liverpool-401915397",
+      "title": "Liverpool vs Villarreal",
+      "date": "2026-10-20",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Home (Anfield)",
+      "time": "03:00"
     },
     {
       "id": "f1-2026-r18-q",
@@ -2010,6 +2037,15 @@
       "time": "00:30"
     },
     {
+      "id": "football-liverpool-401915382",
+      "title": "Fenerbahce vs Liverpool",
+      "date": "2026-11-04",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Away",
+      "time": "01:45"
+    },
+    {
       "id": "f1-2026-r20-q",
       "title": "Brazilian GP – Qualifying",
       "date": "2026-11-07",
@@ -2062,6 +2098,15 @@
       "sport": "f1",
       "detail": "Round 21 · Las Vegas Strip Street Circuit, Las Vegas",
       "time": "12:00"
+    },
+    {
+      "id": "football-liverpool-401915292",
+      "title": "Club Brugge vs Liverpool",
+      "date": "2026-11-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Away",
+      "time": "04:00"
     },
     {
       "id": "f1-2026-r22-q",
@@ -2127,6 +2172,15 @@
       "time": "21:00"
     },
     {
+      "id": "football-liverpool-401915369",
+      "title": "Liverpool vs FC Porto",
+      "date": "2026-12-09",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
       "id": "football-liverpool-401878743",
       "title": "Liverpool vs Leeds United",
       "date": "2026-12-12",
@@ -2190,6 +2244,15 @@
       "time": "23:00"
     },
     {
+      "id": "football-liverpool-401915360",
+      "title": "Internazionale vs Liverpool",
+      "date": "2027-01-19",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Away",
+      "time": "04:00"
+    },
+    {
       "id": "football-liverpool-401878718",
       "title": "Manchester United vs Liverpool",
       "date": "2027-01-23",
@@ -2197,6 +2260,15 @@
       "type": "match",
       "detail": "English Premier League · Away",
       "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-401915353",
+      "title": "Liverpool vs Lens",
+      "date": "2027-01-27",
+      "sport": "football",
+      "type": "match",
+      "detail": "UEFA Champions League · Home (Anfield)",
+      "time": "04:00"
     },
     {
       "id": "football-liverpool-401879155",
