@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T09:11:03.406Z",
+  "lastUpdated": "2026-08-31T09:40:22.906Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1620,35 +1620,35 @@
     },
     {
       "id": "lol-lck-1642155-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 1: GEN vs TBD",
+      "title": "LCK – Upper bracket semifinal 1: GEN vs KT",
       "date": "2026-09-01",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: GEN vs TBD"
+      "detail": "Upper bracket semifinal 1: GEN vs KT"
     },
     {
       "id": "lol-lck-1642156-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 2: HLE vs TBD",
+      "title": "LCK – Upper bracket semifinal 2: HLE vs T1",
       "date": "2026-09-02",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: HLE vs TBD"
+      "detail": "Upper bracket semifinal 2: HLE vs T1"
     },
     {
       "id": "lol-lck-1642162-zlypher-github-io",
-      "title": "LCK – Lower bracket round 1: TBD vs TBD",
+      "title": "LCK – Lower bracket round 1: BFX vs DK",
       "date": "2026-09-03",
       "sport": "lol",
       "type": "match",
-      "detail": "Lower bracket round 1: TBD vs TBD"
+      "detail": "Lower bracket round 1: BFX vs DK"
     },
     {
       "id": "lol-lpl-1643091-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 2: TBD vs BLG",
+      "title": "LPL – Upper bracket semifinal 2: BLG vs WE",
       "date": "2026-09-03",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: TBD vs BLG"
+      "detail": "Upper bracket semifinal 2: BLG vs WE"
     },
     {
       "id": "football-liverpool-401879288",
@@ -1702,11 +1702,11 @@
     },
     {
       "id": "lol-lpl-1643095-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 2: TBD vs NIP",
+      "title": "LPL – Lower bracket round 1 match 2: NIP vs JDG",
       "date": "2026-09-05",
       "sport": "lol",
       "type": "match",
-      "detail": "Lower bracket round 1 match 2: TBD vs NIP"
+      "detail": "Lower bracket round 1 match 2: NIP vs JDG"
     },
     {
       "id": "f1-2026-r13-r",
