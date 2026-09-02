@@ -75,11 +75,6 @@ function typeIcon(type) {
   return icons[type] || '';
 }
 
-function chipLabel(ev) {
-  if (ev.spanType === 'single') return ev.title;
-  return ev.title;
-}
-
 function showTooltip(ev, x, y) {
   const dateStr = ev.date
     ? formatDate(parseDate(ev.date))
@@ -127,9 +122,7 @@ function buildCalendar(year, month) {
   const prevMonthDays = new Date(year, month, 0).getDate();
 
   const today = new Date();
-  const todayY = today.getFullYear();
-  const todayM = today.getMonth();
-  const todayD = today.getDate();
+  const { year: todayY, month: todayM, day: todayD } = CalendarDisplay.singaporeDateParts(today);
 
   const totalCells = Math.ceil((firstDay + daysInMonth) / 7) * 7;
 
@@ -158,6 +151,9 @@ function buildCalendar(year, month) {
       cell.classList.add('today');
     }
 
+    const displayPolicy = CalendarDisplay.eventDisplayPolicy(cellYear, cellMonth, cellDay, today);
+    if (displayPolicy.showAll) cell.classList.add('show-all-events');
+
     const numEl = document.createElement('div');
     numEl.className = 'day-number';
     numEl.textContent = cellDay;
@@ -167,15 +163,8 @@ function buildCalendar(year, month) {
     const eventsContainer = document.createElement('div');
     eventsContainer.className = 'events-in-day';
 
-    const dayEvents = getEventsForDate(cellYear, cellMonth, cellDay);
-    // Sort: tournament spans first (thin bars), then other spans, then single events
-    dayEvents.sort((a, b) => {
-      const score = e => e.spanType === 'single' ? 2 : e.type === 'tournament' ? 0 : 1;
-      return score(a) - score(b);
-    });
-    const MAX_VISIBLE = 4;
-
-    dayEvents.slice(0, MAX_VISIBLE).forEach(ev => {
+    const dayEvents = CalendarDisplay.sortEventsForDay(getEventsForDate(cellYear, cellMonth, cellDay));
+    dayEvents.slice(0, displayPolicy.visibleLimit).forEach(ev => {
       const chip = document.createElement('div');
       chip.className = `event-chip ${ev.sport} type-${ev.type}`;
 
@@ -198,17 +187,21 @@ function buildCalendar(year, month) {
       }
 
       // Tournament spans are thin bars — always suppress text; tooltip still works
-      if (ev.type !== 'tournament') chip.textContent = chipLabel(ev);
+      if (ev.type !== 'tournament') chip.textContent = CalendarDisplay.fixtureLabel(ev);
+      chip.tabIndex = 0;
+      chip.setAttribute('role', 'button');
+      chip.setAttribute('aria-label', `${ev.title}; view all events for ${formatDate(new Date(cellYear, cellMonth, cellDay))}`);
       chip.addEventListener('mouseenter', e => showTooltip(ev, e.clientX, e.clientY));
       chip.addEventListener('mousemove',  e => positionTooltip(e.clientX, e.clientY));
       chip.addEventListener('mouseleave', hideTooltip);
+      CalendarDisplay.bindDayModalActivation(chip, () => showDayModal(cellYear, cellMonth, cellDay));
       eventsContainer.appendChild(chip);
     });
 
-    if (dayEvents.length > MAX_VISIBLE) {
+    if (dayEvents.length > displayPolicy.visibleLimit) {
       const more = document.createElement('div');
       more.className = 'more-events';
-      more.textContent = `+${dayEvents.length - MAX_VISIBLE} more`;
+      more.textContent = `+${dayEvents.length - displayPolicy.visibleLimit} more`;
       more.addEventListener('click', () => showDayModal(cellYear, cellMonth, cellDay));
       eventsContainer.appendChild(more);
     }
@@ -229,7 +222,7 @@ const modalDateEl   = document.getElementById('modal-date');
 const modalEventsEl = document.getElementById('modal-events');
 
 function showDayModal(year, month, day) {
-  const events = getEventsForDate(year, month, day);
+  const events = CalendarDisplay.sortEventsForDay(getEventsForDate(year, month, day));
   if (events.length === 0) return;
 
   const date = new Date(year, month, day);
@@ -280,9 +273,9 @@ document.getElementById('next-btn').addEventListener('click', () => {
 });
 
 document.getElementById('today-btn').addEventListener('click', () => {
-  const now = new Date();
-  currentYear  = now.getFullYear();
-  currentMonth = now.getMonth();
+  const today = CalendarDisplay.singaporeDateParts();
+  currentYear  = today.year;
+  currentMonth = today.month;
   buildCalendar(currentYear, currentMonth);
 });
 
@@ -302,8 +295,8 @@ document.querySelectorAll('.legend-item[data-sport]').forEach(item => {
 
 (async () => {
   await loadEvents();
-  const now = new Date();
-  currentYear  = now.getFullYear();
-  currentMonth = now.getMonth();
+  const today = CalendarDisplay.singaporeDateParts();
+  currentYear  = today.year;
+  currentMonth = today.month;
   buildCalendar(currentYear, currentMonth);
 })();

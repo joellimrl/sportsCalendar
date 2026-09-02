@@ -231,9 +231,24 @@ main {
   transition: filter 0.1s;
   line-height: 1.5;
   min-width: 0;
+  font-variant-numeric: tabular-nums;
 }
 
 .event-chip:hover { filter: brightness(1.2); }
+
+.event-chip:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 1px;
+}
+
+.day-cell.show-all-events .event-chip:not(.type-tournament) {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+  padding-block: 3px;
+}
 
 .event-chip.f1       { background: var(--f1-muted);       color: var(--f1);       border-left: 2px solid var(--f1); }
 .event-chip.tennis   { background: var(--tennis-muted);   color: var(--tennis);   border-left: 2px solid var(--tennis); }
