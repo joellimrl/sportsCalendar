@@ -11,6 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { toSGT } = require('./date-time');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const EVENTS_PATH = path.join(DATA_DIR, 'events.json');
@@ -32,16 +33,6 @@ function dateOf(value) {
 
 function slug(value) {
   return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-}
-
-function toSGT(dateStr, utcTime) {
-  if (!utcTime) return null;
-  const iso = `${dateStr}T${utcTime.replace(/^T/, '')}`;
-  const parts = new Intl.DateTimeFormat('en-GB', {
-    timeZone: 'Asia/Singapore', hour: '2-digit', minute: '2-digit', hour12: false,
-  }).formatToParts(new Date(iso));
-  const get = type => parts.find(p => p.type === type)?.value;
-  return `${get('hour')}:${get('minute')}`;
 }
 
 async function fetchJson(url) {
@@ -69,12 +60,6 @@ function rollingYears(now, previous = 0, future = 1) {
   return Array.from({ length: previous + future + 1 }, (_, i) => year - previous + i);
 }
 
-function eventTime(iso) {
-  const date = dateOf(iso);
-  const time = iso?.split('T')[1];
-  return time ? toSGT(date, time) : null;
-}
-
 async function fetchF1(now) {
   const events = [];
   for (const year of rollingYears(now)) {
@@ -82,17 +67,24 @@ async function fetchF1(now) {
     for (const race of json.MRData?.RaceTable?.Races ?? []) {
       const title = race.raceName.replace(' Grand Prix', ' GP');
       const base = { sport: 'f1', detail: `Round ${race.round} · ${race.Circuit.circuitName}, ${race.Circuit.Location.locality}` };
-      if (race.Qualifying) events.push({
-        id: `f1-${year}-r${race.round}-q`, title: `${title} – Qualifying`, date: race.Qualifying.date,
-        type: 'qualifying', ...base, ...(race.Qualifying.time && { time: toSGT(race.Qualifying.date, race.Qualifying.time) }),
-      });
-      if (race.Sprint) events.push({
-        id: `f1-${year}-r${race.round}-s`, title: `${title} – Sprint`, date: race.Sprint.date,
-        type: 'sprint', ...base, ...(race.Sprint.time && { time: toSGT(race.Sprint.date, race.Sprint.time) }),
-      });
+      if (race.Qualifying) {
+        const timing = race.Qualifying.time ? toSGT(race.Qualifying.date, race.Qualifying.time) : { date: race.Qualifying.date };
+        events.push({
+          id: `f1-${year}-r${race.round}-q`, title: `${title} – Qualifying`, date: timing.date,
+          type: 'qualifying', ...base, ...(timing.time && { time: timing.time }),
+        });
+      }
+      if (race.Sprint) {
+        const timing = race.Sprint.time ? toSGT(race.Sprint.date, race.Sprint.time) : { date: race.Sprint.date };
+        events.push({
+          id: `f1-${year}-r${race.round}-s`, title: `${title} – Sprint`, date: timing.date,
+          type: 'sprint', ...base, ...(timing.time && { time: timing.time }),
+        });
+      }
+      const timing = race.time ? toSGT(race.date, race.time) : { date: race.date };
       events.push({
-        id: `f1-${year}-r${race.round}-r`, title: `${title} – Race`, date: race.date,
-        type: 'race', ...base, ...(race.time && { time: toSGT(race.date, race.time) }),
+        id: `f1-${year}-r${race.round}-r`, title: `${title} – Race`, date: timing.date,
+        type: 'race', ...base, ...(timing.time && { time: timing.time }),
       });
     }
   }
@@ -110,11 +102,10 @@ async function espnEvents(sport, league, years) {
 }
 
 function footballEvent(event, id, title, type, detail) {
-  const date = dateOf(event.date);
-  if (!date) return null;
+  const timing = toSGT(event.date);
+  if (!timing) return null;
   return {
-    id, title, date, sport: 'football', type, detail,
-    ...(event.date && { time: eventTime(event.date) }),
+    id, title, date: timing.date, sport: 'football', type, detail, time: timing.time,
   };
 }
 
@@ -285,16 +276,16 @@ async function fetchLol(now) {
   });
   for (const row of matches) {
     const tournament = byPage.get(row.OverviewPage);
-    const date = dateOf(row.DateTime);
-    if (!tournament || !date || !row.MatchId) continue;
+    const timing = toSGT(row.DateTime);
+    if (!tournament || !timing || !row.MatchId) continue;
     const knockoutText = `${row.Round} ${row.Phase} ${row.Tab}`.toLowerCase();
     if (!/playoff|knockout|play-in|bracket|quarter|semi|final|elimination/.test(knockoutText)) continue;
     const type = /(?:^|\s)final(?:$|\s)/.test(knockoutText) && !/semi|quarter/.test(knockoutText) ? 'final'
       : /semi|quarter/.test(knockoutText) ? 'semifinal' : 'match';
     events.push({
       id: `lol-${slug(tournament.League)}-${slug(row.MatchId)}`, title: `${tournament.League} – ${tournament.StandardName || tournament.Name}`,
-      date, sport: 'lol', type, detail: [row.Team1, row.Team2].filter(Boolean).join(' vs ') || row.Round || row.Phase || 'TBD',
-      ...(row.DateTime && { time: eventTime(row.DateTime) }),
+      date: timing.date, sport: 'lol', type, detail: [row.Team1, row.Team2].filter(Boolean).join(' vs ') || row.Round || row.Phase || 'TBD',
+      time: timing.time,
     });
   }
   return uniqueById(events);
