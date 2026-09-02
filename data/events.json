@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T08:35:44.088Z",
+  "lastUpdated": "2026-09-02T07:52:33.276Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -1992,15 +1992,6 @@
       "time": "05:00"
     },
     {
-      "id": "football-liverpool-401878765",
-      "title": "Liverpool vs Brighton & Hove Albion",
-      "date": "2026-10-24",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Home (Anfield)",
-      "time": "22:00"
-    },
-    {
       "id": "f1-2026-r18-r",
       "title": "United States GP – Race",
       "date": "2026-10-25",
@@ -2008,6 +1999,15 @@
       "sport": "f1",
       "detail": "Round 18 · Circuit of the Americas, Austin",
       "time": "04:00"
+    },
+    {
+      "id": "football-liverpool-401878765",
+      "title": "Liverpool vs Brighton & Hove Albion",
+      "date": "2026-10-25",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Home (Anfield)",
+      "time": "22:00"
     },
     {
       "id": "f1-2026-r19-q",
