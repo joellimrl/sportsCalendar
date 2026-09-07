@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T09:20:00.628Z",
+  "lastUpdated": "2026-09-07T08:14:04.915Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -263,15 +263,6 @@
       "time": "04:00"
     },
     {
-      "id": "football-liverpool-762494",
-      "title": "Liverpool vs Barnsley",
-      "date": "2026-01-13",
-      "sport": "football",
-      "type": "match",
-      "detail": "English FA Cup · Home (Anfield)",
-      "time": "03:45"
-    },
-    {
       "id": "football-liverpool-740810",
       "title": "Liverpool vs Burnley",
       "date": "2026-01-17",
@@ -360,15 +351,6 @@
       "time": "04:15"
     },
     {
-      "id": "football-liverpool-401850952",
-      "title": "Liverpool vs Brighton & Hove Albion",
-      "date": "2026-02-15",
-      "sport": "football",
-      "type": "match",
-      "detail": "English FA Cup · Home (Anfield)",
-      "time": "04:00"
-    },
-    {
       "id": "football-liverpool-740863",
       "title": "Nottingham Forest vs Liverpool",
       "date": "2026-02-22",
@@ -403,15 +385,6 @@
       "sport": "f1",
       "detail": "Round 1 · Albert Park Grand Prix Circuit, Melbourne",
       "time": "13:00"
-    },
-    {
-      "id": "football-liverpool-401861584",
-      "title": "Wolverhampton Wanderers vs Liverpool",
-      "date": "2026-03-07",
-      "sport": "football",
-      "type": "match",
-      "detail": "English FA Cup · Away",
-      "time": "04:00"
     },
     {
       "id": "f1-2026-r1-r",
@@ -551,15 +524,6 @@
       "sport": "f1",
       "detail": "Round 3 · Suzuka Circuit, Suzuka",
       "time": "13:00"
-    },
-    {
-      "id": "football-liverpool-401864077",
-      "title": "Manchester City vs Liverpool",
-      "date": "2026-04-04",
-      "sport": "football",
-      "type": "match",
-      "detail": "English FA Cup · Away",
-      "time": "19:45"
     },
     {
       "id": "football-liverpool-401862885",
