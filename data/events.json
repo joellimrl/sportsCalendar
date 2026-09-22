@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T07:59:47.253Z",
+  "lastUpdated": "2026-09-22T08:29:05.310Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2055,15 +2055,6 @@
       "time": "01:45"
     },
     {
-      "id": "football-liverpool-401879243",
-      "title": "Crystal Palace vs Liverpool",
-      "date": "2026-11-07",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Away",
-      "time": "23:00"
-    },
-    {
       "id": "f1-2026-r20-q",
       "title": "Brazilian GP – Qualifying",
       "date": "2026-11-08",
@@ -2071,6 +2062,15 @@
       "sport": "f1",
       "detail": "Round 20 · Autódromo José Carlos Pace, São Paulo",
       "time": "02:00"
+    },
+    {
+      "id": "football-liverpool-401879243",
+      "title": "Crystal Palace vs Liverpool",
+      "date": "2026-11-08",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Away",
+      "time": "22:00"
     },
     {
       "id": "f1-2026-r20-r",
@@ -2091,15 +2091,6 @@
       "time": "12:00"
     },
     {
-      "id": "football-liverpool-401878755",
-      "title": "Liverpool vs Manchester United",
-      "date": "2026-11-21",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Home (Anfield)",
-      "time": "23:00"
-    },
-    {
       "id": "f1-2026-r21-r",
       "title": "Las Vegas GP – Race",
       "date": "2026-11-22",
@@ -2107,6 +2098,15 @@
       "sport": "f1",
       "detail": "Round 21 · Las Vegas Strip Street Circuit, Las Vegas",
       "time": "12:00"
+    },
+    {
+      "id": "football-liverpool-401878755",
+      "title": "Liverpool vs Manchester United",
+      "date": "2026-11-23",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Home (Anfield)",
+      "time": "00:30"
     },
     {
       "id": "football-liverpool-401915292",
@@ -2118,15 +2118,6 @@
       "time": "04:00"
     },
     {
-      "id": "football-liverpool-401879229",
-      "title": "Everton vs Liverpool",
-      "date": "2026-11-28",
-      "sport": "football",
-      "type": "match",
-      "detail": "English Premier League · Away",
-      "time": "23:00"
-    },
-    {
       "id": "f1-2026-r22-q",
       "title": "Qatar GP – Qualifying",
       "date": "2026-11-29",
@@ -2134,6 +2125,15 @@
       "sport": "f1",
       "detail": "Round 22 · Lusail International Circuit, Lusail",
       "time": "02:00"
+    },
+    {
+      "id": "football-liverpool-401879229",
+      "title": "Everton vs Liverpool",
+      "date": "2026-11-29",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Premier League · Away",
+      "time": "20:00"
     },
     {
       "id": "f1-2026-r22-r",
