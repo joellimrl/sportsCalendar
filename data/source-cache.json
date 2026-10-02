@@ -1810,7 +1810,7 @@
     {
       "id": "lol-lck-period-2026-1",
       "title": "LCK – Split 1",
-      "startDate": "2026-08-14",
+      "startDate": "2026-08-20",
       "endDate": "2026-09-13",
       "sport": "lol",
       "type": "tournament",
@@ -1882,48 +1882,48 @@
     },
     {
       "id": "lol-lck-1642161-zlypher-github-io",
-      "title": "LCK – Lower bracket round 2: TBD vs TBD",
+      "title": "LCK – Lower bracket round 2: KT vs DK",
       "date": "2026-09-04",
       "sport": "lol",
       "type": "match",
-      "detail": "Lower bracket round 2: TBD vs TBD"
+      "detail": "Lower bracket round 2: KT vs DK"
     },
     {
       "id": "lol-lck-1642157-zlypher-github-io",
-      "title": "LCK – Upper bracket final: TBD vs TBD",
+      "title": "LCK – Upper bracket final: GEN vs HLE",
       "date": "2026-09-05",
       "sport": "lol",
       "type": "final",
-      "detail": "Upper bracket final: TBD vs TBD"
+      "detail": "Upper bracket final: GEN vs HLE"
     },
     {
       "id": "lol-lck-1642160-zlypher-github-io",
-      "title": "LCK – Lower bracket semifinal: TBD vs TBD",
+      "title": "LCK – Lower bracket semifinal: T1 vs DK",
       "date": "2026-09-06",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: TBD vs TBD"
+      "detail": "Lower bracket semifinal: T1 vs DK"
     },
     {
       "id": "lol-lck-1642159-zlypher-github-io",
-      "title": "LCK – Lower bracket final: TBD vs TBD",
+      "title": "LCK – Lower bracket final: HLE vs T1",
       "date": "2026-09-12",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: TBD vs TBD"
+      "detail": "Lower bracket final: HLE vs T1"
     },
     {
       "id": "lol-lck-1642158-zlypher-github-io",
-      "title": "LCK – Grand final: TBD vs TBD",
+      "title": "LCK – Grand final: GEN vs HLE",
       "date": "2026-09-13",
       "sport": "lol",
       "type": "final",
-      "detail": "Grand final: TBD vs TBD"
+      "detail": "Grand final: GEN vs HLE"
     },
     {
       "id": "lol-lpl-period-2026-1",
       "title": "LPL – Split 1",
-      "startDate": "2026-08-16",
+      "startDate": "2026-08-23",
       "endDate": "2026-09-19",
       "sport": "lol",
       "type": "tournament",
@@ -1962,14 +1962,6 @@
       "detail": "Upper bracket semifinal 1: AL vs LGD"
     },
     {
-      "id": "lol-lpl-1643094-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 1: IG vs TES",
-      "date": "2026-09-05",
-      "sport": "lol",
-      "type": "match",
-      "detail": "Lower bracket round 1 match 1: IG vs TES"
-    },
-    {
       "id": "lol-lpl-1643095-zlypher-github-io",
       "title": "LPL – Lower bracket round 1 match 2: NIP vs JDG",
       "date": "2026-09-05",
@@ -1978,76 +1970,84 @@
       "detail": "Lower bracket round 1 match 2: NIP vs JDG"
     },
     {
-      "id": "lol-lpl-1643096-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 1: TBD vs TBD",
-      "date": "2026-09-06",
+      "id": "lol-lpl-1643094-zlypher-github-io",
+      "title": "LPL – Lower bracket round 1 match 1: IG vs TES",
+      "date": "2026-09-05",
       "sport": "lol",
-      "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 1: TBD vs TBD"
+      "type": "match",
+      "detail": "Lower bracket round 1 match 1: IG vs TES"
     },
     {
       "id": "lol-lpl-1643097-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 2: TBD vs TBD",
+      "title": "LPL – Lower bracket quarterfinal 2: NIP vs LGD",
       "date": "2026-09-06",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 2: TBD vs TBD"
+      "detail": "Lower bracket quarterfinal 2: NIP vs LGD"
+    },
+    {
+      "id": "lol-lpl-1643096-zlypher-github-io",
+      "title": "LPL – Lower bracket quarterfinal 1: IG vs WE",
+      "date": "2026-09-06",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower bracket quarterfinal 1: IG vs WE"
     },
     {
       "id": "lol-lpl-1643092-zlypher-github-io",
-      "title": "LPL – Upper bracket final: TBD vs TBD",
+      "title": "LPL – Upper bracket final: AL vs BLG",
       "date": "2026-09-07",
       "sport": "lol",
       "type": "final",
-      "detail": "Upper bracket final: TBD vs TBD"
+      "detail": "Upper bracket final: AL vs BLG"
     },
     {
       "id": "lol-lpl-1643098-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: TBD vs TBD",
+      "title": "LPL – Lower bracket semifinal: IG vs LGD",
       "date": "2026-09-08",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: TBD vs TBD"
+      "detail": "Lower bracket semifinal: IG vs LGD"
     },
     {
       "id": "lol-lpl-1643099-zlypher-github-io",
-      "title": "LPL – Lower bracket final: TBD vs TBD",
+      "title": "LPL – Lower bracket final: AL vs IG",
       "date": "2026-09-12",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: TBD vs TBD"
+      "detail": "Lower bracket final: AL vs IG"
     },
     {
       "id": "lol-lpl-1643093-zlypher-github-io",
-      "title": "LPL – Grand final: TBD vs TBD",
+      "title": "LPL – Grand final: BLG vs AL",
       "date": "2026-09-13",
       "sport": "lol",
       "type": "final",
-      "detail": "Grand final: TBD vs TBD"
+      "detail": "Grand final: BLG vs AL"
     },
     {
       "id": "lol-lpl-1652746-zlypher-github-io",
-      "title": "LPL – Upper bracket final: TBD vs TBD",
+      "title": "LPL – Upper bracket final: TES vs IG",
       "date": "2026-09-17",
       "sport": "lol",
       "type": "final",
-      "detail": "Upper bracket final: TBD vs TBD"
+      "detail": "Upper bracket final: TES vs IG"
     },
     {
       "id": "lol-lpl-1652747-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: TBD vs TBD",
+      "title": "LPL – Lower bracket semifinal: WE vs JDG",
       "date": "2026-09-18",
       "sport": "lol",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: TBD vs TBD"
+      "detail": "Lower bracket semifinal: WE vs JDG"
     },
     {
       "id": "lol-lpl-1652748-zlypher-github-io",
-      "title": "LPL – Lower bracket final: TBD vs TBD",
+      "title": "LPL – Lower bracket final: IG vs JDG",
       "date": "2026-09-19",
       "sport": "lol",
       "type": "final",
-      "detail": "Lower bracket final: TBD vs TBD"
+      "detail": "Lower bracket final: IG vs JDG"
     },
     {
       "id": "lol-first-stand-period-2026-1",
@@ -2266,6 +2266,119 @@
       "sport": "lol",
       "type": "final",
       "detail": "Grand final: BLG vs HLE"
+    },
+    {
+      "id": "lol-worlds-period-2026-1",
+      "title": "Worlds",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "Published fixture period"
+    },
+    {
+      "id": "lol-worlds-1710926-zlypher-github-io",
+      "title": "Worlds – Upper Bracket Semifinal 1: TBD vs TBD",
+      "date": "2026-10-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper Bracket Semifinal 1: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1710927-zlypher-github-io",
+      "title": "Worlds – Upper Bracket Semifinal 2: TBD vs TBD",
+      "date": "2026-10-15",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Upper Bracket Semifinal 2: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1710930-zlypher-github-io",
+      "title": "Worlds – Upper Bracket Final: TBD vs TBD",
+      "date": "2026-10-16",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Upper Bracket Final: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1710928-zlypher-github-io",
+      "title": "Worlds – Lower Bracket Semifinal: TBD vs TBD",
+      "date": "2026-10-16",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Lower Bracket Semifinal: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1710929-zlypher-github-io",
+      "title": "Worlds – Lower Bracket Final: TBD vs TBD",
+      "date": "2026-10-17",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Lower Bracket Final: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1710931-zlypher-github-io",
+      "title": "Worlds – Grand Final: TBD vs TBD",
+      "date": "2026-10-18",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand Final: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711013-zlypher-github-io",
+      "title": "Worlds – Quarterfinal 1: TBD vs TBD",
+      "date": "2026-11-03",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Quarterfinal 1: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711016-zlypher-github-io",
+      "title": "Worlds – Quarterfinal 2: TBD vs TBD",
+      "date": "2026-11-04",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Quarterfinal 2: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711017-zlypher-github-io",
+      "title": "Worlds – Quarterfinal 3: TBD vs TBD",
+      "date": "2026-11-05",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Quarterfinal 3: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711018-zlypher-github-io",
+      "title": "Worlds – Quarterfinal 4: TBD vs TBD",
+      "date": "2026-11-06",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Quarterfinal 4: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711019-zlypher-github-io",
+      "title": "Worlds – Semifinal 1: TBD vs TBD",
+      "date": "2026-11-07",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 1: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711020-zlypher-github-io",
+      "title": "Worlds – Semifinal 2: TBD vs TBD",
+      "date": "2026-11-08",
+      "sport": "lol",
+      "type": "semifinal",
+      "detail": "Semifinal 2: TBD vs TBD"
+    },
+    {
+      "id": "lol-worlds-1711021-zlypher-github-io",
+      "title": "Worlds – Grand Final: TBD vs TBD",
+      "date": "2026-11-14",
+      "sport": "lol",
+      "type": "final",
+      "detail": "Grand Final: TBD vs TBD"
     },
     {
       "id": "lol-ewc-period-2026-1",
