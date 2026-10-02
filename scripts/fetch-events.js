@@ -12,6 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 const { toSGT } = require('./date-time');
+const { fetchLol } = require('./lol');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const EVENTS_PATH = path.join(DATA_DIR, 'events.json');
@@ -38,6 +39,7 @@ function slug(value) {
 async function fetchJson(url) {
   const response = await fetch(url, {
     headers: { 'user-agent': 'sportsCalendar/1.0 (keyless personal calendar)' },
+    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
   return response.json();
@@ -46,6 +48,7 @@ async function fetchJson(url) {
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: { 'user-agent': 'sportsCalendar/1.0 (keyless personal calendar)' },
+    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
   return response.text();
@@ -217,146 +220,6 @@ async function fetchTennis(now) {
   return uniqueById(events);
 }
 
-async function fetchLol(now) {
-  const start = `${now.getUTCFullYear()}-01-01`;
-  const end = `${now.getUTCFullYear() + 2}-01-01`;
-  const query = async params => {
-    const json = await fetchJson(`https://lol.fandom.com/api.php?${new URLSearchParams({ action: 'cargoquery', format: 'json', limit: '500', ...params })}`);
-    if (json.error) throw new Error(`Leaguepedia: ${json.error.info || json.error.code}`);
-    return (json.cargoquery ?? []).map(item => item.title).filter(Boolean);
-  };
-  const tournaments = await query({
-    tables: 'Tournaments=T', order_by: 'T.DateStart ASC',
-    fields: 'T.OverviewPage=OverviewPage,T.Name=Name,T.StandardName=StandardName,T.League=League,T.DateStart=DateStart,T.Date=DateEnd,T.Split=Split,T.SplitNumber=SplitNumber,T.IsPlayoffs=IsPlayoffs,T.IsOfficial=IsOfficial',
-    where: `T.DateStart >= "${start}" AND T.DateStart < "${end}" AND (T.League IN ("LCK","LPL","MSI","Worlds") OR T.Name LIKE "LCK %" OR T.Name LIKE "LPL %" OR T.StandardName LIKE "LCK %" OR T.StandardName LIKE "LPL %" OR T.Name LIKE "%First Stand%" OR T.StandardName LIKE "%First Stand%" OR T.Name LIKE "%Esports World Cup%" OR T.StandardName LIKE "%Esports World Cup%")`,
-  });
-  if (!tournaments.length) throw new Error('Leaguepedia returned no LoL tournaments');
-
-  const regional = new Set(['LCK', 'LPL']);
-  const eventName = row => `${row.Name} ${row.StandardName}`.toLowerCase();
-  const internationalName = row => {
-    const name = eventName(row);
-    if (name.includes('first stand')) return 'First Stand';
-    if (name.includes('esports world cup')) return 'EWC';
-    if (row.League === 'MSI') return 'MSI';
-    if (row.League === 'Worlds') return 'Worlds';
-    return null;
-  };
-  const knockoutTournament = row => row.IsPlayoffs === '1' || /playoff|knockout|play-in|bracket|regional qualifier|finals?/.test(eventName(row));
-  const selected = tournaments.filter(row => {
-    const international = internationalName(row);
-    return regional.has(row.League) ? knockoutTournament(row) : Boolean(international) && !/qualifier/.test(eventName(row));
-  });
-  const byPage = new Map(tournaments.map(row => [row.OverviewPage, row]));
-  const events = [];
-
-  for (const row of tournaments) {
-    if (!regional.has(row.League) || !row.DateStart || !row.DateEnd) continue;
-    const split = row.Split || (row.SplitNumber ? `Split ${row.SplitNumber}` : row.Name || row.StandardName);
-    events.push({
-      id: `lol-${slug(row.League)}-period-${slug(row.OverviewPage)}`,
-      title: `${row.League} – ${split}`, startDate: row.DateStart, endDate: row.DateEnd,
-      sport: 'lol', type: 'tournament', detail: row.StandardName || row.Name,
-    });
-  }
-  for (const row of tournaments.filter(row => internationalName(row) && !/qualifier/.test(eventName(row)) && row.DateStart && row.DateEnd)) {
-    const name = internationalName(row);
-    events.push({ id: `lol-${slug(name)}-${slug(row.OverviewPage)}-span`, title: name, startDate: row.DateStart, endDate: row.DateEnd, sport: 'lol', type: 'tournament', detail: row.StandardName || row.Name });
-  }
-
-  // Leaguepedia permits 500 keyless results per request and rate-limits calls.
-  // Only knockout regional pages and international events need match-level rows.
-  const pages = selected.map(row => row.OverviewPage).filter(Boolean);
-  if (!pages.length) return uniqueById(events);
-  await new Promise(resolve => setTimeout(resolve, 61_000));
-  const matches = await query({
-    tables: 'MatchSchedule=MS', group_by: 'MS.MatchId', order_by: 'MS.DateTime_UTC ASC',
-    fields: 'MS.MatchId=MatchId,MS.OverviewPage=OverviewPage,MS.Team1=Team1,MS.Team2=Team2,MS.DateTime_UTC=DateTime,MS.Round=Round,MS.Phase=Phase,MS.Tab=Tab',
-    where: `MS.OverviewPage IN (${pages.map(page => `'${page.replace(/'/g, "''")}'`).join(',')})`,
-  });
-  for (const row of matches) {
-    const tournament = byPage.get(row.OverviewPage);
-    const timing = toSGT(row.DateTime);
-    if (!tournament || !timing || !row.MatchId) continue;
-    const knockoutText = `${row.Round} ${row.Phase} ${row.Tab}`.toLowerCase();
-    if (!/playoff|knockout|play-in|bracket|quarter|semi|final|elimination/.test(knockoutText)) continue;
-    const type = /(?:^|\s)final(?:$|\s)/.test(knockoutText) && !/semi|quarter/.test(knockoutText) ? 'final'
-      : /semi|quarter/.test(knockoutText) ? 'semifinal' : 'match';
-    events.push({
-      id: `lol-${slug(tournament.League)}-${slug(row.MatchId)}`, title: `${tournament.League} – ${tournament.StandardName || tournament.Name}`,
-      date: timing.date, sport: 'lol', type, detail: [row.Team1, row.Team2].filter(Boolean).join(' vs ') || row.Round || row.Phase || 'TBD',
-      time: timing.time,
-    });
-  }
-  return uniqueById(events);
-}
-
-// A public iCalendar mirror is a deliberately independent fallback for the
-// rare occasions where Leaguepedia's keyless Cargo endpoint rate-limits us.
-// It contains the published fixtures themselves, so its date ranges advance
-// without source-code changes as the calendar is refreshed.
-function icalEvents(text) {
-  return text.replace(/\r?\n[ \t]/g, '').split('BEGIN:VEVENT').slice(1).map(block => {
-    const value = name => block.match(new RegExp(`^${name}(?:;[^:]*)?:(.+)$`, 'm'))?.[1]?.trim();
-    const rawDate = value('DTSTART');
-    return {
-      id: value('UID'),
-      date: rawDate?.match(/\d{8}/)?.[0]?.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3'),
-      summary: value('SUMMARY')?.replace(/\\,/g, ',').replace(/\\n/g, ' ') || 'TBD',
-    };
-  }).filter(event => event.id && event.date);
-}
-
-async function fetchLolCalendarFallback(now) {
-  const calendars = [
-    ['LCK', 'league-of-legends-lck-champions-korea'],
-    ['LPL', 'league-of-legends-lpl-china'],
-    ['First Stand', 'league-of-legends-first-stand'],
-    ['MSI', 'league-of-legends-mid-invitational'],
-    ['Worlds', 'league-of-legends-world-championship'],
-    ['EWC', 'league-of-legends-esports-world-cup'],
-  ];
-  const firstYear = now.getUTCFullYear();
-  const events = [];
-  for (const [name, calendar] of calendars) {
-    const text = await fetchText(`https://zlypher.github.io/lol-events/cal/${calendar}.ical`);
-    const fixtures = icalEvents(text).filter(fixture => Number(fixture.date.slice(0, 4)) >= firstYear && Number(fixture.date.slice(0, 4)) <= firstYear + 1)
-      .sort((a, b) => a.date.localeCompare(b.date));
-    if (!fixtures.length) continue;
-    const periods = name === 'LCK' || name === 'LPL'
-      ? fixtures.reduce((groups, fixture) => {
-        const group = groups.at(-1);
-        const previous = group?.at(-1);
-        const gap = previous ? (Date.parse(`${fixture.date}T00:00:00Z`) - Date.parse(`${previous.date}T00:00:00Z`)) / 86400000 : 0;
-        if (!group || gap > 14) groups.push([fixture]); else group.push(fixture);
-        return groups;
-      }, [])
-      : [fixtures];
-    periods.forEach((period, index) => events.push({
-      id: `lol-${slug(name)}-period-${firstYear}-${index + 1}`,
-      title: name === 'LCK' || name === 'LPL' ? `${name} – Split ${index + 1}` : name,
-      startDate: period[0].date, endDate: period.at(-1).date,
-      sport: 'lol', type: 'tournament', detail: 'Published fixture period',
-    }));
-    for (const fixture of fixtures) {
-      if (!/playoff|knockout|play-in|bracket|quarter|semi|final|elimination/i.test(fixture.summary)) continue;
-      const type = /(?:^|\s)final(?:$|\s|:)/i.test(fixture.summary) && !/semi|quarter/i.test(fixture.summary) ? 'final'
-        : /semi|quarter/i.test(fixture.summary) ? 'semifinal' : 'match';
-      events.push({ id: `lol-${slug(name)}-${slug(fixture.id)}`, title: `${name} – ${fixture.summary}`, date: fixture.date, sport: 'lol', type, detail: fixture.summary });
-    }
-  }
-  if (!events.length) throw new Error('LoL fallback calendars returned no fixtures');
-  return uniqueById(events);
-}
-
-async function fetchLolWithFallback(now) {
-  try { return await fetchLol(now); }
-  catch (error) {
-    console.warn(`  lol: Leaguepedia unavailable (${error.message}); using public calendar fallback`);
-    return fetchLolCalendarFallback(now);
-  }
-}
-
 function validate(source, events) {
   if (!Array.isArray(events) || !events.length) throw new Error(`${source} returned no events`);
   const ids = new Set();
@@ -381,7 +244,7 @@ async function main() {
   const now = new Date();
   const previous = readJson(EVENTS_PATH, { events: [], lastUpdated: null });
   const cache = readJson(CACHE_PATH, bootstrapCache(previous.events ?? []));
-  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: fetchLolWithFallback };
+  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: date => fetchLol(date, cache.lol ?? [], { fetchJson, fetchText }) };
 
   for (const [name, fetchSource] of Object.entries(sources)) {
     try {

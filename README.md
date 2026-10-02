@@ -17,7 +17,7 @@ League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
 | F1 | Qualifying, Sprint, Race for every round | [Jolpica](https://api.jolpi.ca/) |
 | Football | Every published Liverpool men's first-team fixture; World Cup, Euro and Copa América periods plus knockout matches | ESPN public scoreboard data |
 | Tennis | Grand Slam periods, semifinals and finals | ESPN public ATP calendar data |
-| LoL | LCK/LPL split periods and knockouts; First Stand, MSI, Worlds and EWC periods plus play-in/knockout matches | Leaguepedia public Cargo API, with public iCalendar fallback |
+| LoL | LCK/LPL split periods and knockouts; First Stand, MSI, Worlds and EWC periods plus play-in/knockout matches; Demacia Cup and Demacia Cup Global Invitational periods plus quarterfinals, semifinals and finals | Leaguepedia public tournament pages and [public iCalendars](https://github.com/zlypher/lol-events) |
 
 ## Automatic refresh architecture
 
@@ -27,10 +27,16 @@ season window from public sources without API keys.
 
 Each source has a committed last-known-good snapshot in
 `data/source-cache.json`. If an upstream source is unavailable or incomplete,
-the calendar preserves its prior source data rather than deleting it. The
-Leaguepedia is additionally backed by a public fixture-calendar fallback for
-temporary Cargo API rate limits. The workflow commits only when event content
-changes.
+the calendar preserves its prior source data rather than deleting it.
+LoL discovers current/next-year tournament pages using Leaguepedia's public
+MediaWiki page API, avoiding the rate-limited Cargo endpoint. Published infobox
+dates provide tournament periods before fixtures are available. Prior-year
+Demacia Cup pages are also checked for tournaments crossing New Year.
+Independent public iCalendars supply fixtures with times converted to SGT.
+Each refresh merges valid LoL updates into its cache so an empty, incomplete,
+or failed competition feed cannot erase another competition or prior matches.
+Published tournament periods replace overlapping fixture-derived estimates.
+The workflow commits only when event content changes.
 
 All recurring data must remain rolling and source-driven. Adding a new sport or
 competition is the only reason to change source configuration; annual fixture
