@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T09:55:20.021Z",
+  "lastUpdated": "2026-10-09T10:28:43.787Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2362,44 +2362,44 @@
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694369-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 1: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – Quarterfinal 1: BFX vs JDG",
       "date": "2026-10-12",
       "time": "14:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 1: TBD vs TBD"
+      "detail": "Quarterfinal 1: BFX vs JDG"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694370-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 2: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – Quarterfinal 2: KT vs VIT",
       "date": "2026-10-12",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 2: TBD vs TBD"
+      "detail": "Quarterfinal 2: KT vs VIT"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694371-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 3: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – Quarterfinal 3: WE vs FLY",
       "date": "2026-10-13",
       "time": "14:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 3: TBD vs TBD"
+      "detail": "Quarterfinal 3: WE vs FLY"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694372-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 4: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – Quarterfinal 4: BRO vs LGD",
       "date": "2026-10-13",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 4: TBD vs TBD"
+      "detail": "Quarterfinal 4: BRO vs LGD"
     },
     {
       "sport": "lol",
