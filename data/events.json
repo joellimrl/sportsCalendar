@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T09:46:09.383Z",
+  "lastUpdated": "2026-10-11T09:56:23.359Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -927,22 +927,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524754-zlypher-github-io",
-      "title": "MSI – Upper bracket semifinal 1: KC vs DCG",
+      "title": "MSI – (Play-In) Upper bracket semifinal 1: KC vs DCG",
       "date": "2026-06-28",
       "time": "13:56",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: KC vs DCG"
+      "detail": "(Play-In) Upper bracket semifinal 1: KC vs DCG"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524755-zlypher-github-io",
-      "title": "MSI – Upper bracket semifinal 2: T1 vs TL",
+      "title": "MSI – (Play-In) Upper bracket semifinal 2: T1 vs TL",
       "date": "2026-06-28",
       "time": "11:12",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: T1 vs TL"
+      "detail": "(Play-In) Upper bracket semifinal 2: T1 vs TL"
     },
     {
       "id": "lol-msi-2026-mid-season-invitational-span",
@@ -978,22 +978,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524758-zlypher-github-io",
-      "title": "MSI – Lower bracket semifinal: DCG vs TL",
+      "title": "MSI – (Play-In) Lower bracket semifinal: DCG vs TL",
       "date": "2026-06-29",
       "time": "13:42",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: DCG vs TL"
+      "detail": "(Play-In) Lower bracket semifinal: DCG vs TL"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524756-zlypher-github-io",
-      "title": "MSI – Upper bracket final: T1 vs KC",
+      "title": "MSI – (Play-In) Upper bracket final: T1 vs KC",
       "date": "2026-06-29",
       "time": "11:03",
       "type": "final",
-      "detail": "Upper bracket final: T1 vs KC"
+      "detail": "(Play-In) Upper bracket final: T1 vs KC"
     },
     {
       "id": "football-international-760487",
@@ -1027,11 +1027,11 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524759-zlypher-github-io",
-      "title": "MSI – Lower bracket final: KC vs TL",
+      "title": "MSI – (Play-In) Lower bracket final: KC vs TL",
       "date": "2026-06-30",
       "time": "16:03",
       "type": "final",
-      "detail": "Lower bracket final: KC vs TL"
+      "detail": "(Play-In) Lower bracket final: KC vs TL"
     },
     {
       "id": "football-international-760490",
@@ -1065,11 +1065,11 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524757-zlypher-github-io",
-      "title": "MSI – Grand final: T1 vs TL",
+      "title": "MSI – (Play-In) Grand final: T1 vs TL",
       "date": "2026-07-01",
       "time": "16:03",
       "type": "final",
-      "detail": "Grand final: T1 vs TL"
+      "detail": "(Play-In) Grand final: T1 vs TL"
     },
     {
       "id": "football-international-760495",
@@ -1130,22 +1130,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524763-zlypher-github-io",
-      "title": "MSI – Upper bracket quarterfinal 4: G2 vs TES",
+      "title": "MSI – (Playoffs) Upper bracket quarterfinal 4: G2 vs TES",
       "date": "2026-07-03",
       "time": "13:44",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 4: G2 vs TES"
+      "detail": "(Playoffs) Upper bracket quarterfinal 4: G2 vs TES"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524760-zlypher-github-io",
-      "title": "MSI – Upper bracket quarterfinal 3: HLE vs TSW",
+      "title": "MSI – (Playoffs) Upper bracket quarterfinal 3: HLE vs TSW",
       "date": "2026-07-03",
       "time": "11:07",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 3: HLE vs TSW"
+      "detail": "(Playoffs) Upper bracket quarterfinal 3: HLE vs TSW"
     },
     {
       "id": "f1-2026-r9-q",
@@ -1197,22 +1197,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524761-zlypher-github-io",
-      "title": "MSI – Upper bracket quarterfinal 1: BLG vs T1",
+      "title": "MSI – (Playoffs) Upper bracket quarterfinal 1: BLG vs T1",
       "date": "2026-07-04",
       "time": "14:08",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: BLG vs T1"
+      "detail": "(Playoffs) Upper bracket quarterfinal 1: BLG vs T1"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1524762-zlypher-github-io",
-      "title": "MSI – Upper bracket quarterfinal 2: LY vs FUR",
+      "title": "MSI – (Playoffs) Upper bracket quarterfinal 2: LY vs FUR",
       "date": "2026-07-04",
       "time": "11:09",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: LY vs FUR"
+      "detail": "(Playoffs) Upper bracket quarterfinal 2: LY vs FUR"
     },
     {
       "id": "f1-2026-r9-r",
@@ -1246,22 +1246,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541770-zlypher-github-io",
-      "title": "MSI – Upper bracket semifinal 2: HLE vs G2",
+      "title": "MSI – (Playoffs) Upper bracket semifinal 2: HLE vs G2",
       "date": "2026-07-05",
       "time": "14:45",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: HLE vs G2"
+      "detail": "(Playoffs) Upper bracket semifinal 2: HLE vs G2"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541774-zlypher-github-io",
-      "title": "MSI – Lower bracket round 1 match 2: TSW vs TES",
+      "title": "MSI – (Playoffs) Lower bracket round 1 match 2: TSW vs TES",
       "date": "2026-07-05",
       "time": "11:05",
       "type": "match",
-      "detail": "Lower bracket round 1 match 2: TSW vs TES"
+      "detail": "(Playoffs) Lower bracket round 1 match 2: TSW vs TES"
     },
     {
       "id": "football-international-760504",
@@ -1286,22 +1286,22 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541775-zlypher-github-io",
-      "title": "MSI – Lower bracket round 1 match 1: T1 vs FUR",
+      "title": "MSI – (Playoffs) Lower bracket round 1 match 1: T1 vs FUR",
       "date": "2026-07-06",
       "time": "13:53",
       "type": "match",
-      "detail": "Lower bracket round 1 match 1: T1 vs FUR"
+      "detail": "(Playoffs) Lower bracket round 1 match 1: T1 vs FUR"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541771-zlypher-github-io",
-      "title": "MSI – Upper bracket semifinal 1: BLG vs LY",
+      "title": "MSI – (Playoffs) Upper bracket semifinal 1: BLG vs LY",
       "date": "2026-07-06",
       "time": "11:05",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: BLG vs LY"
+      "detail": "(Playoffs) Upper bracket semifinal 1: BLG vs LY"
     },
     {
       "id": "football-international-760506",
@@ -1344,33 +1344,33 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541777-zlypher-github-io",
-      "title": "MSI – Lower bracket quarterfinal 2: G2 vs T1",
+      "title": "MSI – (Playoffs) Lower bracket quarterfinal 2: G2 vs T1",
       "date": "2026-07-08",
       "time": "13:46",
       "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 2: G2 vs T1"
+      "detail": "(Playoffs) Lower bracket quarterfinal 2: G2 vs T1"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541776-zlypher-github-io",
-      "title": "MSI – Lower bracket quarterfinal 1: LY vs TSW",
+      "title": "MSI – (Playoffs) Lower bracket quarterfinal 1: LY vs TSW",
       "date": "2026-07-08",
       "time": "11:07",
       "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 1: LY vs TSW"
+      "detail": "(Playoffs) Lower bracket quarterfinal 1: LY vs TSW"
     },
     {
       "sport": "lol",
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541772-zlypher-github-io",
-      "title": "MSI – Upper bracket final: BLG vs HLE",
+      "title": "MSI – (Playoffs) Upper bracket final: BLG vs HLE",
       "date": "2026-07-09",
       "time": "16:06",
       "type": "final",
-      "detail": "Upper bracket final: BLG vs HLE"
+      "detail": "(Playoffs) Upper bracket final: BLG vs HLE"
     },
     {
       "id": "football-international-760510",
@@ -1394,11 +1394,11 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541778-zlypher-github-io",
-      "title": "MSI – Lower bracket semifinal: G2 vs LY",
+      "title": "MSI – (Playoffs) Lower bracket semifinal: G2 vs LY",
       "date": "2026-07-10",
       "time": "16:05",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: G2 vs LY"
+      "detail": "(Playoffs) Lower bracket semifinal: G2 vs LY"
     },
     {
       "id": "football-international-760511",
@@ -1414,11 +1414,11 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541779-zlypher-github-io",
-      "title": "MSI – Lower bracket final: HLE vs LY",
+      "title": "MSI – (Playoffs) Lower bracket final: HLE vs LY",
       "date": "2026-07-11",
       "time": "16:08",
       "type": "final",
-      "detail": "Lower bracket final: HLE vs LY"
+      "detail": "(Playoffs) Lower bracket final: HLE vs LY"
     },
     {
       "id": "football-international-760512",
@@ -1451,11 +1451,11 @@
       "competition": "MSI",
       "dataSource": "public-calendar",
       "id": "lol-msi-1541773-zlypher-github-io",
-      "title": "MSI – Grand final: BLG vs HLE",
+      "title": "MSI – (Playoffs) Grand final: BLG vs HLE",
       "date": "2026-07-12",
       "time": "15:32",
       "type": "final",
-      "detail": "Grand final: BLG vs HLE"
+      "detail": "(Playoffs) Grand final: BLG vs HLE"
     },
     {
       "id": "football-international-760514",
@@ -1471,22 +1471,22 @@
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572115-zlypher-github-io",
-      "title": "EWC – Lower bracket semifinal: MKOI vs GAM",
+      "title": "EWC – (Group C) Lower bracket semifinal: MKOI vs GAM",
       "date": "2026-07-15",
       "time": "22:03",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: MKOI vs GAM"
+      "detail": "(Group C) Lower bracket semifinal: MKOI vs GAM"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572110-zlypher-github-io",
-      "title": "EWC – Lower bracket semifinal: TS vs KC",
+      "title": "EWC – (Group B) Lower bracket semifinal: TS vs KC",
       "date": "2026-07-15",
       "time": "22:03",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: TS vs KC"
+      "detail": "(Group B) Lower bracket semifinal: TS vs KC"
     },
     {
       "id": "lol-ewc-esports-world-cup-2026-span",
@@ -1513,154 +1513,154 @@
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572105-zlypher-github-io",
-      "title": "EWC – Lower bracket semifinal: FUR vs DK",
+      "title": "EWC – (Group A) Lower bracket semifinal: FUR vs DK",
       "date": "2026-07-16",
       "time": "01:21",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: FUR vs DK"
+      "detail": "(Group A) Lower bracket semifinal: FUR vs DK"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572120-zlypher-github-io",
-      "title": "EWC – Lower bracket semifinal: MILO vs LY",
+      "title": "EWC – (Group D) Lower bracket semifinal: MILO vs LY",
       "date": "2026-07-16",
       "time": "01:09",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: MILO vs LY"
+      "detail": "(Group D) Lower bracket semifinal: MILO vs LY"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572106-zlypher-github-io",
-      "title": "EWC – Lower bracket final: G2 vs DK",
+      "title": "EWC – (Group A) Lower bracket final: G2 vs DK",
       "date": "2026-07-16",
       "time": "21:40",
       "type": "final",
-      "detail": "Lower bracket final: G2 vs DK"
+      "detail": "(Group A) Lower bracket final: G2 vs DK"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572121-zlypher-github-io",
-      "title": "EWC – Lower bracket final: JDG vs MILO",
+      "title": "EWC – (Group D) Lower bracket final: JDG vs MILO",
       "date": "2026-07-16",
       "time": "20:59",
       "type": "final",
-      "detail": "Lower bracket final: JDG vs MILO"
+      "detail": "(Group D) Lower bracket final: JDG vs MILO"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572116-zlypher-github-io",
-      "title": "EWC – Lower bracket final: GAM vs T1",
+      "title": "EWC – (Group C) Lower bracket final: GAM vs T1",
       "date": "2026-07-16",
       "time": "19:25",
       "type": "final",
-      "detail": "Lower bracket final: GAM vs T1"
+      "detail": "(Group C) Lower bracket final: GAM vs T1"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572111-zlypher-github-io",
-      "title": "EWC – Lower bracket final: KC vs SEN",
+      "title": "EWC – (Group B) Lower bracket final: KC vs SEN",
       "date": "2026-07-16",
       "time": "19:01",
       "type": "final",
-      "detail": "Lower bracket final: KC vs SEN"
+      "detail": "(Group B) Lower bracket final: KC vs SEN"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572104-zlypher-github-io",
-      "title": "EWC – Upper bracket final : G2 vs AG.AL",
+      "title": "EWC – (Group A) Upper bracket final : G2 vs AG.AL",
       "date": "2026-07-16",
       "time": "18:16",
       "type": "final",
-      "detail": "Upper bracket final : G2 vs AG.AL"
+      "detail": "(Group A) Upper bracket final : G2 vs AG.AL"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572119-zlypher-github-io",
-      "title": "EWC – Upper bracket final : HLE vs JDG",
+      "title": "EWC – (Group D) Upper bracket final : HLE vs JDG",
       "date": "2026-07-16",
       "time": "18:02",
       "type": "final",
-      "detail": "Upper bracket final : HLE vs JDG"
+      "detail": "(Group D) Upper bracket final : HLE vs JDG"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572114-zlypher-github-io",
-      "title": "EWC – Upper bracket final : BLG vs T1",
+      "title": "EWC – (Group C) Upper bracket final : BLG vs T1",
       "date": "2026-07-16",
       "time": "17:09",
       "type": "final",
-      "detail": "Upper bracket final : BLG vs T1"
+      "detail": "(Group C) Upper bracket final : BLG vs T1"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572109-zlypher-github-io",
-      "title": "EWC – Upper bracket final : SEN vs GEN",
+      "title": "EWC – (Group B) Upper bracket final : SEN vs GEN",
       "date": "2026-07-16",
       "time": "17:03",
       "type": "final",
-      "detail": "Upper bracket final : SEN vs GEN"
+      "detail": "(Group B) Upper bracket final : SEN vs GEN"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572123-zlypher-github-io",
-      "title": "EWC – Quarterfinal 2: AG.AL vs KC",
+      "title": "EWC – (Playoffs) Quarterfinal 2: AG.AL vs KC",
       "date": "2026-07-17",
       "time": "21:18",
       "type": "semifinal",
-      "detail": "Quarterfinal 2: AG.AL vs KC"
+      "detail": "(Playoffs) Quarterfinal 2: AG.AL vs KC"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572125-zlypher-github-io",
-      "title": "EWC – Quarterfinal 4: BLG vs DK",
+      "title": "EWC – (Playoffs) Quarterfinal 4: BLG vs DK",
       "date": "2026-07-17",
       "time": "21:05",
       "type": "semifinal",
-      "detail": "Quarterfinal 4: BLG vs DK"
+      "detail": "(Playoffs) Quarterfinal 4: BLG vs DK"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572122-zlypher-github-io",
-      "title": "EWC – Quarterfinal 1: HLE vs T1",
+      "title": "EWC – (Playoffs) Quarterfinal 1: HLE vs T1",
       "date": "2026-07-17",
       "time": "19:06",
       "type": "semifinal",
-      "detail": "Quarterfinal 1: HLE vs T1"
+      "detail": "(Playoffs) Quarterfinal 1: HLE vs T1"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572124-zlypher-github-io",
-      "title": "EWC – Quarterfinal 3: GEN vs JDG",
+      "title": "EWC – (Playoffs) Quarterfinal 3: GEN vs JDG",
       "date": "2026-07-17",
       "time": "19:03",
       "type": "semifinal",
-      "detail": "Quarterfinal 3: GEN vs JDG"
+      "detail": "(Playoffs) Quarterfinal 3: GEN vs JDG"
     },
     {
       "id": "f1-2026-r10-q",
@@ -1676,22 +1676,22 @@
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572127-zlypher-github-io",
-      "title": "EWC – Semifinal 2: GEN vs DK",
+      "title": "EWC – (Playoffs) Semifinal 2: GEN vs DK",
       "date": "2026-07-18",
       "time": "22:10",
       "type": "semifinal",
-      "detail": "Semifinal 2: GEN vs DK"
+      "detail": "(Playoffs) Semifinal 2: GEN vs DK"
     },
     {
       "sport": "lol",
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572126-zlypher-github-io",
-      "title": "EWC – Semifinal 1: T1 vs KC",
+      "title": "EWC – (Playoffs) Semifinal 1: T1 vs KC",
       "date": "2026-07-18",
       "time": "19:07",
       "type": "semifinal",
-      "detail": "Semifinal 1: T1 vs KC"
+      "detail": "(Playoffs) Semifinal 1: T1 vs KC"
     },
     {
       "id": "f1-2026-r10-r",
@@ -1716,11 +1716,22 @@
       "competition": "EWC",
       "dataSource": "public-calendar",
       "id": "lol-ewc-1572129-zlypher-github-io",
-      "title": "EWC – Grand final: KC vs DK",
+      "title": "EWC – (Playoffs) Grand final: KC vs DK",
       "date": "2026-07-19",
       "time": "21:18",
       "type": "final",
-      "detail": "Grand final: KC vs DK"
+      "detail": "(Playoffs) Grand final: KC vs DK"
+    },
+    {
+      "sport": "lol",
+      "competition": "EWC",
+      "dataSource": "public-calendar",
+      "id": "lol-ewc-1572128-zlypher-github-io",
+      "title": "EWC – (Playoffs) 3rd Place match: T1 vs GEN",
+      "date": "2026-07-19",
+      "time": "18:06",
+      "type": "match",
+      "detail": "(Playoffs) 3rd Place match: T1 vs GEN"
     },
     {
       "id": "football-international-760517",
@@ -1812,11 +1823,11 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1629295-zlypher-github-io",
-      "title": "LCK – Upper bracket final: KT vs BRO",
+      "title": "LCK – (Play-In) Upper bracket final: KT vs BRO",
       "date": "2026-08-26",
       "time": "16:02",
       "type": "final",
-      "detail": "Upper bracket final: KT vs BRO"
+      "detail": "(Play-In) Upper bracket final: KT vs BRO"
     },
     {
       "id": "lol-lck-lck-2026-season-season-play-in-span",
@@ -1834,22 +1845,22 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1629296-zlypher-github-io",
-      "title": "LCK – Lower bracket semifinal: NS vs BFX",
+      "title": "LCK – (Play-In) Lower bracket semifinal: NS vs BFX",
       "date": "2026-08-27",
       "time": "16:02",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: NS vs BFX"
+      "detail": "(Play-In) Lower bracket semifinal: NS vs BFX"
     },
     {
       "sport": "lol",
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1629297-zlypher-github-io",
-      "title": "LCK – Lower bracket final: BRO vs BFX",
+      "title": "LCK – (Play-In) Lower bracket final: BRO vs BFX",
       "date": "2026-08-28",
       "time": "16:01",
       "type": "final",
-      "detail": "Lower bracket final: BRO vs BFX"
+      "detail": "(Play-In) Lower bracket final: BRO vs BFX"
     },
     {
       "id": "lol-lpl-lpl-2026-season-grand-finals-span",
@@ -1876,22 +1887,22 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642153-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 1: T1 vs BFX",
+      "title": "LCK – (Playoffs) Upper bracket quarterfinal 1: T1 vs BFX",
       "date": "2026-08-29",
       "time": "16:02",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: T1 vs BFX"
+      "detail": "(Playoffs) Upper bracket quarterfinal 1: T1 vs BFX"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643088-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 1: TES vs LGD",
+      "title": "LPL – (Playoffs) Upper bracket quarterfinal 1: TES vs LGD",
       "date": "2026-08-29",
       "time": "17:10",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 1: TES vs LGD"
+      "detail": "(Playoffs) Upper bracket quarterfinal 1: TES vs LGD"
     },
     {
       "id": "lol-lck-lck-2026-season-season-playoffs-span",
@@ -1918,88 +1929,88 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642154-zlypher-github-io",
-      "title": "LCK – Upper bracket quarterfinal 2: DK vs KT",
+      "title": "LCK – (Playoffs) Upper bracket quarterfinal 2: DK vs KT",
       "date": "2026-08-30",
       "time": "16:04",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: DK vs KT"
+      "detail": "(Playoffs) Upper bracket quarterfinal 2: DK vs KT"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643089-zlypher-github-io",
-      "title": "LPL – Upper bracket quarterfinal 2: JDG vs WE",
+      "title": "LPL – (Playoffs) Upper bracket quarterfinal 2: JDG vs WE",
       "date": "2026-08-30",
       "time": "17:08",
       "type": "semifinal",
-      "detail": "Upper bracket quarterfinal 2: JDG vs WE"
+      "detail": "(Playoffs) Upper bracket quarterfinal 2: JDG vs WE"
     },
     {
       "sport": "lol",
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642155-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 1: GEN vs KT",
+      "title": "LCK – (Playoffs) Upper bracket semifinal 1: GEN vs KT",
       "date": "2026-09-01",
       "time": "16:05",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: GEN vs KT"
+      "detail": "(Playoffs) Upper bracket semifinal 1: GEN vs KT"
     },
     {
       "sport": "lol",
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642156-zlypher-github-io",
-      "title": "LCK – Upper bracket semifinal 2: HLE vs T1",
+      "title": "LCK – (Playoffs) Upper bracket semifinal 2: HLE vs T1",
       "date": "2026-09-02",
       "time": "16:05",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: HLE vs T1"
+      "detail": "(Playoffs) Upper bracket semifinal 2: HLE vs T1"
     },
     {
       "sport": "lol",
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642162-zlypher-github-io",
-      "title": "LCK – Lower bracket round 1: BFX vs DK",
+      "title": "LCK – (Playoffs) Lower bracket round 1: BFX vs DK",
       "date": "2026-09-03",
       "time": "16:02",
       "type": "match",
-      "detail": "Lower bracket round 1: BFX vs DK"
+      "detail": "(Playoffs) Lower bracket round 1: BFX vs DK"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643091-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 2: BLG vs WE",
+      "title": "LPL – (Playoffs) Upper bracket semifinal 2: BLG vs WE",
       "date": "2026-09-03",
       "time": "17:12",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 2: BLG vs WE"
+      "detail": "(Playoffs) Upper bracket semifinal 2: BLG vs WE"
     },
     {
       "sport": "lol",
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642161-zlypher-github-io",
-      "title": "LCK – Lower bracket round 2: KT vs DK",
+      "title": "LCK – (Playoffs) Lower bracket round 2: KT vs DK",
       "date": "2026-09-04",
       "time": "16:02",
       "type": "match",
-      "detail": "Lower bracket round 2: KT vs DK"
+      "detail": "(Playoffs) Lower bracket round 2: KT vs DK"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643090-zlypher-github-io",
-      "title": "LPL – Upper bracket semifinal 1: AL vs LGD",
+      "title": "LPL – (Playoffs) Upper bracket semifinal 1: AL vs LGD",
       "date": "2026-09-04",
       "time": "17:08",
       "type": "semifinal",
-      "detail": "Upper bracket semifinal 1: AL vs LGD"
+      "detail": "(Playoffs) Upper bracket semifinal 1: AL vs LGD"
     },
     {
       "id": "f1-2026-r13-q",
@@ -2024,33 +2035,33 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642157-zlypher-github-io",
-      "title": "LCK – Upper bracket final: GEN vs HLE",
+      "title": "LCK – (Playoffs) Upper bracket final: GEN vs HLE",
       "date": "2026-09-05",
       "time": "16:07",
       "type": "final",
-      "detail": "Upper bracket final: GEN vs HLE"
+      "detail": "(Playoffs) Upper bracket final: GEN vs HLE"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643095-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 2: NIP vs JDG",
+      "title": "LPL – (Playoffs) Lower bracket round 1 match 2: NIP vs JDG",
       "date": "2026-09-05",
       "time": "19:17",
       "type": "match",
-      "detail": "Lower bracket round 1 match 2: NIP vs JDG"
+      "detail": "(Playoffs) Lower bracket round 1 match 2: NIP vs JDG"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643094-zlypher-github-io",
-      "title": "LPL – Lower bracket round 1 match 1: IG vs TES",
+      "title": "LPL – (Playoffs) Lower bracket round 1 match 1: IG vs TES",
       "date": "2026-09-05",
       "time": "14:08",
       "type": "match",
-      "detail": "Lower bracket round 1 match 1: IG vs TES"
+      "detail": "(Playoffs) Lower bracket round 1 match 1: IG vs TES"
     },
     {
       "id": "f1-2026-r13-r",
@@ -2066,55 +2077,55 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642160-zlypher-github-io",
-      "title": "LCK – Lower bracket semifinal: T1 vs DK",
+      "title": "LCK – (Playoffs) Lower bracket semifinal: T1 vs DK",
       "date": "2026-09-06",
       "time": "16:02",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: T1 vs DK"
+      "detail": "(Playoffs) Lower bracket semifinal: T1 vs DK"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643097-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 2: NIP vs LGD",
+      "title": "LPL – (Playoffs) Lower bracket quarterfinal 2: NIP vs LGD",
       "date": "2026-09-06",
       "time": "17:58",
       "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 2: NIP vs LGD"
+      "detail": "(Playoffs) Lower bracket quarterfinal 2: NIP vs LGD"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643096-zlypher-github-io",
-      "title": "LPL – Lower bracket quarterfinal 1: IG vs WE",
+      "title": "LPL – (Playoffs) Lower bracket quarterfinal 1: IG vs WE",
       "date": "2026-09-06",
       "time": "14:09",
       "type": "semifinal",
-      "detail": "Lower bracket quarterfinal 1: IG vs WE"
+      "detail": "(Playoffs) Lower bracket quarterfinal 1: IG vs WE"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643092-zlypher-github-io",
-      "title": "LPL – Upper bracket final: AL vs BLG",
+      "title": "LPL – (Playoffs) Upper bracket final: AL vs BLG",
       "date": "2026-09-07",
       "time": "17:07",
       "type": "final",
-      "detail": "Upper bracket final: AL vs BLG"
+      "detail": "(Playoffs) Upper bracket final: AL vs BLG"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643098-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: IG vs LGD",
+      "title": "LPL – (Playoffs) Lower bracket semifinal: IG vs LGD",
       "date": "2026-09-08",
       "time": "17:11",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: IG vs LGD"
+      "detail": "(Playoffs) Lower bracket semifinal: IG vs LGD"
     },
     {
       "id": "football-liverpool-401915446",
@@ -2156,22 +2167,22 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642159-zlypher-github-io",
-      "title": "LCK – Lower bracket final: HLE vs T1",
+      "title": "LCK – (Playoffs) Lower bracket final: HLE vs T1",
       "date": "2026-09-12",
       "time": "13:14",
       "type": "final",
-      "detail": "Lower bracket final: HLE vs T1"
+      "detail": "(Playoffs) Lower bracket final: HLE vs T1"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643099-zlypher-github-io",
-      "title": "LPL – Lower bracket final: AL vs IG",
+      "title": "LPL – (Playoffs) Lower bracket final: AL vs IG",
       "date": "2026-09-12",
       "time": "16:55",
       "type": "final",
-      "detail": "Lower bracket final: AL vs IG"
+      "detail": "(Playoffs) Lower bracket final: AL vs IG"
     },
     {
       "id": "f1-2026-r14-r",
@@ -2195,22 +2206,22 @@
       "competition": "LCK",
       "dataSource": "public-calendar",
       "id": "lol-lck-1642158-zlypher-github-io",
-      "title": "LCK – Grand final: GEN vs HLE",
+      "title": "LCK – (Playoffs) Grand final: GEN vs HLE",
       "date": "2026-09-13",
       "time": "13:22",
       "type": "final",
-      "detail": "Grand final: GEN vs HLE"
+      "detail": "(Playoffs) Grand final: GEN vs HLE"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1643093-zlypher-github-io",
-      "title": "LPL – Grand final: BLG vs AL",
+      "title": "LPL – (Playoffs) Grand final: BLG vs AL",
       "date": "2026-09-13",
       "time": "17:01",
       "type": "final",
-      "detail": "Grand final: BLG vs AL"
+      "detail": "(Playoffs) Grand final: BLG vs AL"
     },
     {
       "id": "football-liverpool-401914257",
@@ -2226,11 +2237,11 @@
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1652746-zlypher-github-io",
-      "title": "LPL – Upper bracket final: TES vs IG",
+      "title": "LPL – (Playoffs) Upper bracket final: TES vs IG",
       "date": "2026-09-17",
       "time": "17:06",
       "type": "final",
-      "detail": "Upper bracket final: TES vs IG"
+      "detail": "(Playoffs) Upper bracket final: TES vs IG"
     },
     {
       "id": "lol-lpl-lpl-2026-season-regional-finals-span",
@@ -2248,22 +2259,22 @@
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1652747-zlypher-github-io",
-      "title": "LPL – Lower bracket semifinal: WE vs JDG",
+      "title": "LPL – (Playoffs) Lower bracket semifinal: WE vs JDG",
       "date": "2026-09-18",
       "time": "17:06",
       "type": "semifinal",
-      "detail": "Lower bracket semifinal: WE vs JDG"
+      "detail": "(Playoffs) Lower bracket semifinal: WE vs JDG"
     },
     {
       "sport": "lol",
       "competition": "LPL",
       "dataSource": "public-calendar",
       "id": "lol-lpl-1652748-zlypher-github-io",
-      "title": "LPL – Lower bracket final: IG vs JDG",
+      "title": "LPL – (Playoffs) Lower bracket final: IG vs JDG",
       "date": "2026-09-19",
       "time": "17:06",
       "type": "final",
-      "detail": "Lower bracket final: IG vs JDG"
+      "detail": "(Playoffs) Lower bracket final: IG vs JDG"
     },
     {
       "id": "football-liverpool-401879276",
@@ -2362,55 +2373,55 @@
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694369-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 1: BFX vs JDG",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Quarterfinal 1: BFX vs JDG",
       "date": "2026-10-12",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 1: BFX vs JDG"
+      "detail": "(Playoffs) Quarterfinal 1: BFX vs JDG"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694370-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 2: KT vs VIT",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Quarterfinal 2: KT vs VIT",
       "date": "2026-10-12",
       "time": "14:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 2: KT vs VIT"
+      "detail": "(Playoffs) Quarterfinal 2: KT vs VIT"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694371-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 3: WE vs FLY",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Quarterfinal 3: WE vs FLY",
       "date": "2026-10-13",
       "time": "14:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 3: WE vs FLY"
+      "detail": "(Playoffs) Quarterfinal 3: WE vs FLY"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694372-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Quarterfinal 4: BRO vs LGD",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Quarterfinal 4: BRO vs LGD",
       "date": "2026-10-13",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 4: BRO vs LGD"
+      "detail": "(Playoffs) Quarterfinal 4: BRO vs LGD"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694373-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Semifinal 1: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Semifinal 1: TBD vs TBD",
       "date": "2026-10-14",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Semifinal 1: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 1: TBD vs TBD"
     },
     {
       "id": "football-liverpool-401915415",
@@ -2437,33 +2448,33 @@
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694374-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Semifinal 2: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Semifinal 2: TBD vs TBD",
       "date": "2026-10-15",
       "time": "17:00",
       "type": "semifinal",
-      "detail": "Semifinal 2: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 2: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710926-zlypher-github-io",
-      "title": "Worlds – Upper Bracket Semifinal 1: TBD vs TBD",
+      "title": "Worlds – (Play-In) Upper Bracket Semifinal 1: FUR vs MVK",
       "date": "2026-10-16",
       "time": "02:00",
       "type": "semifinal",
-      "detail": "Upper Bracket Semifinal 1: TBD vs TBD"
+      "detail": "(Play-In) Upper Bracket Semifinal 1: FUR vs MVK"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710927-zlypher-github-io",
-      "title": "Worlds – Upper Bracket Semifinal 2: TBD vs TBD",
+      "title": "Worlds – (Play-In) Upper Bracket Semifinal 2: C9 vs KC",
       "date": "2026-10-16",
       "time": "07:00",
       "type": "semifinal",
-      "detail": "Upper Bracket Semifinal 2: TBD vs TBD"
+      "detail": "(Play-In) Upper Bracket Semifinal 2: C9 vs KC"
     },
     {
       "id": "football-liverpool-401879262",
@@ -2479,55 +2490,55 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710930-zlypher-github-io",
-      "title": "Worlds – Upper Bracket Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Upper Bracket Final: TBD vs TBD",
       "date": "2026-10-17",
       "time": "02:00",
       "type": "final",
-      "detail": "Upper Bracket Final: TBD vs TBD"
+      "detail": "(Play-In) Upper Bracket Final: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710928-zlypher-github-io",
-      "title": "Worlds – Lower Bracket Semifinal: TBD vs TBD",
+      "title": "Worlds – (Play-In) Lower Bracket Semifinal: TBD vs TBD",
       "date": "2026-10-17",
       "time": "07:00",
       "type": "semifinal",
-      "detail": "Lower Bracket Semifinal: TBD vs TBD"
+      "detail": "(Play-In) Lower Bracket Semifinal: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694375-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – Grand Final: TBD vs TBD",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Grand Final: TBD vs TBD",
       "date": "2026-10-17",
       "time": "17:00",
       "type": "final",
-      "detail": "Grand Final: TBD vs TBD"
+      "detail": "(Playoffs) Grand Final: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710929-zlypher-github-io",
-      "title": "Worlds – Lower Bracket Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Lower Bracket Final: TBD vs TBD",
       "date": "2026-10-18",
       "time": "02:00",
       "type": "final",
-      "detail": "Lower Bracket Final: TBD vs TBD"
+      "detail": "(Play-In) Lower Bracket Final: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710931-zlypher-github-io",
-      "title": "Worlds – Grand Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Grand Final: TBD vs TBD",
       "date": "2026-10-19",
       "time": "02:00",
       "type": "final",
-      "detail": "Grand Final: TBD vs TBD"
+      "detail": "(Play-In) Grand Final: TBD vs TBD"
     },
     {
       "id": "football-liverpool-401915397",
@@ -2606,11 +2617,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711013-zlypher-github-io",
-      "title": "Worlds – Quarterfinal 1: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Quarterfinal 1: TBD vs TBD",
       "date": "2026-11-04",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 1: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 1: TBD vs TBD"
     },
     {
       "id": "football-liverpool-401915382",
@@ -2626,33 +2637,33 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711016-zlypher-github-io",
-      "title": "Worlds – Quarterfinal 2: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Quarterfinal 2: TBD vs TBD",
       "date": "2026-11-05",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 2: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 2: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711017-zlypher-github-io",
-      "title": "Worlds – Quarterfinal 3: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Quarterfinal 3: TBD vs TBD",
       "date": "2026-11-06",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 3: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 3: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711018-zlypher-github-io",
-      "title": "Worlds – Quarterfinal 4: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Quarterfinal 4: TBD vs TBD",
       "date": "2026-11-07",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Quarterfinal 4: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 4: TBD vs TBD"
     },
     {
       "id": "f1-2026-r20-q",
@@ -2677,11 +2688,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711019-zlypher-github-io",
-      "title": "Worlds – Semifinal 1: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Semifinal 1: TBD vs TBD",
       "date": "2026-11-08",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Semifinal 1: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 1: TBD vs TBD"
     },
     {
       "id": "f1-2026-r20-r",
@@ -2697,22 +2708,22 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711020-zlypher-github-io",
-      "title": "Worlds – Semifinal 2: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Semifinal 2: TBD vs TBD",
       "date": "2026-11-09",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "Semifinal 2: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 2: TBD vs TBD"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711021-zlypher-github-io",
-      "title": "Worlds – Grand Final: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Grand Final: TBD vs TBD",
       "date": "2026-11-15",
       "time": "03:00",
       "type": "final",
-      "detail": "Grand Final: TBD vs TBD"
+      "detail": "(Playoffs) Grand Final: TBD vs TBD"
     },
     {
       "id": "f1-2026-r21-q",
