@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:13:53.216Z",
+  "lastUpdated": "2026-10-16T08:06:21.012Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2461,7 +2461,7 @@
       "id": "lol-worlds-1710926-zlypher-github-io",
       "title": "Worlds – (Play-In) Upper Bracket Semifinal 1: FUR vs MVK",
       "date": "2026-10-16",
-      "time": "07:00",
+      "time": "07:06",
       "type": "semifinal",
       "detail": "(Play-In) Upper Bracket Semifinal 1: FUR vs MVK"
     },
@@ -2472,7 +2472,7 @@
       "id": "lol-worlds-1710927-zlypher-github-io",
       "title": "Worlds – (Play-In) Upper Bracket Semifinal 2: C9 vs KC",
       "date": "2026-10-16",
-      "time": "02:00",
+      "time": "02:20",
       "type": "semifinal",
       "detail": "(Play-In) Upper Bracket Semifinal 2: C9 vs KC"
     },
@@ -2490,33 +2490,33 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710930-zlypher-github-io",
-      "title": "Worlds – (Play-In) Upper Bracket Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Upper Bracket Final: MVK vs KC",
       "date": "2026-10-17",
       "time": "02:00",
       "type": "final",
-      "detail": "(Play-In) Upper Bracket Final: TBD vs TBD"
+      "detail": "(Play-In) Upper Bracket Final: MVK vs KC"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710928-zlypher-github-io",
-      "title": "Worlds – (Play-In) Lower Bracket Semifinal: TBD vs TBD",
+      "title": "Worlds – (Play-In) Lower Bracket Semifinal: FUR vs C9",
       "date": "2026-10-17",
       "time": "07:00",
       "type": "semifinal",
-      "detail": "(Play-In) Lower Bracket Semifinal: TBD vs TBD"
+      "detail": "(Play-In) Lower Bracket Semifinal: FUR vs C9"
     },
     {
       "sport": "lol",
       "competition": "Demacia Cup Global Invitational",
       "dataSource": "public-calendar",
       "id": "lol-demacia-cup-global-invitational-1694375-zlypher-github-io",
-      "title": "Demacia Cup Global Invitational – (Playoffs) Grand Final: BFX vs TBD",
+      "title": "Demacia Cup Global Invitational – (Playoffs) Grand Final: BFX vs WE",
       "date": "2026-10-17",
       "time": "17:00",
       "type": "final",
-      "detail": "(Playoffs) Grand Final: BFX vs TBD"
+      "detail": "(Playoffs) Grand Final: BFX vs WE"
     },
     {
       "sport": "lol",
