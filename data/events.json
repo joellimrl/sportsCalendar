@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:06:21.012Z",
+  "lastUpdated": "2026-10-17T07:43:55.053Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2492,7 +2492,7 @@
       "id": "lol-worlds-1710930-zlypher-github-io",
       "title": "Worlds – (Play-In) Upper Bracket Final: MVK vs KC",
       "date": "2026-10-17",
-      "time": "02:00",
+      "time": "02:06",
       "type": "final",
       "detail": "(Play-In) Upper Bracket Final: MVK vs KC"
     },
@@ -2503,7 +2503,7 @@
       "id": "lol-worlds-1710928-zlypher-github-io",
       "title": "Worlds – (Play-In) Lower Bracket Semifinal: FUR vs C9",
       "date": "2026-10-17",
-      "time": "07:00",
+      "time": "04:50",
       "type": "semifinal",
       "detail": "(Play-In) Lower Bracket Semifinal: FUR vs C9"
     },
@@ -2523,22 +2523,22 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710929-zlypher-github-io",
-      "title": "Worlds – (Play-In) Lower Bracket Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Lower Bracket Final: MVK vs FUR",
       "date": "2026-10-18",
       "time": "02:00",
       "type": "final",
-      "detail": "(Play-In) Lower Bracket Final: TBD vs TBD"
+      "detail": "(Play-In) Lower Bracket Final: MVK vs FUR"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1710931-zlypher-github-io",
-      "title": "Worlds – (Play-In) Grand Final: TBD vs TBD",
+      "title": "Worlds – (Play-In) Grand Final: KC vs TBD",
       "date": "2026-10-19",
       "time": "02:00",
       "type": "final",
-      "detail": "(Play-In) Grand Final: TBD vs TBD"
+      "detail": "(Play-In) Grand Final: KC vs TBD"
     },
     {
       "id": "football-liverpool-401915397",
