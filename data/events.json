@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T08:47:04.036Z",
+  "lastUpdated": "2026-10-20T08:27:41.689Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2795,7 +2795,7 @@
       "sport": "football",
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
-      "time": "04:00"
+      "time": "03:30"
     },
     {
       "id": "f1-2026-r23-q",
@@ -2813,7 +2813,7 @@
       "sport": "football",
       "type": "match",
       "detail": "English Premier League · Away",
-      "time": "23:00"
+      "time": "20:30"
     },
     {
       "id": "f1-2026-r23-r",
@@ -2845,11 +2845,11 @@
     {
       "id": "football-liverpool-401879200",
       "title": "Liverpool vs Tottenham Hotspur",
-      "date": "2026-12-19",
+      "date": "2026-12-20",
       "sport": "football",
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
-      "time": "23:00"
+      "time": "01:30"
     },
     {
       "id": "football-liverpool-401878733",
