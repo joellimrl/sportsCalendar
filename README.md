@@ -8,6 +8,8 @@ League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
 - A monthly calendar with colour-coded sport chips.
 - Tournament and split periods as thin bars across their date range.
 - Individual finals, semifinals, races, and selected knockout matches.
+- LoL Swiss/group stages have labelled start and end events, with the full
+  date range in the tooltip and day details, without individual stage matches.
 - Per-sport visibility controls and a Today shortcut.
 
 ## Data sources
@@ -36,6 +38,10 @@ Independent public iCalendars supply fixtures with times converted to SGT.
 Each refresh merges valid LoL updates into its cache so an empty, incomplete,
 or failed competition feed cannot erase another competition or prior matches.
 Published tournament periods replace overlapping fixture-derived estimates.
+Swiss/group-stage boundaries use the first and last published fixtures in SGT;
+they reflect the published schedule and may change as fixtures are announced.
+Leaguepedia's format identifies Swiss stages when the calendar calls them groups.
+Stage updates missing previously known fixtures retain the cached boundaries.
 The workflow commits only when event content changes.
 
 All recurring data must remain rolling and source-driven. Adding a new sport or

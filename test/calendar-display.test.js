@@ -118,3 +118,9 @@ test('opens the day popup when a focused fixture receives Space', () => {
   assert.equal(opened, 1);
   assert.equal(space.defaultPrevented, true);
 });
+
+test('boundary events display the full stage range in details', () => {
+  const { eventDateLabel } = require('../calendar-display');
+  assert.equal(eventDateLabel({date: '2030-10-03', startDate: '2030-10-03', endDate: '2030-11-01'}), '3 Oct 2030 – 1 Nov 2030');
+  assert.equal(eventDateLabel({date: '2030-10-03'}), '3 Oct 2030');
+});

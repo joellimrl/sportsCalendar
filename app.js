@@ -72,13 +72,11 @@ function getEventsForDate(year, month, day) {
 
 function typeIcon(type) {
   const icons = { race: '🏁', qualifying: '⏱', sprint: '⚡', final: '🏆', semifinal: '🎯', tournament: '📅', season: '📅', match: '⚔️' };
-  return icons[type] || '';
+  return type === 'stage' ? '📅' : icons[type] || '';
 }
 
 function showTooltip(ev, x, y) {
-  const dateStr = ev.date
-    ? formatDate(parseDate(ev.date))
-    : `${formatDate(parseDate(ev.startDate))} – ${formatDate(parseDate(ev.endDate))}`;
+  const dateStr = CalendarDisplay.eventDateLabel(ev);
 
   const timeRow = ev.time ? `<div class="tooltip-date">🕐 ${ev.time} SGT</div>` : '';
 
@@ -245,6 +243,7 @@ function showDayModal(year, month, day) {
         ${typeIcon(ev.type)} ${ev.title}
       </div>
       <div class="modal-event-detail">${ev.detail}</div>
+      <div class="modal-event-detail">${CalendarDisplay.eventDateLabel(ev)}</div>
       ${timeRow}
     `;
     modalEventsEl.appendChild(item);

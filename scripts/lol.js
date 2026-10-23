@@ -57,6 +57,7 @@ function tournamentEvent(page, now) {
     title: ['LCK', 'LPL'].includes(competition) ? `${competition} – ${split}` : competition,
     startDate, endDate, sport: 'lol', type: 'tournament',
     detail: field('name') || page.title, competition, dataSource: 'leaguepedia-pages',
+    ...(/Stage\s+\d+\s*\(Swiss\)/i.test(text) && { groupStage: 'Swiss Stage' }),
   };
   return inWindow(event, now) ? event : null;
 }
@@ -139,7 +140,7 @@ function icalEvents(text) {
   });
 }
 
-function calendarEvents(name, fixtures, now) {
+function calendarEvents(name, fixtures, now, tournaments = []) {
   const ordered = fixtures.filter(f => inWindow(f, now)).sort((a, b) => a.date.localeCompare(b.date));
   const periods = [];
   for (const fixture of ordered) {
@@ -154,6 +155,32 @@ function calendarEvents(name, fixtures, now) {
     title: name, startDate: period[0].date, endDate: period.at(-1).date,
     type: 'tournament', detail: 'Published fixture period',
   }));
+  for (const period of periods) {
+    const tournament = tournaments.find(event => event.competition === name &&
+      event.startDate <= period[0].date && event.endDate >= period[0].date);
+    const groups = new Map();
+    for (const fixture of period) {
+      const label = fixture.summary.match(/^\((Swiss(?: Stage)?|Group Stage|Groups)\)/i)?.[1];
+      if (!label) continue;
+      const stage = /swiss/i.test(label) ? 'Swiss Stage' : tournament?.groupStage || 'Group Stage';
+      if (!groups.has(stage)) groups.set(stage, []);
+      groups.get(stage).push(fixture);
+    }
+    for (const [stage, matches] of groups) {
+      const startDate = matches[0].date;
+      const endDate = matches.at(-1).date;
+      const stageId = `${tournament?.id || `lol-${slug(name)}-period-${period[0].date}`}-${slug(stage)}`;
+      const boundaries = startDate === endDate ? [['start', startDate, 'starts & ends']]
+        : [['start', startDate, 'starts'], ['end', endDate, 'ends']];
+      for (const [boundary, date, suffix] of boundaries) {
+        events.push({ ...base, id: `${stageId}-${boundary}`, stageId,
+          title: `${name} – ${stage} ${suffix}`, date, startDate, endDate,
+          type: 'stage', detail: `${stage} · First and last published match dates (SGT)`,
+          fixtureIds: matches.map(match => match.id).sort(),
+        });
+      }
+    }
+  }
   for (const fixture of ordered) {
     if (!includeFixture(name, fixture.summary)) continue;
     const type = /(?:^|\s)final(?:$|\s|:)/i.test(fixture.summary) && !/semi|quarter/i.test(fixture.summary) ? 'final'
@@ -165,6 +192,7 @@ function calendarEvents(name, fixtures, now) {
 }
 
 function includeFixture(name, summary) {
+  if (/^\((Swiss(?: Stage)?|Group Stage|Groups)\)/i.test(summary)) return false;
   return name?.startsWith('Demacia Cup')
     ? /quarter[ -]?final|semi[ -]?final|(?:^|\s)final(?:$|\s|:)/i.test(summary)
     : /playoff|knockout|play-in|bracket|quarter|semi|final|elimination/i.test(summary);
@@ -176,9 +204,18 @@ function cachedCompetition(event) {
 }
 
 function mergeEvents(previous, fresh, now) {
+  // Replace a stage's boundaries together, but never shorten a known schedule
+  // when a partial upstream response drops previously published fixtures.
+  const acceptedStages = new Set(fresh.filter(event => event.type === 'stage' &&
+    previous.filter(old => old.stageId === event.stageId).every(old =>
+      old.fixtureIds.every(id => event.fixtureIds.includes(id)))).map(event => event.stageId));
+  previous = previous.filter(event => !acceptedStages.has(event.stageId));
+  fresh = fresh.filter(event => event.type !== 'stage' || acceptedStages.has(event.stageId));
   const events = [...new Map([...previous, ...fresh].filter(e => inWindow(e, now)).map(e => [e.id, e])).values()];
   const authoritative = events.filter(e => e.dataSource === 'leaguepedia-pages');
   return events.filter(event => {
+    if (event.type === 'stage') return true;
+    if (event.type !== 'tournament' && /^\((Swiss(?: Stage)?|Group Stage|Groups)\)/i.test(event.detail || '')) return false;
     if (cachedCompetition(event)?.startsWith('Demacia Cup') && event.type !== 'tournament' &&
       !includeFixture(cachedCompetition(event), event.detail || event.title)) return false;
     if (event.type !== 'tournament' || event.dataSource === 'leaguepedia-pages') return true;
@@ -194,7 +231,8 @@ async function fetchLol(now, previous = [], { fetchJson, fetchText, warn = conso
   for (const [name, calendar] of COMPETITIONS) {
     try {
       const fixtures = icalEvents(await fetchText(`${CALENDAR}${calendar}.ical`));
-      fresh.push(...calendarEvents(name, fixtures, now));
+      fresh.push(...calendarEvents(name, fixtures, now, mergeEvents(previous, periods, now)
+        .filter(event => event.dataSource === 'leaguepedia-pages' && event.type === 'tournament')));
     } catch (error) { warn(`  lol: ${name} calendar unavailable (${error.message}); retaining cached events`); }
   }
   if (!fresh.length) throw new Error('LoL sources returned no current events');

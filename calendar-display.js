@@ -35,6 +35,19 @@ function fixtureLabel(event) {
   return event.time ? `${event.time} · ${event.title}` : event.title;
 }
 
+function eventDateLabel(event) {
+  const format = value => {
+    const [year, month, day] = value.split('-').map(Number);
+    return new Date(year, month - 1, day).toLocaleDateString('en-GB', {
+      day: 'numeric', month: 'short', year: 'numeric',
+    });
+  };
+  if (event.startDate && event.endDate && event.startDate !== event.endDate) {
+    return `${format(event.startDate)} – ${format(event.endDate)}`;
+  }
+  return format(event.date || event.startDate);
+}
+
 function bindDayModalActivation(fixture, openDay) {
   fixture.addEventListener('click', openDay);
   fixture.addEventListener('keydown', event => {
@@ -44,7 +57,7 @@ function bindDayModalActivation(fixture, openDay) {
   });
 }
 
-const CalendarDisplay = { singaporeDateParts, eventDisplayPolicy, sortEventsForDay, fixtureLabel, bindDayModalActivation };
+const CalendarDisplay = { singaporeDateParts, eventDisplayPolicy, sortEventsForDay, fixtureLabel, eventDateLabel, bindDayModalActivation };
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = CalendarDisplay;

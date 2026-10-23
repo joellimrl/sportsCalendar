@@ -118,3 +118,40 @@ test('a complete source outage throws so the caller retains the last-known-good 
     warn: () => {}, fetchJson: async () => { throw new Error('offline'); }, fetchText: async () => { throw new Error('offline'); },
   }), /no current events/);
 });
+
+test('group stages become boundary events, hide group elimination matches, and use Swiss format', () => {
+  const sourcePage = page('2030 Season World Championship', '2030-10-01', '2030-11-14');
+  sourcePage.revisions[0].slots.main.content += "\n* '''Stage 2 (Swiss)'''";
+  const tournament = tournamentEvent(sourcePage, now);
+  assert.equal(tournament.groupStage, 'Swiss Stage');
+  const fixtures = [
+    { id: 'a', date: '2030-10-03', summary: '(Group Stage) Round 1: A vs B' },
+    { id: 'b', date: '2030-10-08', summary: '(Group Stage) Elimination: C vs D' },
+    { id: 'c', date: '2030-10-12', summary: '(Playoffs) Quarterfinal: A vs D' },
+  ];
+  const events = calendarEvents('Worlds', fixtures, now, [tournament]);
+  const stages = events.filter(e => e.type === 'stage');
+  assert.deepEqual(stages.map(e => [e.title, e.date]), [
+    ['Worlds – Swiss Stage starts', '2030-10-03'], ['Worlds – Swiss Stage ends', '2030-10-08'],
+  ]);
+  assert.ok(!events.some(e => e.type === 'match'));
+  assert.ok(events.some(e => e.type === 'semifinal'));
+  assert.ok(stages.every(e => e.startDate === '2030-10-03' && e.endDate === '2030-10-08'));
+  assert.equal(mergeEvents([{ id: 'legacy', date: '2030-10-08', type: 'match', detail: fixtures[1].summary }], [], now).length, 0);
+  const partial = calendarEvents('Worlds', fixtures.slice(0, 1), now, [tournament]);
+  assert.deepEqual(mergeEvents(stages, partial, now).filter(e => e.type === 'stage'), stages);
+  const moved = calendarEvents('Worlds', fixtures.map(e => ({ ...e, date: '2030-10-09' })), now, [tournament]);
+  const updated = mergeEvents(stages, moved, now).filter(e => e.type === 'stage');
+  assert.equal(updated.length, 1);
+  assert.equal(updated[0].title, 'Worlds – Swiss Stage starts & ends');
+  assert.equal(updated[0].date, '2030-10-09');
+});
+
+test('stage dates use SGT and stay separate across editions', () => {
+  const fixtures = icalEvents(calendar('20301003T180000Z', '(Swiss Stage) Round 1: A vs B'));
+  fixtures.push({ id: 'next', date: '2031-10-03', summary: '(Swiss Stage) Round 1: A vs B' });
+  const events = calendarEvents('Worlds', fixtures, now).filter(e => e.type === 'stage');
+  assert.equal(events.length, 2);
+  assert.equal(events[0].date, '2030-10-04');
+  assert.notEqual(events[0].stageId, events[1].stageId);
+});
