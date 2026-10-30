@@ -1227,6 +1227,15 @@
       "time": "04:00"
     },
     {
+      "id": "football-liverpool-401932187",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2026-12-16",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Carabao Cup · Home (Anfield)",
+      "time": "04:00"
+    },
+    {
       "id": "football-liverpool-757662",
       "title": "Liverpool vs Atlético Madrid",
       "date": "2025-09-18",

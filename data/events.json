@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T12:54:40.640Z",
+  "lastUpdated": "2026-10-30T09:56:32.101Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2994,6 +2994,15 @@
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
       "time": "23:00"
+    },
+    {
+      "id": "football-liverpool-401932187",
+      "title": "Liverpool vs AFC Bournemouth",
+      "date": "2026-12-16",
+      "sport": "football",
+      "type": "match",
+      "detail": "English Carabao Cup · Home (Anfield)",
+      "time": "04:00"
     },
     {
       "id": "football-liverpool-401879200",
