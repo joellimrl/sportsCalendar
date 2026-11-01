@@ -2470,44 +2470,44 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711013-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Quarterfinal 1: TBD vs TBD",
-      "date": "2026-11-04",
+      "title": "Worlds – (Playoffs) Quarterfinal 1: DK vs BLG",
+      "date": "2026-11-06",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Quarterfinal 1: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 1: DK vs BLG"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711016-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Quarterfinal 2: TBD vs TBD",
-      "date": "2026-11-05",
+      "title": "Worlds – (Playoffs) Quarterfinal 2: KC vs T1",
+      "date": "2026-11-07",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Quarterfinal 2: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 2: KC vs T1"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711017-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Quarterfinal 3: TBD vs TBD",
-      "date": "2026-11-06",
+      "title": "Worlds – (Playoffs) Quarterfinal 3: GEN vs LY",
+      "date": "2026-11-05",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Quarterfinal 3: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 3: GEN vs LY"
     },
     {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711018-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Quarterfinal 4: TBD vs TBD",
-      "date": "2026-11-07",
+      "title": "Worlds – (Playoffs) Quarterfinal 4: TES vs IG",
+      "date": "2026-11-04",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Quarterfinal 4: TBD vs TBD"
+      "detail": "(Playoffs) Quarterfinal 4: TES vs IG"
     },
     {
       "sport": "lol",
