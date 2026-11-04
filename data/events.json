@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T10:23:23.012Z",
+  "lastUpdated": "2026-11-04T10:49:37.153Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2786,7 +2786,7 @@
       "id": "lol-worlds-1711018-zlypher-github-io",
       "title": "Worlds – (Playoffs) Quarterfinal 4: TES vs IG",
       "date": "2026-11-04",
-      "time": "06:00",
+      "time": "06:10",
       "type": "semifinal",
       "detail": "(Playoffs) Quarterfinal 4: TES vs IG"
     },
@@ -2875,11 +2875,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711020-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Semifinal 2: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Semifinal 2: IG vs TBD",
       "date": "2026-11-09",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Semifinal 2: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 2: IG vs TBD"
     },
     {
       "sport": "lol",
