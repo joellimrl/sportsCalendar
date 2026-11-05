@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T10:49:37.153Z",
+  "lastUpdated": "2026-11-05T10:47:41.707Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2806,7 +2806,7 @@
       "id": "lol-worlds-1711017-zlypher-github-io",
       "title": "Worlds – (Playoffs) Quarterfinal 3: GEN vs LY",
       "date": "2026-11-05",
-      "time": "06:00",
+      "time": "06:05",
       "type": "semifinal",
       "detail": "(Playoffs) Quarterfinal 3: GEN vs LY"
     },
@@ -2854,12 +2854,12 @@
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
-      "id": "lol-worlds-1711019-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Semifinal 1: TBD vs TBD",
+      "id": "lol-worlds-1711020-zlypher-github-io",
+      "title": "Worlds – (Playoffs) Semifinal 2: IG vs GEN",
       "date": "2026-11-08",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Semifinal 1: TBD vs TBD"
+      "detail": "(Playoffs) Semifinal 2: IG vs GEN"
     },
     {
       "id": "f1-2026-r20-r",
@@ -2874,12 +2874,12 @@
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
-      "id": "lol-worlds-1711020-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Semifinal 2: IG vs TBD",
+      "id": "lol-worlds-1711019-zlypher-github-io",
+      "title": "Worlds – (Playoffs) Semifinal 1: TBD vs TBD",
       "date": "2026-11-09",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Semifinal 2: IG vs TBD"
+      "detail": "(Playoffs) Semifinal 1: TBD vs TBD"
     },
     {
       "sport": "lol",
@@ -3012,7 +3012,7 @@
     {
       "id": "football-liverpool-401932187",
       "title": "Liverpool vs AFC Bournemouth",
-      "date": "2026-12-16",
+      "date": "2026-12-17",
       "sport": "football",
       "type": "match",
       "detail": "English Carabao Cup · Home (Anfield)",

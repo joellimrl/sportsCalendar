@@ -1229,7 +1229,7 @@
     {
       "id": "football-liverpool-401932187",
       "title": "Liverpool vs AFC Bournemouth",
-      "date": "2026-12-16",
+      "date": "2026-12-17",
       "sport": "football",
       "type": "match",
       "detail": "English Carabao Cup · Home (Anfield)",
@@ -2494,7 +2494,7 @@
       "id": "lol-worlds-1711017-zlypher-github-io",
       "title": "Worlds – (Playoffs) Quarterfinal 3: GEN vs LY",
       "date": "2026-11-05",
-      "time": "06:00",
+      "time": "06:05",
       "type": "semifinal",
       "detail": "(Playoffs) Quarterfinal 3: GEN vs LY"
     },
@@ -2515,7 +2515,7 @@
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711019-zlypher-github-io",
       "title": "Worlds – (Playoffs) Semifinal 1: TBD vs TBD",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "time": "06:00",
       "type": "semifinal",
       "detail": "(Playoffs) Semifinal 1: TBD vs TBD"
@@ -2525,11 +2525,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711020-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Semifinal 2: IG vs TBD",
-      "date": "2026-11-09",
+      "title": "Worlds – (Playoffs) Semifinal 2: IG vs GEN",
+      "date": "2026-11-08",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Semifinal 2: IG vs TBD"
+      "detail": "(Playoffs) Semifinal 2: IG vs GEN"
     },
     {
       "sport": "lol",
