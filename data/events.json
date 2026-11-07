@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T10:47:33.292Z",
+  "lastUpdated": "2026-11-07T09:59:58.687Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2828,7 +2828,7 @@
       "id": "lol-worlds-1711016-zlypher-github-io",
       "title": "Worlds – (Playoffs) Quarterfinal 2: KC vs T1",
       "date": "2026-11-07",
-      "time": "06:00",
+      "time": "06:05",
       "type": "semifinal",
       "detail": "(Playoffs) Quarterfinal 2: KC vs T1"
     },
@@ -2875,11 +2875,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711019-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Semifinal 1: BLG vs TBD",
+      "title": "Worlds – (Playoffs) Semifinal 1: BLG vs T1",
       "date": "2026-11-09",
       "time": "06:00",
       "type": "semifinal",
-      "detail": "(Playoffs) Semifinal 1: BLG vs TBD"
+      "detail": "(Playoffs) Semifinal 1: BLG vs T1"
     },
     {
       "sport": "lol",
