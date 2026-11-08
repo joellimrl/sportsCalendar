@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T09:59:58.687Z",
+  "lastUpdated": "2026-11-08T10:14:11.177Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -2857,7 +2857,7 @@
       "id": "lol-worlds-1711020-zlypher-github-io",
       "title": "Worlds – (Playoffs) Semifinal 2: IG vs GEN",
       "date": "2026-11-08",
-      "time": "06:00",
+      "time": "06:05",
       "type": "semifinal",
       "detail": "(Playoffs) Semifinal 2: IG vs GEN"
     },
@@ -2886,11 +2886,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711021-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Grand Final: TBD vs TBD",
+      "title": "Worlds – (Playoffs) Grand Final: GEN vs TBD",
       "date": "2026-11-15",
       "time": "03:00",
       "type": "final",
-      "detail": "(Playoffs) Grand Final: TBD vs TBD"
+      "detail": "(Playoffs) Grand Final: GEN vs TBD"
     },
     {
       "id": "f1-2026-r21-q",
