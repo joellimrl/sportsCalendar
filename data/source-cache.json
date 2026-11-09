@@ -1813,6 +1813,15 @@
       "sport": "tennis",
       "type": "final",
       "detail": "Men's Singles · New York, USA"
+    },
+    {
+      "id": "tennis-154-2027",
+      "title": "Australian Open",
+      "startDate": "2027-01-10",
+      "endDate": "2027-02-01",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Venue TBA"
     }
   ],
   "lol": [
@@ -2516,7 +2525,7 @@
       "id": "lol-worlds-1711019-zlypher-github-io",
       "title": "Worlds – (Playoffs) Semifinal 1: BLG vs T1",
       "date": "2026-11-09",
-      "time": "06:00",
+      "time": "06:10",
       "type": "semifinal",
       "detail": "(Playoffs) Semifinal 1: BLG vs T1"
     },
@@ -2536,11 +2545,11 @@
       "competition": "Worlds",
       "dataSource": "public-calendar",
       "id": "lol-worlds-1711021-zlypher-github-io",
-      "title": "Worlds – (Playoffs) Grand Final: GEN vs TBD",
+      "title": "Worlds – (Playoffs) Grand Final: BLG vs GEN",
       "date": "2026-11-15",
       "time": "03:00",
       "type": "final",
-      "detail": "(Playoffs) Grand Final: GEN vs TBD"
+      "detail": "(Playoffs) Grand Final: BLG vs GEN"
     },
     {
       "sport": "lol",
