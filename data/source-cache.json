@@ -1822,6 +1822,33 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · Venue TBA"
+    },
+    {
+      "id": "tennis-172-2027",
+      "title": "Roland Garros",
+      "startDate": "2027-04-30",
+      "endDate": "2027-06-07",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Venue TBA"
+    },
+    {
+      "id": "tennis-188-2027",
+      "title": "Wimbledon",
+      "startDate": "2027-06-20",
+      "endDate": "2027-07-12",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Venue TBA"
+    },
+    {
+      "id": "tennis-189-2027",
+      "title": "US Open",
+      "startDate": "2027-08-22",
+      "endDate": "2027-09-13",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Venue TBA"
     }
   ],
   "lol": [
