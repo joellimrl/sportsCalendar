@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T10:50:22.398Z",
+  "lastUpdated": "2026-11-13T10:53:33.024Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -3208,15 +3208,6 @@
       "time": "22:00"
     },
     {
-      "id": "tennis-172-2027",
-      "title": "Roland Garros",
-      "startDate": "2027-04-30",
-      "endDate": "2027-06-07",
-      "sport": "tennis",
-      "type": "tournament",
-      "detail": "Grand Slam · Venue TBA"
-    },
-    {
       "id": "football-liverpool-401878674",
       "title": "Liverpool vs Chelsea",
       "date": "2027-05-01",
@@ -3242,6 +3233,15 @@
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
       "time": "22:00"
+    },
+    {
+      "id": "tennis-172-2027",
+      "title": "Roland Garros",
+      "startDate": "2027-05-16",
+      "endDate": "2027-06-07",
+      "sport": "tennis",
+      "type": "tournament",
+      "detail": "Grand Slam · Venue TBA"
     },
     {
       "id": "football-liverpool-401878662",
