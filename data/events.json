@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T10:53:33.024Z",
+  "lastUpdated": "2026-11-14T10:17:45.475Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -3278,6 +3278,17 @@
       "sport": "tennis",
       "type": "tournament",
       "detail": "Grand Slam · Venue TBA"
+    },
+    {
+      "id": "lol-worlds-2027-season-world-championship-span",
+      "title": "Worlds",
+      "startDate": "2027-10-15",
+      "endDate": "2027-11-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2027 World Championship",
+      "competition": "Worlds",
+      "dataSource": "leaguepedia-pages"
     }
   ]
 }

@@ -3119,6 +3119,17 @@
       "detail": "(Playoffs) 3rd Place match: T1 vs GEN"
     },
     {
+      "id": "lol-worlds-2027-season-world-championship-span",
+      "title": "Worlds",
+      "startDate": "2027-10-15",
+      "endDate": "2027-11-14",
+      "sport": "lol",
+      "type": "tournament",
+      "detail": "2027 World Championship",
+      "competition": "Worlds",
+      "dataSource": "leaguepedia-pages"
+    },
+    {
       "sport": "lol",
       "competition": "Worlds",
       "dataSource": "public-calendar",
