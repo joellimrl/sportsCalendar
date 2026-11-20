@@ -1004,11 +1004,11 @@
     {
       "id": "football-liverpool-401878718",
       "title": "Manchester United vs Liverpool",
-      "date": "2027-01-23",
+      "date": "2027-01-25",
       "sport": "football",
       "type": "match",
       "detail": "English Premier League · Away",
-      "time": "23:00"
+      "time": "00:30"
     },
     {
       "id": "football-liverpool-401879155",
@@ -1017,7 +1017,7 @@
       "sport": "football",
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
-      "time": "23:00"
+      "time": "20:30"
     },
     {
       "id": "football-liverpool-401878712",
