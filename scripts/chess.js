@@ -1,10 +1,12 @@
 'use strict';
 
 const { toSGT } = require('./date-time');
+const { fetchOrganiserChess } = require('./chess-sources');
 const API = 'https://www.fide.com/wp-json/wp/v2/posts';
 const COMPETITIONS = [
   { competition: 'world-championship', title: 'FIDE World Championship', search: 'World Championship' },
   { competition: 'candidates', title: 'FIDE Candidates', search: 'Candidates' },
+  { competition: 'grand-swiss', title: 'FIDE Grand Swiss', search: 'Grand Swiss', officialOrigin: 'https://grandswiss.fide.com' },
 ];
 const MONTH = '(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)';
 const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
@@ -22,6 +24,7 @@ function matchesCompetition(title, edition) {
   if (!new RegExp(`\\b${edition.year}\\b`).test(title)) return false;
   if (/women[’']?s/i.test(title) && !/\band\b.*women/i.test(title)) return false;
   if (/\b(?:rapid|blitz|freestyle|junior|youth|cadet|senior|amateur|team|under|u\d+)\b/i.test(title)) return false;
+  if (edition.competition === 'grand-swiss') return /\bgrand swiss\b/i.test(title);
   return edition.competition === 'candidates' ? /\bcandidates\b/i.test(title) : /\bworld (?:chess )?championship\b/i.test(title);
 }
 
@@ -139,7 +142,7 @@ function eventSites(posts, edition) {
     for (const m of (post.content?.rendered || '').matchAll(/href=["']([^"']+)["']/gi)) {
       try {
         const url = new URL(m[1]);
-        const pattern = edition.competition === 'candidates' ? /^candidates\d*\.fide\.com$/ : /^worldchampionship\d*\.fide\.com$/;
+        const pattern = edition.competition === 'grand-swiss' ? /^grandswiss\d*\.fide\.com$/ : edition.competition === 'candidates' ? /^candidates\d*\.fide\.com$/ : /^worldchampionship\d*\.fide\.com$/;
         if (url.protocol === 'https:' && pattern.test(url.hostname)) urls.add(url.origin);
       } catch { /* Ignore non-URLs. */ }
     }
@@ -167,15 +170,17 @@ async function officialSchedule(origin, edition, { fetchText, fetchJson }) {
     const [match, rounds, schedule] = await Promise.all(['getMatch', 'getRounds', 'getSchedule'].map(invoke));
     return salesforceEvents(match, rounds, schedule, context);
   }
-  const href = [...home.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).find(href => /(?:^|\/)schedule\/?$/.test(href));
+  const href = [...home.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .find(m => /^(?:tournament |match )?schedule$/i.test(text(m[2])))?.[1];
   const scheduleUrl = href ? new URL(href, origin) : null;
-  if (!scheduleUrl || scheduleUrl.origin !== origin) throw new Error('Official schedule link not found');
+  const family = hostname => hostname.replace(/\d+(?=\.fide\.com$)/, '');
+  if (!scheduleUrl || scheduleUrl.protocol !== 'https:' || family(scheduleUrl.hostname) !== family(new URL(origin).hostname)) throw new Error('Official schedule link not found');
   const html = await fetchText(scheduleUrl.href);
   // A footer copyright is not an event identity. Require a dated event heading
   // or edition-specific official host, and reject conflicting event headings.
   const headings = [...html.matchAll(/<(?:title|h[1-3])\b[^>]*>([\s\S]*?)<\/(?:title|h[1-3])>/gi)].map(m => text(m[1])).join(' ');
-  const identityYears = [...headings.matchAll(/(?:candidates(?: tournament)?|world (?:chess )?championship(?: match)?)\s+(\d{4})|(\d{4})\s+(?:fide\s+)?(?:candidates|world (?:chess )?championship)/gi)].map(m => Number(m[1] || m[2]));
-  const hostYear = Number(new URL(origin).hostname.match(/(\d{4})\.fide\.com$/)?.[1]);
+  const identityYears = [...headings.matchAll(/(?:candidates(?: tournament)?|grand swiss|world (?:chess )?championship(?: match)?)\s+(\d{4})|(\d{4})\s+(?:fide\s+)?(?:candidates|grand swiss|world (?:chess )?championship)/gi)].map(m => Number(m[1] || m[2]));
+  const hostYear = Number(scheduleUrl.hostname.match(/(\d{4})\.fide\.com$/)?.[1]);
   if (identityYears.some(y => y !== edition.year) || (hostYear && hostYear !== edition.year) || (!identityYears.includes(edition.year) && hostYear !== edition.year)) throw new Error('Official schedule edition not confirmed');
   const events = htmlScheduleEvents(html, { ...context, sourceUrl: scheduleUrl.href });
   if (!events.length) throw new Error('No parseable official chess rounds');
@@ -212,6 +217,7 @@ async function fetchChess(now, previous, helpers) {
         if (announcement && !cachedPeriod?.officialSchedule) fresh.push(periodEvent({ ...edition, sourceUrl: announcement.post.link }, announcement.period));
       } catch (error) { warn(`  chess: ${competition.title} ${y} discovery unavailable (${error.message}); retaining cache`); }
       const sites = eventSites(posts, edition);
+      if (competition.officialOrigin && posts.some(post => announcementPeriod(post, edition)) && !sites.includes(competition.officialOrigin)) sites.push(competition.officialOrigin);
       // Retry previously discovered official sites when news search is incomplete.
       for (const event of previous.filter(e => e.competition === edition.competition && e.edition === y && e.sourceUrl)) {
         try {
@@ -231,7 +237,7 @@ async function fetchChess(now, previous, helpers) {
       }
     }
   }
-  const events = mergeChessEvents(previous, fresh);
+  const events = await fetchOrganiserChess(now, mergeChessEvents(previous, fresh), helpers);
   if (!events.length) throw new Error('No published chess dates available');
   return events;
 }

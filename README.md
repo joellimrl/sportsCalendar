@@ -1,6 +1,6 @@
 # Sports Calendar
 
-A personal sports calendar showing key events across F1, tennis, football, and
+A personal sports calendar showing key events across F1, tennis, football,
 League of Legends, and chess. Times are shown in Singapore Time (SGT / UTC+8).
 
 ## What it shows
@@ -19,7 +19,7 @@ League of Legends, and chess. Times are shown in Singapore Time (SGT / UTC+8).
 | F1 | Qualifying, Sprint, Race for every round | [Jolpica](https://api.jolpi.ca/) |
 | Football | Every published Liverpool men's first-team fixture; World Cup, Euro and Copa América periods plus knockout matches | ESPN public scoreboard data |
 | Tennis | Grand Slam periods, semifinals and finals | ESPN public ATP calendar data |
-| Chess | Open classical FIDE World Championship and Candidates periods and published rounds | FIDE public publication API and linked official event schedules |
+| Chess | World Championship, Candidates, Grand Swiss, World Rapid & Blitz, Tata Steel Masters, and all published Grand Chess Tour stops | FIDE public publication API and official FIDE, Tata Steel and Grand Chess Tour websites |
 | LoL | LCK/LPL split periods and knockouts; First Stand, MSI, Worlds and EWC periods plus play-in/knockout matches; Demacia Cup and Demacia Cup Global Invitational periods plus quarterfinals, semifinals and finals | Leaguepedia public tournament pages and [public iCalendars](https://github.com/zlypher/lol-events) |
 
 ## Automatic refresh architecture
@@ -58,6 +58,19 @@ retain their last-known-good data independently when responses are incomplete
 or unavailable. Official schedule links appear in the day details. No news feed
 or live results are included. Changes to upstream page formats may require a
 parser update, but new seasons require no configuration or date edits.
+
+Grand Swiss uses the same rolling FIDE discovery window as Candidates, including
+editions two years ahead. Grand Chess Tour stops are discovered from the current
+organiser calendar, including newly published stops, rather than a fixed list of
+annual tournaments. Tata Steel's current event banner supplies its next confirmed
+edition and tournament period; amateur event schedules are not used as Masters
+rounds. The current World Rapid & Blitz site supplies separate Rapid and Blitz
+playing periods, with one session per published Open playing day. Arrival days,
+ceremonies and women's-only fixtures do not become Open playing sessions. Times
+without an explicit source timezone are omitted rather than guessed. Each organiser
+refresh fails independently, and partial responses preserve cached competitions
+and sessions. All discovery years are calculated from the current date; there are
+no annually maintained fixture lists, URLs or date constants.
 
 All recurring data must remain rolling and source-driven. Adding a new sport or
 competition is the only reason to change source configuration; annual fixture

@@ -253,7 +253,7 @@ function showDayModal(year, month, day) {
     if (ev.sport === 'chess' && ev.sourceUrl) {
       try {
         const url = new URL(ev.sourceUrl);
-        if (url.protocol === 'https:' && (url.hostname === 'www.fide.com' || url.hostname.endsWith('.fide.com'))) {
+        if (url.protocol === 'https:' && (url.hostname === 'www.fide.com' || url.hostname.endsWith('.fide.com') || ['grandchesstour.org', 'tatasteelchess.com'].includes(url.hostname))) {
           const source = document.createElement('a');
           source.href = url.href;
           source.textContent = 'Official schedule';
