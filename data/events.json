@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T11:29:08.388Z",
+  "lastUpdated": "2026-11-25T11:22:14.525Z",
   "events": [
     {
       "id": "football-liverpool-740596",
@@ -638,6 +638,18 @@
       "time": "14:00"
     },
     {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://www.fide.com/fide-candidates-2026-pairings-drawn-in-cyprus/",
+      "id": "chess-candidates-2026-period",
+      "title": "FIDE Candidates",
+      "startDate": "2026-03-28",
+      "endDate": "2026-04-16",
+      "type": "tournament",
+      "detail": "Official FIDE tournament dates"
+    },
+    {
       "id": "f1-2026-r3-r",
       "title": "Japanese GP – Race",
       "date": "2026-03-29",
@@ -645,6 +657,45 @@
       "sport": "f1",
       "detail": "Round 3 · Suzuka Circuit, Suzuka",
       "time": "13:00"
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-1",
+      "title": "FIDE Candidates – Round 1",
+      "date": "2026-03-29",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-2",
+      "title": "FIDE Candidates – Round 2",
+      "date": "2026-03-30",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-3",
+      "title": "FIDE Candidates – Round 3",
+      "date": "2026-03-31",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
     },
     {
       "id": "lol-lck-lck-2026-season-rounds-1-2-span",
@@ -656,6 +707,32 @@
       "detail": "LCK 2026 Rounds 1-2",
       "competition": "LCK",
       "dataSource": "leaguepedia-pages"
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-4",
+      "title": "FIDE Candidates – Round 4",
+      "date": "2026-04-01",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-5",
+      "title": "FIDE Candidates – Round 5",
+      "date": "2026-04-03",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
     },
     {
       "id": "football-liverpool-401864077",
@@ -678,6 +755,58 @@
       "dataSource": "leaguepedia-pages"
     },
     {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-6",
+      "title": "FIDE Candidates – Round 6",
+      "date": "2026-04-04",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-7",
+      "title": "FIDE Candidates – Round 7",
+      "date": "2026-04-05",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-8",
+      "title": "FIDE Candidates – Round 8",
+      "date": "2026-04-07",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-9",
+      "title": "FIDE Candidates – Round 9",
+      "date": "2026-04-08",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401862885",
       "title": "Paris Saint-Germain vs Liverpool",
       "date": "2026-04-09",
@@ -685,6 +814,32 @@
       "type": "match",
       "detail": "UEFA Champions League · Away",
       "time": "03:00"
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-10",
+      "title": "FIDE Candidates – Round 10",
+      "date": "2026-04-09",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-11",
+      "title": "FIDE Candidates – Round 11",
+      "date": "2026-04-11",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
     },
     {
       "id": "football-liverpool-740911",
@@ -696,6 +851,32 @@
       "time": "00:30"
     },
     {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-12",
+      "title": "FIDE Candidates – Round 12",
+      "date": "2026-04-12",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-13",
+      "title": "FIDE Candidates – Round 13",
+      "date": "2026-04-14",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401862889",
       "title": "Liverpool vs Paris Saint-Germain",
       "date": "2026-04-15",
@@ -703,6 +884,19 @@
       "type": "match",
       "detail": "UEFA Champions League · Home (Anfield)",
       "time": "03:00"
+    },
+    {
+      "sport": "chess",
+      "competition": "candidates",
+      "edition": 2026,
+      "sourceUrl": "https://candidates2026.fide.com/schedule",
+      "id": "chess-candidates-2026-round-14",
+      "title": "FIDE Candidates – Round 14",
+      "date": "2026-04-15",
+      "time": "20:30",
+      "type": "match",
+      "detail": "Official published round schedule",
+      "officialSchedule": true
     },
     {
       "id": "football-liverpool-740925",
@@ -2911,6 +3105,19 @@
       "time": "12:00"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-period",
+      "title": "FIDE World Championship",
+      "startDate": "2026-11-22",
+      "endDate": "2026-12-12",
+      "type": "tournament",
+      "detail": "Official FIDE tournament dates",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401878755",
       "title": "Liverpool vs Manchester United",
       "date": "2026-11-23",
@@ -2920,6 +3127,32 @@
       "time": "00:30"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-1",
+      "title": "FIDE World Championship – Game 1",
+      "date": "2026-11-24",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-2",
+      "title": "FIDE World Championship – Game 2",
+      "date": "2026-11-25",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401915292",
       "title": "Club Brugge vs Liverpool",
       "date": "2026-11-26",
@@ -2927,6 +3160,32 @@
       "type": "match",
       "detail": "UEFA Champions League · Away",
       "time": "04:00"
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-3",
+      "title": "FIDE World Championship – Game 3",
+      "date": "2026-11-26",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-4",
+      "title": "FIDE World Championship – Game 4",
+      "date": "2026-11-28",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
     },
     {
       "id": "f1-2026-r22-q",
@@ -2947,6 +3206,19 @@
       "time": "20:00"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-5",
+      "title": "FIDE World Championship – Game 5",
+      "date": "2026-11-29",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
       "id": "f1-2026-r22-r",
       "title": "Qatar GP – Race",
       "date": "2026-11-30",
@@ -2956,6 +3228,32 @@
       "time": "00:00"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-6",
+      "title": "FIDE World Championship – Game 6",
+      "date": "2026-11-30",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-7",
+      "title": "FIDE World Championship – Game 7",
+      "date": "2026-12-02",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401879219",
       "title": "Liverpool vs Sunderland",
       "date": "2026-12-03",
@@ -2963,6 +3261,32 @@
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
       "time": "03:30"
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-8",
+      "title": "FIDE World Championship – Game 8",
+      "date": "2026-12-03",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-9",
+      "title": "FIDE World Championship – Game 9",
+      "date": "2026-12-04",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
     },
     {
       "id": "f1-2026-r23-q",
@@ -2992,6 +3316,45 @@
       "time": "21:00"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-10",
+      "title": "FIDE World Championship – Game 10",
+      "date": "2026-12-06",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-11",
+      "title": "FIDE World Championship – Game 11",
+      "date": "2026-12-07",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-12",
+      "title": "FIDE World Championship – Game 12",
+      "date": "2026-12-08",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401915369",
       "title": "Liverpool vs FC Porto",
       "date": "2026-12-10",
@@ -3001,6 +3364,32 @@
       "time": "04:00"
     },
     {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-13",
+      "title": "FIDE World Championship – Game 13",
+      "date": "2026-12-10",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Javokhir Sindarov vs Gukesh D · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-round-14",
+      "title": "FIDE World Championship – Game 14",
+      "date": "2026-12-11",
+      "time": "22:00",
+      "type": "match",
+      "detail": "Gukesh D vs Javokhir Sindarov · Official schedule; later games may not be needed",
+      "officialSchedule": true
+    },
+    {
       "id": "football-liverpool-401878743",
       "title": "Liverpool vs Leeds United",
       "date": "2026-12-12",
@@ -3008,6 +3397,18 @@
       "type": "match",
       "detail": "English Premier League · Home (Anfield)",
       "time": "23:00"
+    },
+    {
+      "sport": "chess",
+      "competition": "world-championship",
+      "edition": 2026,
+      "sourceUrl": "https://worldchampionship.fide.com/schedule",
+      "id": "chess-world-championship-2026-tiebreak",
+      "title": "FIDE World Championship – Tiebreak (if needed)",
+      "date": "2026-12-12",
+      "type": "match",
+      "detail": "Conditional; start time TBA",
+      "officialSchedule": true
     },
     {
       "id": "football-liverpool-401932187",

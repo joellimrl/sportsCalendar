@@ -9,7 +9,7 @@ let allEvents = [];
 let currentYear;
 let currentMonth;
 
-const activeSports = new Set(['f1', 'tennis', 'football', 'lol']);
+const activeSports = new Set(['f1', 'tennis', 'football', 'lol', 'chess']);
 
 const tooltip    = document.getElementById('tooltip');
 const monthLabel = document.getElementById('month-label');
@@ -75,14 +75,18 @@ function typeIcon(type) {
   return type === 'stage' ? '📅' : icons[type] || '';
 }
 
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+}
+
 function showTooltip(ev, x, y) {
   const dateStr = CalendarDisplay.eventDateLabel(ev);
 
   const timeRow = ev.time ? `<div class="tooltip-date">🕐 ${ev.time} SGT</div>` : '';
 
   tooltip.innerHTML = `
-    <div class="tooltip-title">${typeIcon(ev.type)} ${ev.title}</div>
-    <div class="tooltip-detail">${ev.detail}</div>
+    <div class="tooltip-title">${typeIcon(ev.type)} ${escapeHtml(ev.title)}</div>
+    <div class="tooltip-detail">${escapeHtml(ev.detail)}</div>
     <div class="tooltip-date">${dateStr}</div>
     ${timeRow}
   `;
@@ -240,12 +244,26 @@ function showDayModal(year, month, day) {
     item.innerHTML = `
       <div class="modal-event-title">
         <span class="modal-event-dot ${ev.sport}"></span>
-        ${typeIcon(ev.type)} ${ev.title}
+        ${typeIcon(ev.type)} ${escapeHtml(ev.title)}
       </div>
-      <div class="modal-event-detail">${ev.detail}</div>
+      <div class="modal-event-detail">${escapeHtml(ev.detail)}</div>
       <div class="modal-event-detail">${CalendarDisplay.eventDateLabel(ev)}</div>
       ${timeRow}
     `;
+    if (ev.sport === 'chess' && ev.sourceUrl) {
+      try {
+        const url = new URL(ev.sourceUrl);
+        if (url.protocol === 'https:' && (url.hostname === 'www.fide.com' || url.hostname.endsWith('.fide.com'))) {
+          const source = document.createElement('a');
+          source.href = url.href;
+          source.textContent = 'Official schedule';
+          source.className = 'modal-event-source';
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+          item.appendChild(source);
+        }
+      } catch { /* No link for malformed source URLs. */ }
+    }
     modalEventsEl.appendChild(item);
   }
 
@@ -288,6 +306,7 @@ document.querySelectorAll('.legend-item[data-sport]').forEach(item => {
       activeSports.add(sport);
       item.classList.remove('inactive');
     }
+    if (item.tagName === 'BUTTON') item.setAttribute('aria-pressed', String(activeSports.has(sport)));
     buildCalendar(currentYear, currentMonth);
   });
 });

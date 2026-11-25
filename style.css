@@ -17,6 +17,8 @@
   --football-muted: rgba(96,165,250,0.15);
   --lol:       #c89b3c;
   --lol-muted: rgba(200,155,60,0.15);
+  --chess:     #c4b5fd;
+  --chess-muted: rgba(196,181,253,0.15);
 
   --radius:    8px;
 }
@@ -102,6 +104,9 @@ h1 {
 .legend-item.tennis    .dot { background: var(--tennis); }
 .legend-item.football  .dot { background: var(--football); }
 .legend-item.lol       .dot { background: var(--lol); }
+.legend-item.chess .dot { background: var(--chess); }
+button.legend-item { background: none; border: 0; color: inherit; font-family: inherit; }
+button.legend-item:focus-visible { outline: 2px solid var(--chess); outline-offset: 4px; }
 
 main {
   max-width: 960px;
@@ -254,6 +259,7 @@ main {
 .event-chip.tennis   { background: var(--tennis-muted);   color: var(--tennis);   border-left: 2px solid var(--tennis); }
 .event-chip.football { background: var(--football-muted); color: var(--football); border-left: 2px solid var(--football); }
 .event-chip.lol      { background: var(--lol-muted);      color: var(--lol);      border-left: 2px solid var(--lol); }
+.event-chip.chess { background: var(--chess-muted); color: var(--chess); border-left: 2px solid var(--chess); }
 
 .event-chip.span-extend-right {
   margin-right: -7px;
@@ -279,6 +285,7 @@ main {
 .event-chip.tennis.row-wrap-start   { border-left: 2px solid var(--tennis) !important; }
 .event-chip.football.row-wrap-start { border-left: 2px solid var(--football) !important; }
 .event-chip.lol.row-wrap-start      { border-left: 2px solid var(--lol) !important; }
+.event-chip.chess.row-wrap-start { border-left: 2px solid var(--chess) !important; }
 
 .event-chip.type-final     { font-style: italic; }
 .event-chip.type-semifinal { font-style: italic; }
@@ -387,6 +394,8 @@ main {
 .modal-event-dot.tennis   { background: var(--tennis); }
 .modal-event-dot.football { background: var(--football); }
 .modal-event-dot.lol      { background: var(--lol); }
+.modal-event-dot.chess { background: var(--chess); }
+.modal-event-source { display: inline-block; color: var(--chess); font-size: 12px; margin-top: 6px; text-underline-offset: 3px; }
 
 .modal-event-detail,
 .modal-event-time {

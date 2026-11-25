@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const { toSGT } = require('./date-time');
 const { fetchLol } = require('./lol');
+const { fetchChess } = require('./chess');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const EVENTS_PATH = path.join(DATA_DIR, 'events.json');
@@ -233,7 +234,7 @@ function validate(source, events) {
 }
 
 function bootstrapCache(previousEvents) {
-  const cache = { f1: [], football: [], tennis: [], lol: [] };
+  const cache = { f1: [], football: [], tennis: [], lol: [], chess: [] };
   for (const event of previousEvents) {
     if (cache[event.sport]) cache[event.sport].push(event);
   }
@@ -244,7 +245,7 @@ async function main() {
   const now = new Date();
   const previous = readJson(EVENTS_PATH, { events: [], lastUpdated: null });
   const cache = readJson(CACHE_PATH, bootstrapCache(previous.events ?? []));
-  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: date => fetchLol(date, cache.lol ?? [], { fetchJson, fetchText }) };
+  const sources = { f1: fetchF1, football: fetchFootball, tennis: fetchTennis, lol: date => fetchLol(date, cache.lol ?? [], { fetchJson, fetchText }), chess: date => fetchChess(date, cache.chess ?? [], { fetchJson, fetchText }) };
 
   for (const [name, fetchSource] of Object.entries(sources)) {
     try {

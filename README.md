@@ -1,7 +1,7 @@
 # Sports Calendar
 
 A personal sports calendar showing key events across F1, tennis, football, and
-League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
+League of Legends, and chess. Times are shown in Singapore Time (SGT / UTC+8).
 
 ## What it shows
 
@@ -19,6 +19,7 @@ League of Legends. Times are shown in Singapore Time (SGT / UTC+8).
 | F1 | Qualifying, Sprint, Race for every round | [Jolpica](https://api.jolpi.ca/) |
 | Football | Every published Liverpool men's first-team fixture; World Cup, Euro and Copa América periods plus knockout matches | ESPN public scoreboard data |
 | Tennis | Grand Slam periods, semifinals and finals | ESPN public ATP calendar data |
+| Chess | Open classical FIDE World Championship and Candidates periods and published rounds | FIDE public publication API and linked official event schedules |
 | LoL | LCK/LPL split periods and knockouts; First Stand, MSI, Worlds and EWC periods plus play-in/knockout matches; Demacia Cup and Demacia Cup Global Invitational periods plus quarterfinals, semifinals and finals | Leaguepedia public tournament pages and [public iCalendars](https://github.com/zlypher/lol-events) |
 
 ## Automatic refresh architecture
@@ -43,6 +44,20 @@ they reflect the published schedule and may change as fixtures are announced.
 Leaguepedia's format identifies Swiss stages when the calendar calls them groups.
 Stage updates missing previously known fixtures retain the cached boundaries.
 The workflow commits only when event content changes.
+
+Chess discovers current-year through two-years-ahead editions through FIDE's
+public WordPress title search, then follows official event-site schedule links.
+Championship Salesforce runtime assets and controller identifiers are discovered
+from the site, rather than pinned to a deployment. Explicit UTC round timestamps
+take precedence over announcement dates; parseable official HTML round schedules
+are also supported. Times are shown only with a published timezone. Rest days
+are omitted, and championship tiebreaks are marked conditional with time TBA.
+Announcements without confirmed dates do not create events. Bidding windows and
+qualification announcements are excluded. Individual rounds and competitions
+retain their last-known-good data independently when responses are incomplete
+or unavailable. Official schedule links appear in the day details. No news feed
+or live results are included. Changes to upstream page formats may require a
+parser update, but new seasons require no configuration or date edits.
 
 All recurring data must remain rolling and source-driven. Adding a new sport or
 competition is the only reason to change source configuration; annual fixture
